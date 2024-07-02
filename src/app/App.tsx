@@ -11,7 +11,7 @@ import HomePage from "./components/Home";
 import Image from "next/image";
 import Logo from "./components/images/logoheader.png";
 import TohaLogo from "./components/images/toha.png";
-
+import Product from "./components/Product";
 interface TabPanelProps {
   children?: React.ReactNode;
   index: number;
@@ -73,7 +73,7 @@ const BasicTab = () => {
                 />
 
                 <Tab
-                  label='Item 3'
+                  label='Sản phẩm'
                   {...a11yProps(3)}
                   className='text-gray-500 hover:text-gray-700 font-bold'
                 />
@@ -99,7 +99,7 @@ const BasicTab = () => {
           <Profile />
         </CustomTabPanel>
         <CustomTabPanel value={value} index={2}>
-          Item Three
+          <Product />
         </CustomTabPanel>
         <CustomTabPanel value={value} index={3}>
           Item Four

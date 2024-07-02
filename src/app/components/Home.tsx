@@ -12,8 +12,8 @@ import ImageProfile2 from "./image-profile/image2.jpg";
 import ImageProfile3 from "./image-profile/image3.jpg";
 import ImageProfile4 from "./image-profile/image4.jpg";
 import ImageProfile6 from "./image-profile/image6.jpg";
-import ImageProfile7 from "./image-profile/image7.jpg";
-import { Button, TextField, Typography } from "@mui/material";
+import ImageProfile5 from "./image-profile/image5.jpg";
+import { Button, IconButton, TextField, Typography, InputAdornment } from "@mui/material";
 import SendIcon from "@mui/icons-material/Send";
 import Slider from "react-slick";
 import banner1 from "./image-profile/banner1.jpg";
@@ -21,10 +21,39 @@ import banner2 from "./image-profile/banner2.jpg";
 import banner3 from "./image-profile/banner3.jpg";
 import banner4 from "./image-profile/banner4.jpg";
 import banner6 from "./image-profile/banner6.jpg";
-
+import BannerInfo from "./image-profile/bannerInfo.jpg";
+import BannerHome from "./image-profile/bannerHome.jpg";
+import BannerBottom from "./image-profile/bannerBottom.jpg";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import LocationOnIcon from "@mui/icons-material/LocationOn";
+import KeyboardArrowDownOutlinedIcon from "@mui/icons-material/KeyboardArrowDownOutlined";
+import KeyboardArrowUpOutlinedIcon from "@mui/icons-material/KeyboardArrowUpOutlined";
+import ArrowForwardOutlinedIcon from "@mui/icons-material/ArrowForwardOutlined";
+import Dialog from "@mui/material/Dialog";
+import DialogActions from "@mui/material/DialogActions";
+import DialogContent from "@mui/material/DialogContent";
+import DialogContentText from "@mui/material/DialogContentText";
+import DialogTitle from "@mui/material/DialogTitle";
+import Profile from "./Profile";
+import ClearIcon from "@mui/icons-material/Clear";
 const HomePage = () => {
+  const [selectedImage, setSelectedImage] = useState<string | null>(null);
+  const [statusDrop, setStatusDrop] = useState<boolean>(true);
+  const [showPopUp, setShowPopUp] = useState<boolean>(false);
+  const handleClick = () => {
+    setShowPopUp(!showPopUp);
+  };
+  const toggleDropdown = () => {
+    setStatusDrop(!statusDrop);
+  };
+  const handleImageClick = (url: string) => {
+    setSelectedImage(url);
+  };
+
+  const handleCloseModal = () => {
+    setSelectedImage(null);
+  };
   const data = [
     {
       id: 1,
@@ -44,6 +73,11 @@ const HomePage = () => {
     {
       id: 4,
       image: ImageProfile4,
+      banner: banner4,
+    },
+    {
+      id: 5,
+      image: ImageProfile5,
       banner: banner4,
     },
     {
@@ -79,57 +113,68 @@ const HomePage = () => {
       </div>
     ),
   };
+
   return (
-    <div>
+    <div className='w-full h-full'>
       <div
         className='text-[60px] text-white flex flex-col text-center pl-[120px] pt-[200px]'
         style={{
-          backgroundImage: `url(https://wallpapercave.com/wp/wp4974496.jpg)`,
-          height: "1000px",
+          backgroundImage: `url(${BannerHome.src})`,
+          height: "1080px",
         }}
       >
         <p>Mr NGUYEN DUC VIET</p>
-        <p className='text-[16px]'>Intern Front-End Developer in Authentic Education Hub</p>
-        <div className='flex gap-3 pt-3 justify-center items-center'>
-          <Link href='https://www.facebook.com/profile.php?id=100024756409898' target='_blank'>
-            <Image
-              src={IconFacebook}
-              alt='Facebook'
-              width={30}
-              height={30}
-              className='cursor-pointer'
+        <p className='text-[16px] hover:text-gray-300 cursor-pointer hover:text-[18px]'>
+          Intern Front-End Developer in Authentic Education Hub
+        </p>
+        <div className='animate-pulse'>
+          <Button className='bg-slate-700' onClick={handleClick}>
+            <p className='px-2 font-bold text-[16px] text-[#FFFFFF] py-1'>Getting Started</p>
+            <ArrowForwardOutlinedIcon
+              color='primary'
+              sx={{
+                width: "16px",
+              }}
             />
-          </Link>
-
-          <Link href='https://chat.zalo.me/' target='_blank'>
-            <Image src={IconZalo} alt='' width={30} height={30} className='cursor-pointer' />
-          </Link>
-
-          <Link href='https://www.instagram.com/vyet_oct8/' target='_blank'>
-            <Image
-              src={IconIG}
-              alt=''
-              width={30}
-              height={30}
-              className='cursor-pointer hover:opacity-60'
-            />
-          </Link>
-          <Image src={IconTW} alt='' width={30} height={30} className='cursor-pointer' />
+          </Button>
+          <Dialog open={showPopUp} onClose={handleClick} maxWidth='lg'>
+            <div
+              className='flex justify-end items-end px-5 pt-2 cursor-pointer'
+              onClick={() => setShowPopUp(false)}
+            >
+              <ClearIcon
+                sx={{
+                  color: "#B0B0B0",
+                }}
+              />
+            </div>
+            <DialogContent>
+              <div>
+                <Profile />
+              </div>
+            </DialogContent>
+            <DialogActions>
+              <Button onClick={handleClick}>Close</Button>
+              <Button onClick={handleClick} autoFocus>
+                OK
+              </Button>
+            </DialogActions>
+          </Dialog>
         </div>
       </div>
 
       <div
         style={{
-          backgroundImage: `url(https://img4.thuthuatphanmem.vn/uploads/2020/06/05/hinh-nen-cong-nghe-don-gian-ma-dep_103228946.jpg)`,
-          height: "1080px",
+          backgroundImage: `url(${BannerInfo.src})`,
+          height: !statusDrop ? "1300px" : "1140px",
         }}
-        className='flex flex-col gap-5'
+        className='flex flex-col gap-3'
       >
         <div className='grid grid-cols-5'>
           <div></div>
           <div className='text-[#FFFFFF] flex flex-col col-span-3'>
-            <p className='text-[36px] pt-3 border-b-[2px] border-[#FFFFFF] text-start'>About Me</p>
-            <div className='flex flex-col gap-4  text-justify pt-4'>
+            <p className='text-[36px] pt-6 border-b-[2px] border-[#FFFFFF] text-start'>About Me</p>
+            <div className='flex flex-col gap-4 text-justify pt-4'>
               <p>
                 My name is Nguyen Duc Viet, and I am currently a student at the Posts and
                 Telecommunications Institute of Technology, where I have had the opportunity to
@@ -151,8 +196,40 @@ const HomePage = () => {
                 positively to the development of the information technology and telecommunications
                 industry in Vietnam.
               </p>
+              {!statusDrop && (
+                <p>
+                  Beyond my academic and professional experiences, I am passionate about exploring
+                  emerging technologies and staying updated with industry trends. I regularly
+                  participate in workshops, seminars, and online courses to broaden my understanding
+                  and keep my skills relevant. My areas of interest include artificial intelligence,
+                  machine learning, and telecommunications infrastructure, and I am particularly
+                  fascinated by how these technologies can be leveraged to solve real-world problems
+                  and improve people's lives. I am always striving to learn and improve myself, with
+                  the aspiration to contribute positively to the development of the information
+                  technology and telecommunications industry in Vietnam. I am eager to collaborate
+                  with like-minded individuals and organizations to drive innovation and make a
+                  meaningful impact in this ever-evolving field.
+                </p>
+              )}
+              <div onClick={toggleDropdown} className='cursor-pointer text-[#B0B0B0]'>
+                {!statusDrop ? (
+                  <div className='flex '>
+                    <div className='text-[#B0B0B0] pt-[6px]'>Compact</div>
+                    <IconButton>
+                      <KeyboardArrowUpOutlinedIcon sx={{ color: "#B0B0B0" }} />
+                    </IconButton>
+                  </div>
+                ) : (
+                  <div className='flex'>
+                    <div className='text-[#B0B0B0] pt-[6px]'>View more</div>
+                    <IconButton>
+                      <KeyboardArrowDownOutlinedIcon sx={{ color: "#B0B0B0" }} />
+                    </IconButton>
+                  </div>
+                )}
+              </div>
             </div>
-            <div className='pt-3'>
+            <div className='pt-2'>
               <Slider {...settings}>
                 {data?.map((el: any, i: number) => (
                   <div key={i} className='relative'>
@@ -160,8 +237,8 @@ const HomePage = () => {
                       src={el?.banner}
                       alt=''
                       width={1000}
-                      height={300}
-                      className='w-full aspect-[1000/300] object-cover rounded-lg'
+                      height={200}
+                      className='w-full aspect-[1000/200] object-cover rounded-lg'
                     />
                   </div>
                 ))}
@@ -174,62 +251,133 @@ const HomePage = () => {
           <div></div>
           <div className='text-[#FFFFFF] text-[36px] col-span-3'>
             <div className='border-b-[2px] border-[#FFFFFF] pb-2 w-[240px]'> My photos</div>
-            <div className='flex gap-3 py-6'>
-              {data?.map((el: any) => (
-                <div>
-                  <Image
-                    src={el?.image}
-                    alt=''
-                    width={150}
-                    height={150}
-                    className='w-full h-full rounded-md'
-                  />
-                </div>
-              ))}
-            </div>
-          </div>
-          <div></div>
-        </div>
+            <div>
+              <div className='flex gap-3 py-6'>
+                {data?.map((url: any, index: number) => (
+                  <div key={index} className='flex gap-3 justify-center items-center'>
+                    <Image
+                      src={url?.image}
+                      alt=''
+                      width={180}
+                      height={150}
+                      onClick={() => handleImageClick(url?.image)}
+                      className='cursor-pointer max-w-[250px] h-full rounded-md'
+                    />
+                  </div>
+                ))}
+              </div>
 
-        {/* <div className='grid grid-cols-5'>
-          <div></div>
-          <div className='col-span-3 text-[#FFFFFF]'>
-            <p>Let's get in touch. Send me a message:</p>
-            <div className='flex flex-col gap-2 pt-3'>
-              <Typography variant='body2' fontWeight={500}>
-                Email
-              </Typography>
-              <TextField
-                placeholder='Please fill email'
-                className='bg-white rounded-md'
-                fullWidth
-                size='small'
-                type='email'
-              />
-              <Typography variant='body2' fontWeight={500}>
-                Number phone
-              </Typography>
-              <TextField
-                placeholder='Number'
-                className='bg-white rounded-md'
-                fullWidth
-                size='small'
-              />
-              <Typography variant='body2' fontWeight={500}>
-                Description
-              </Typography>
-              <TextField
-                placeholder='Description'
-                className='bg-white rounded-md'
-                fullWidth
-                size='small'
-              />
-              <button className='px-3 py-2 bg-white text-[#000000] hover:bg-slate-200 w-[60px] rounded-md mt-2'>
-                <SendIcon color='primary' />
-              </button>
+              {selectedImage && (
+                <div
+                  className='fixed inset-0 flex items-center justify-center bg-black bg-opacity-75 z-50'
+                  onClick={handleCloseModal}
+                >
+                  <div className='w-full h-full flex justify-center items-center'>
+                    <Image
+                      src={selectedImage}
+                      alt=''
+                      width={500}
+                      height={900}
+                      className=' rounded-md'
+                    />
+                  </div>
+                </div>
+              )}
             </div>
           </div>
-        </div> */}
+        </div>
+      </div>
+      <div
+        className='grid grid-cols-5 py-6'
+        style={{
+          backgroundImage: `url(${BannerBottom.src})`,
+          height: "600px",
+        }}
+      >
+        <div></div>
+        <div className='col-span-3 text-[#FFFFFF]'>
+          <p className='font-medium'>Let's get in touch. Send me a message:</p>
+          <div className='flex flex-col gap-2 pt-3'>
+            <Typography variant='body2' fontWeight={500}>
+              Email
+            </Typography>
+            <TextField
+              className='bg-white rounded-md'
+              fullWidth
+              size='small'
+              type='email'
+              InputProps={{
+                startAdornment: (
+                  <InputAdornment position='end'>
+                    <a
+                      href='mailto:viet.ngd.2002@classforme.edu.vn'
+                      className='text-14-20 lg:text-16-24 font-inter-400 text-primary tracking-[0.2px]'
+                    >
+                      viet.ngd.2002@classforme.edu.vn
+                    </a>
+                  </InputAdornment>
+                ),
+              }}
+            />
+            <Typography variant='body2' fontWeight={500}>
+              Number phone
+            </Typography>
+            <TextField
+              className='bg-white rounded-md'
+              fullWidth
+              size='small'
+              InputProps={{
+                startAdornment: (
+                  <InputAdornment position='end'>
+                    <a href='tel:1900636758'>
+                      <p>0868650928</p>
+                    </a>
+                  </InputAdornment>
+                ),
+              }}
+            />
+          </div>
+          <div className='flex flex-col justify-end items-end gap-2 pt-4'>
+            <div className='font-medium'>Contact me</div>
+            <div className='flex gap-2 justify-center items-center'>
+              <Link href='https://www.facebook.com/profile.php?id=100024756409898' target='_blank'>
+                <Image
+                  src={IconFacebook}
+                  alt='Facebook'
+                  width={30}
+                  height={30}
+                  className='cursor-pointer'
+                />
+              </Link>
+
+              <Link href='https://chat.zalo.me/' target='_blank'>
+                <Image src={IconZalo} alt='' width={30} height={30} className='cursor-pointer' />
+              </Link>
+
+              <Link href='https://www.instagram.com/vyet_oct8/' target='_blank'>
+                <Image
+                  src={IconIG}
+                  alt=''
+                  width={30}
+                  height={30}
+                  className='cursor-pointer hover:opacity-60'
+                />
+              </Link>
+              <Image src={IconTW} alt='' width={30} height={30} className='cursor-pointer' />
+            </div>
+            <div className='text-[12px] text-gray-400 italic'>@toha-material.AI</div>
+            <div className='text-[12px] text-gray-400 flex gap-1'>
+              <div>
+                <LocationOnIcon
+                  sx={{
+                    width: "14px",
+                  }}
+                />
+              </div>
+              <div className='pt-1'>Bac Ninh City</div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

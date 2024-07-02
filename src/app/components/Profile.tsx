@@ -57,11 +57,11 @@ const BasicTab = () => {
               <Avatar
                 src={data?.avatar}
                 sx={{
-                  width: isHovered ? 180 : 150,
-                  height: isHovered ? 180 : 150,
-                  transition: "all 0.3s ease-in-out",
+                  width: 180,
+                  height: 180,
+                  // transition: "all 0.3s ease-in-out",
                 }}
-                className='uppercase rounded-full ml-3 mb-2 border-[2px] border-[#059341]'
+                className='uppercase rounded-full ml-3 mb-2 border-[2px] border-[#059341] transition-all duration-300 ease-in-out hover:transform-gpu hover:translate-y-[-25%] hover:shadow-[rgba(226,196,63,0.25)_0px_13px_47px_-5px,rgba(180,71,71,0.3)_0px_8px_16px_-8px]'
               />
             </div>
             <div className='px-6'>
