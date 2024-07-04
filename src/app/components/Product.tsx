@@ -16,6 +16,9 @@ import banner2 from "./image-profile/banner2.jpg";
 import banner3 from "./image-profile/banner3.jpg";
 import banner4 from "./image-profile/banner4.jpg";
 import banner6 from "./image-profile/banner6.jpg";
+import ImageOppo from "./image-profile/oppo.jpg";
+import ImageXiaomi from "./image-profile/xiaimi.jpg";
+import ImageGoogle from "./image-profile/gg-pxel.jpg";
 import Link from "next/link";
 const ListNews = () => {
   const bannersData = [
@@ -25,27 +28,22 @@ const ListNews = () => {
     },
     {
       id: 2,
-
       banner: banner1,
     },
     {
       id: 3,
-
       banner: banner3,
     },
     {
       id: 4,
-
       banner: banner4,
     },
     {
       id: 5,
-
       banner: banner4,
     },
     {
       id: 6,
-
       banner: banner6,
     },
   ];
@@ -101,7 +99,7 @@ const ListNews = () => {
     {
       id: 3,
       title: "OPPO Find X6 Pro 256GB | Chính hãng",
-      imageUrl: ImagePhone,
+      imageUrl: ImageOppo,
       inches: "6.55 inches",
       capacity: "8GB",
       ram: "256GB",
@@ -112,7 +110,7 @@ const ListNews = () => {
     {
       id: 4,
       title: "Xiaomi 13 Pro 256GB | Chính hãng",
-      imageUrl: ImageSamSung,
+      imageUrl: ImageXiaomi,
       inches: "6.73 inches",
       capacity: "8GB",
       ram: "256GB",
@@ -123,7 +121,7 @@ const ListNews = () => {
     {
       id: 5,
       title: "Google Pixel 7 Pro 256GB | Chính hãng",
-      imageUrl: ImageSamSung,
+      imageUrl: ImageGoogle,
       inches: "6.7 inches",
       capacity: "12GB",
       ram: "256GB",
@@ -222,42 +220,25 @@ const ListNews = () => {
     <div
       className='grid grid-cols-6 py-6'
       style={{
-        backgroundColor: "#FFFFFF",
+        backgroundColor: "#C0CFC3",
       }}
     >
       <div></div>
       <div className='col-span-4'>
-        <div className='grid grid-cols-2 gap-2'>
-          <div>
-            <Slider {...settings}>
-              {bannersData?.map((el: any, i: number) => (
-                <div key={i} className='relative'>
-                  <Image
-                    src={el?.banner}
-                    alt=''
-                    width={1000}
-                    height={200}
-                    className='w-full aspect-[1000/200] object-cover rounded-lg'
-                  />
-                </div>
-              ))}
-            </Slider>
-          </div>
-          <div>
-            <Slider {...settings}>
-              {bannersData?.map((el: any, i: number) => (
-                <div key={i} className='relative'>
-                  <Image
-                    src={el?.banner}
-                    alt=''
-                    width={1000}
-                    height={200}
-                    className='w-full aspect-[1000/200] object-cover rounded-lg'
-                  />
-                </div>
-              ))}
-            </Slider>
-          </div>
+        <div>
+          <Slider {...settings}>
+            {bannersData?.map((el: any, i: number) => (
+              <div key={i} className='relative'>
+                <Image
+                  src={el?.banner}
+                  alt=''
+                  width={1000}
+                  height={200}
+                  className='w-full aspect-[1000/200] object-cover rounded-lg'
+                />
+              </div>
+            ))}
+          </Slider>
         </div>
         <div className='text-xl font-bold py-4'> Danh sách sản phẩm</div>
         <div className='font-bold'>Sắp xếp theo</div>
@@ -295,18 +276,18 @@ const ListNews = () => {
             Xem nhiều
           </div>
         </div>
-        <div className='grid grid-cols-4 gap-4'>
+        <div className='grid grid-cols-4 gap-4 '>
           {data?.map((el: any, index: number) => (
             <Link href={`/products/${el?.id}`} target='_blank'>
-              <div className='border-[1px] p-2 border-gray-300 rounded-lg hover:transform hover:translate-y-[-1.75rem] hover:shadow-[0_10px_10px_gray] duration-500'>
+              <div className='border-[1px] p-2 bg-[#FFFFFF] border-gray-300 rounded-lg hover:transform hover:translate-y-[-1.75rem] hover:shadow-[0_10px_10px_gray] duration-500'>
                 <div className='py-4 transition-transform'>
                   <Image
                     src={el?.imageUrl}
                     alt=''
-                    width={150}
-                    height={150}
+                    width={170}
+                    height={170}
                     // className='w-full object-cover aspect-300/100 h-[160px] transition-all duration-300 ease-in-out'
-                    className='w-full object-cover aspect-300/100 h-[160px] transition-all duration-300 ease-in-out hover:transform-gpu hover:translate-y-[-25%] hover:shadow-[rgba(226,196,63,0.25)_0px_13px_47px_-5px,rgba(180,71,71,0.3)_0px_8px_16px_-8px]'
+                    className='w-full object-cover aspect-500/120 h-[200px] transition-all duration-300 ease-in-out hover:transform-gpu hover:translate-y-[-25%] hover:shadow-[rgba(226,196,63,0.25)_0px_13px_47px_-5px,rgba(180,71,71,0.3)_0px_8px_16px_-8px]'
                   />
                 </div>
                 <div className='border-[1px] border-gray-200 p-2 rounded-md mt-4'>

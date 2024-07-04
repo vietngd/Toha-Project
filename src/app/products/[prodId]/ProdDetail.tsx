@@ -1,13 +1,15 @@
 "use client";
 import React, { useState, useEffect } from "react";
 
-const ListNews = (data: any) => {
+const ProdDetail = (data: any) => {
   return (
     <div
       style={{
         backgroundColor: "#FFFFFF",
       }}
-    ></div>
+    >
+      Điện thoại mốt
+    </div>
   );
 };
-export default ListNews;
+export default ProdDetail;

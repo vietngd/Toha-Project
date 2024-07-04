@@ -340,44 +340,7 @@ const HomePage = () => {
           </div>
           <div className='flex flex-col justify-end items-end gap-2 pt-4'>
             <div className='font-medium'>Contact me</div>
-            <div className='flex gap-2 justify-center items-center'>
-              <Link href='https://www.facebook.com/profile.php?id=100024756409898' target='_blank'>
-                <Image
-                  src={IconFacebook}
-                  alt='Facebook'
-                  width={30}
-                  height={30}
-                  className='cursor-pointer group flex justify-center rounded-md drop-shadow-xl text-white font-semibold hover:translate-y-3 hover:rounded-[20%] transition-all duration-500'
-                />
-              </Link>
 
-              <Link href='https://chat.zalo.me/' target='_blank'>
-                <Image
-                  src={IconZalo}
-                  alt=''
-                  width={30}
-                  height={30}
-                  className='cursor-pointer group flex justify-center rounded-md drop-shadow-xl text-white font-semibold hover:translate-y-3 hover:rounded-[20%] transition-all duration-500'
-                />
-              </Link>
-
-              <Link href='https://www.instagram.com/vyet_oct8/' target='_blank'>
-                <Image
-                  src={IconIG}
-                  alt=''
-                  width={30}
-                  height={30}
-                  className='cursor-pointer group flex justify-center rounded-md drop-shadow-xl text-white font-semibold hover:translate-y-3 hover:rounded-[20%] transition-all duration-500'
-                />
-              </Link>
-              <Image
-                src={IconTW}
-                alt=''
-                width={30}
-                height={30}
-                className='cursor-pointer group flex justify-center rounded-md drop-shadow-xl text-white font-semibold hover:translate-y-3 hover:rounded-[20%] transition-all duration-500'
-              />
-            </div>
             <div className='text-[12px] text-gray-400 italic'>@toha-material.AI</div>
             <div className='text-[12px] text-gray-400 flex gap-1'>
               <div>

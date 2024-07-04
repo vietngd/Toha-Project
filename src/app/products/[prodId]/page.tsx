@@ -1,6 +1,6 @@
-import { useRouter } from "next/router";
+"use client";
 import ProdDetail from "./ProdDetail";
-import App from "@/app/App";
+
 const ClassDetail = () => {
   return (
     <main>
