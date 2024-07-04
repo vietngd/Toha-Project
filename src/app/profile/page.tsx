@@ -1,10 +1,10 @@
 import Image from "next/image";
-import App from "./App";
+import Profile from "@/app/profile/Profile";
 
 export default function Home() {
   return (
     <main>
-      <App />
+      <Profile />
     </main>
   );
 }

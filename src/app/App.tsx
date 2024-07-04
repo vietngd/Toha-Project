@@ -4,14 +4,19 @@ import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Box from "@mui/material/Box";
 import { useState } from "react";
-import { Paper } from "@mui/material";
+import { Paper, Button } from "@mui/material";
 import AccountBalanceIcon from "@mui/icons-material/AccountBalance";
-import Profile from "./components/Profile";
+import Profile from "./profile/Profile";
 import HomePage from "./components/Home";
 import Image from "next/image";
 import Logo from "./components/images/logoheader.png";
 import TohaLogo from "./components/images/toha.png";
 import Product from "./components/Product";
+import Dialog from "@mui/material/Dialog";
+import DialogActions from "@mui/material/DialogActions";
+import DialogContent from "@mui/material/DialogContent";
+import ClearIcon from "@mui/icons-material/Clear";
+import LoginForm from "./components/login/LoginForm";
 interface TabPanelProps {
   children?: React.ReactNode;
   index: number;
@@ -20,7 +25,10 @@ interface TabPanelProps {
 
 const BasicTab = () => {
   const [value, setValue] = useState(0);
-
+  const [showPopUp, setShowPopUp] = useState<boolean>(false);
+  const handleClick = () => {
+    setShowPopUp(!showPopUp);
+  };
   const handleChange = (event: React.SyntheticEvent, newValue: number) => {
     setValue(newValue);
   };
@@ -48,66 +56,7 @@ const BasicTab = () => {
   };
   return (
     <div>
-      <Box sx={{ width: "100%" }}>
-        <div className='grid grid-cols-3 bg-slate-300'>
-          <div className='flex p-2 text-[24px] pl-8'>
-            <div>
-              <Image src={Logo} alt='' width={38} height={50} />
-            </div>
-            <div className='flex justify-center items-center'>
-              <Image src={TohaLogo} alt='' width={80} height={90} />
-            </div>
-          </div>
-          <div className='flex justify-center items-center'>
-            <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
-              <Tabs value={value} onChange={handleChange} aria-label='basic tabs example'>
-                <Tab
-                  label='Trang chủ'
-                  {...a11yProps(1)}
-                  className='text-gray-500 hover:text-gray-700 font-bold'
-                />
-                <Tab
-                  label='Thông tin cá nhân'
-                  {...a11yProps(2)}
-                  className='text-gray-500 hover:text-gray-700 font-bold'
-                />
-
-                <Tab
-                  label='Sản phẩm'
-                  {...a11yProps(3)}
-                  className='text-gray-500 hover:text-gray-700 font-bold'
-                />
-                <Tab
-                  label='Item 4'
-                  {...a11yProps(4)}
-                  className='text-gray-500 hover:text-gray-700 font-bold'
-                />
-                <Tab
-                  label='Item 5'
-                  {...a11yProps(5)}
-                  className='text-gray-500 hover:text-gray-700 font-bold'
-                />
-              </Tabs>
-            </Box>
-          </div>
-          <div></div>
-        </div>
-        <CustomTabPanel value={value} index={0}>
-          <HomePage />
-        </CustomTabPanel>
-        <CustomTabPanel value={value} index={1}>
-          <Profile />
-        </CustomTabPanel>
-        <CustomTabPanel value={value} index={2}>
-          <Product />
-        </CustomTabPanel>
-        <CustomTabPanel value={value} index={3}>
-          Item Four
-        </CustomTabPanel>
-        <CustomTabPanel value={value} index={4}>
-          Item Five
-        </CustomTabPanel>
-      </Box>
+      <HomePage />
     </div>
   );
 };

@@ -14,7 +14,7 @@ import ImageProfile4 from "./image-profile/image4.jpg";
 import ImageProfile6 from "./image-profile/image6.jpg";
 import ImageProfile5 from "./image-profile/image5.jpg";
 import { Button, IconButton, TextField, Typography, InputAdornment } from "@mui/material";
-import SendIcon from "@mui/icons-material/Send";
+import Tooltip from "@mui/material/Tooltip";
 import Slider from "react-slick";
 import banner1 from "./image-profile/banner1.jpg";
 import banner2 from "./image-profile/banner2.jpg";
@@ -35,8 +35,9 @@ import DialogActions from "@mui/material/DialogActions";
 import DialogContent from "@mui/material/DialogContent";
 import DialogContentText from "@mui/material/DialogContentText";
 import DialogTitle from "@mui/material/DialogTitle";
-import Profile from "./Profile";
+import Profile from "../profile/Profile";
 import ClearIcon from "@mui/icons-material/Clear";
+
 const HomePage = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
   const [statusDrop, setStatusDrop] = useState<boolean>(true);
@@ -127,16 +128,16 @@ const HomePage = () => {
         <p className='text-[16px] hover:text-gray-300 cursor-pointer hover:text-[18px]'>
           Intern Front-End Developer in Authentic Education Hub
         </p>
-        <div className='animate-pulse'>
-          <Button className='bg-slate-700' onClick={handleClick}>
-            <p className='px-2 font-bold text-[16px] text-[#FFFFFF] py-1'>Getting Started</p>
-            <ArrowForwardOutlinedIcon
-              color='primary'
-              sx={{
-                width: "16px",
-              }}
-            />
-          </Button>
+
+        <div className='flex justify-center items-center pt-5' onClick={handleClick}>
+          {/* <button className="cursor-pointer text-white font-bold relative text-[14px] w-[9em] h-[3em] text-center bg-gradient-to-r from-violet-500 from-10% via-sky-500 via-30% to-pink-500 to-90% bg-[length:400%] rounded-[30px] z-10 hover:animate-gradient-xy hover:bg-[length:100%] before:content-[''] before:absolute before:-top-[5px] before:-bottom-[5px] before:-left-[5px] before:-right-[5px] before:bg-gradient-to-r before:from-violet-500 before:from-10% before:via-sky-500 before:via-30% before:to-pink-500 before:bg-[length:400%] before:-z-10 before:rounded-[35px] before:hover:blur-xl before:transition-all before:ease-in-out before:duration-[1s] before:hover:bg-[length:10%] active:bg-violet-700 focus:ring-violet-700 hover:brightness-110 hover:-translate-y-[1px] hover:border-b-[6px] active:border-b-[2px] active:brightness-90 active:translate-y-[2px]">
+            HOVER ME
+          </button> */}
+          <div>
+            <button className='px-3 py-2 text-[16px] bg-slate-500 rounded-md hover:bg-slate-800'>
+              Getting Started
+            </button>
+          </div>
           <Dialog open={showPopUp} onClose={handleClick} maxWidth='lg'>
             <div
               className='flex justify-end items-end px-5 pt-2 cursor-pointer'
@@ -346,12 +347,18 @@ const HomePage = () => {
                   alt='Facebook'
                   width={30}
                   height={30}
-                  className='cursor-pointer'
+                  className='cursor-pointer group flex justify-center rounded-md drop-shadow-xl text-white font-semibold hover:translate-y-3 hover:rounded-[20%] transition-all duration-500'
                 />
               </Link>
 
               <Link href='https://chat.zalo.me/' target='_blank'>
-                <Image src={IconZalo} alt='' width={30} height={30} className='cursor-pointer' />
+                <Image
+                  src={IconZalo}
+                  alt=''
+                  width={30}
+                  height={30}
+                  className='cursor-pointer group flex justify-center rounded-md drop-shadow-xl text-white font-semibold hover:translate-y-3 hover:rounded-[20%] transition-all duration-500'
+                />
               </Link>
 
               <Link href='https://www.instagram.com/vyet_oct8/' target='_blank'>
@@ -360,10 +367,16 @@ const HomePage = () => {
                   alt=''
                   width={30}
                   height={30}
-                  className='cursor-pointer hover:opacity-60'
+                  className='cursor-pointer group flex justify-center rounded-md drop-shadow-xl text-white font-semibold hover:translate-y-3 hover:rounded-[20%] transition-all duration-500'
                 />
               </Link>
-              <Image src={IconTW} alt='' width={30} height={30} className='cursor-pointer' />
+              <Image
+                src={IconTW}
+                alt=''
+                width={30}
+                height={30}
+                className='cursor-pointer group flex justify-center rounded-md drop-shadow-xl text-white font-semibold hover:translate-y-3 hover:rounded-[20%] transition-all duration-500'
+              />
             </div>
             <div className='text-[12px] text-gray-400 italic'>@toha-material.AI</div>
             <div className='text-[12px] text-gray-400 flex gap-1'>

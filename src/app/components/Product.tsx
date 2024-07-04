@@ -16,6 +16,7 @@ import banner2 from "./image-profile/banner2.jpg";
 import banner3 from "./image-profile/banner3.jpg";
 import banner4 from "./image-profile/banner4.jpg";
 import banner6 from "./image-profile/banner6.jpg";
+import Link from "next/link";
 const ListNews = () => {
   const bannersData = [
     {
@@ -76,6 +77,7 @@ const ListNews = () => {
   };
   const data = [
     {
+      id: 1,
       title: "iPhone 15 Pro Max 256GB | Chính hãng VN/A",
       imageUrl: ImagePhone,
       inches: "6.7 inches",
@@ -86,6 +88,7 @@ const ListNews = () => {
       info: "Không phí chuyển đổi khi trả góp 0% qua thẻ tín dụng kì hạn 3-6 tháng",
     },
     {
+      id: 2,
       title: "Samsung Galaxy S23 Ultra 512GB | Chính hãng",
       imageUrl: ImageSamSung,
       inches: "6.8 inches",
@@ -96,6 +99,7 @@ const ListNews = () => {
       info: "Tặng kèm Sạc Super Fast Charging 45W",
     },
     {
+      id: 3,
       title: "OPPO Find X6 Pro 256GB | Chính hãng",
       imageUrl: ImagePhone,
       inches: "6.55 inches",
@@ -106,6 +110,7 @@ const ListNews = () => {
       info: "Bảo hành chính hãng 12 tháng",
     },
     {
+      id: 4,
       title: "Xiaomi 13 Pro 256GB | Chính hãng",
       imageUrl: ImageSamSung,
       inches: "6.73 inches",
@@ -116,6 +121,7 @@ const ListNews = () => {
       info: "Tặng kèm sạc 120W và cáp USB-C",
     },
     {
+      id: 5,
       title: "Google Pixel 7 Pro 256GB | Chính hãng",
       imageUrl: ImageSamSung,
       inches: "6.7 inches",
@@ -126,6 +132,7 @@ const ListNews = () => {
       info: "Bảo hành chính hãng 12 tháng",
     },
     {
+      id: 6,
       title: "OnePlus 11 256GB | Chính hãng",
       imageUrl: ImageSamSung,
       inches: "6.55 inches",
@@ -136,6 +143,7 @@ const ListNews = () => {
       info: "Tặng kèm sạc siêu nhanh 80W",
     },
     {
+      id: 7,
       title: "Vivo X90 Pro+ 256GB | Chính hãng",
       imageUrl: ImageSamSung,
       inches: "6.78 inches",
@@ -146,6 +154,7 @@ const ListNews = () => {
       info: "Bảo hành chính hãng 12 tháng",
     },
     {
+      id: 8,
       title: "Realme GT3 256GB | Chính hãng",
       imageUrl: ImageSamSung,
       inches: "6.43 inches",
@@ -156,6 +165,7 @@ const ListNews = () => {
       info: "Tặng kèm sạc 240W siêu nhanh",
     },
     {
+      id: 9,
       title: "Honor Magic5 Pro 256GB | Chính hãng",
       imageUrl: ImageSamSung,
       inches: "6.81 inches",
@@ -166,6 +176,7 @@ const ListNews = () => {
       info: "Bảo hành chính hãng 12 tháng",
     },
     {
+      id: 10,
       title: "IQOO Neo7 5G 256GB | Chính hãng",
       imageUrl: ImageSamSung,
       inches: "6.62 inches",
@@ -176,6 +187,7 @@ const ListNews = () => {
       info: "Tặng kèm tai nghe không dây",
     },
     {
+      id: 11,
       title: "Redmi K60 Ultra 256GB | Chính hãng",
       imageUrl: ImageSamSung,
       inches: "6.67 inches",
@@ -186,6 +198,7 @@ const ListNews = () => {
       info: "Bảo hành chính hãng 12 tháng",
     },
     {
+      id: 12,
       title: "Redmi K60 Ultra 256GB | Chính hãng",
       imageUrl: ImageSamSung,
       inches: "6.67 inches",
@@ -284,81 +297,85 @@ const ListNews = () => {
         </div>
         <div className='grid grid-cols-4 gap-4'>
           {data?.map((el: any, index: number) => (
-            <div className='border-[1px] p-2 border-gray-300 rounded-lg hover:transform hover:translate-y-[-1.75rem] hover:shadow-[0_10px_10px_gray] duration-500'>
-              <div className='py-4 transition-transform'>
-                <Image
-                  src={el?.imageUrl}
-                  alt=''
-                  width={150}
-                  height={150}
-                  // className='w-full object-cover aspect-300/100 h-[160px] transition-all duration-300 ease-in-out'
-                  className='w-full object-cover aspect-300/100 h-[160px] transition-all duration-300 ease-in-out hover:transform-gpu hover:translate-y-[-25%] hover:shadow-[rgba(226,196,63,0.25)_0px_13px_47px_-5px,rgba(180,71,71,0.3)_0px_8px_16px_-8px]'
-                />
-              </div>
-              <div className='border-[1px] border-gray-200 p-2 rounded-md mt-4'>
-                <div className='font-bold pt-4'>
-                  <p className='text-[20px]'>{el?.title}</p>
-                </div>
-                <div className='grid grid-cols-3 gap-1'>
-                  <div className='text-[10px] bg-slate-200 rounded-md px-2 my-2'>
-                    <p className='text-center'>{el?.inches}</p>
-                  </div>
-                  <div className='text-[10px] bg-slate-200 rounded-md my-2'>
-                    <p className='text-center'>{el?.capacity}</p>
-                  </div>
-                  <div className='text-[10px] bg-slate-200 rounded-md my-2'>
-                    <p className='text-center '>{el?.ram}</p>
-                  </div>
-                </div>
-                <div className='pb-3 pt-2 font-semibold text-red-600 text-[20px]'>{el?.price}</div>
-                <div className='text-[14px]'>
-                  Smember giảm thêm đến
-                  <span className='text-red-600 font-semibold '>{el?.salePrice}</span>
-                </div>
-              </div>
-              <div className='text-[12px] pt-2 h-[46px]'>{el?.info}</div>
-              <div className='flex justify-between'>
-                <div>
-                  <StarIcon
-                    sx={{
-                      color: "#f1dc1b",
-                    }}
-                  />
-                  <StarIcon
-                    sx={{
-                      color: "#f1dc1b",
-                    }}
-                  />{" "}
-                  <StarIcon
-                    sx={{
-                      color: "#f1dc1b",
-                    }}
-                  />{" "}
-                  <StarIcon
-                    sx={{
-                      color: "#f1dc1b",
-                    }}
-                  />{" "}
-                  <StarIcon
-                    sx={{
-                      color: "#f1dc1b",
-                    }}
+            <Link href={`/products/${el?.id}`} target='_blank'>
+              <div className='border-[1px] p-2 border-gray-300 rounded-lg hover:transform hover:translate-y-[-1.75rem] hover:shadow-[0_10px_10px_gray] duration-500'>
+                <div className='py-4 transition-transform'>
+                  <Image
+                    src={el?.imageUrl}
+                    alt=''
+                    width={150}
+                    height={150}
+                    // className='w-full object-cover aspect-300/100 h-[160px] transition-all duration-300 ease-in-out'
+                    className='w-full object-cover aspect-300/100 h-[160px] transition-all duration-300 ease-in-out hover:transform-gpu hover:translate-y-[-25%] hover:shadow-[rgba(226,196,63,0.25)_0px_13px_47px_-5px,rgba(180,71,71,0.3)_0px_8px_16px_-8px]'
                   />
                 </div>
-                <div
-                  className='text-[14px] font-semibold flex justify-between items-center gap-2 cursor-pointer'
-                  onMouseEnter={() => handleMouseEnter(index)}
-                  onMouseLeave={handleMouseLeave}
-                >
-                  Yêu thích{" "}
-                  {hoveredIndex === index ? (
-                    <FavoriteIcon className='text-red-500' />
-                  ) : (
-                    <FavoriteBorderIcon />
-                  )}
+                <div className='border-[1px] border-gray-200 p-2 rounded-md mt-4'>
+                  <div className='font-bold pt-4'>
+                    <p className='text-[20px]'>{el?.title}</p>
+                  </div>
+                  <div className='grid grid-cols-3 gap-1'>
+                    <div className='text-[10px] bg-slate-200 rounded-md px-2 my-2'>
+                      <p className='text-center'>{el?.inches}</p>
+                    </div>
+                    <div className='text-[10px] bg-slate-200 rounded-md my-2'>
+                      <p className='text-center'>{el?.capacity}</p>
+                    </div>
+                    <div className='text-[10px] bg-slate-200 rounded-md my-2'>
+                      <p className='text-center '>{el?.ram}</p>
+                    </div>
+                  </div>
+                  <div className='pb-3 pt-2 font-semibold text-red-600 text-[20px]'>
+                    {el?.price}
+                  </div>
+                  <div className='text-[14px]'>
+                    Smember giảm thêm đến
+                    <span className='text-red-600 font-semibold '>{el?.salePrice}</span>
+                  </div>
+                </div>
+                <div className='text-[12px] pt-2 h-[46px]'>{el?.info}</div>
+                <div className='flex justify-between'>
+                  <div>
+                    <StarIcon
+                      sx={{
+                        color: "#f1dc1b",
+                      }}
+                    />
+                    <StarIcon
+                      sx={{
+                        color: "#f1dc1b",
+                      }}
+                    />{" "}
+                    <StarIcon
+                      sx={{
+                        color: "#f1dc1b",
+                      }}
+                    />{" "}
+                    <StarIcon
+                      sx={{
+                        color: "#f1dc1b",
+                      }}
+                    />{" "}
+                    <StarIcon
+                      sx={{
+                        color: "#f1dc1b",
+                      }}
+                    />
+                  </div>
+                  <div
+                    className='text-[14px] font-semibold flex justify-between items-center gap-2 cursor-pointer'
+                    onMouseEnter={() => handleMouseEnter(index)}
+                    onMouseLeave={handleMouseLeave}
+                  >
+                    Yêu thích{" "}
+                    {hoveredIndex === index ? (
+                      <FavoriteIcon className='text-red-500' />
+                    ) : (
+                      <FavoriteBorderIcon />
+                    )}
+                  </div>
                 </div>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </div>
