@@ -4,7 +4,7 @@ import Image from "next/image";
 import Logo from "@/app/components/images/logoheader.png";
 import TohaLogo from "@/app/components/images/toha.png";
 import { useState } from "react";
-import LoginForm from "@/app/components/login/LoginForm";
+import LoginForm from "@/app/login/LoginForm";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import BackgroundHeader from "./bg-header.jpg";
@@ -30,7 +30,7 @@ const LayoutHeader = () => {
   };
   return (
     <div
-      className='grid grid-cols-7 p-2 text-[24px] pl-8 border-b-[1px] border-gray-300'
+      className='grid grid-cols-7 p-2 text-[24px] pl-8 border-b-[1px] bg-gradient-to-r from-[#d6d2d3] to-[#dad7d7]'
       style={{ backgroundColor: "#FFFFFF" }}
     >
       <div className='flex col-span-2'>
@@ -88,19 +88,13 @@ const LayoutHeader = () => {
             }}
           />
         </div>
-        <button
-          onClick={handleClick}
-          className="cursor-pointer text-white font-bold relative text-[14px] w-[110px] h-[34px] mx-4 mb-1 text-center bg-gradient-to-r from-violet-500 from-10% via-sky-500 via-30% to-pink-500 to-90% bg-[length:400%] rounded-[30px] z-10 hover:animate-gradient-xy hover:bg-[length:100%] before:content-[''] before:absolute before:-top-[5px] before:-bottom-[5px] before:-left-[5px] before:-right-[5px] before:bg-gradient-to-r before:from-violet-500 before:from-10% before:via-sky-500 before:via-30% before:to-pink-500 before:bg-[length:400%] before:-z-10 before:rounded-[35px] before:hover:blur-xl before:transition-all before:ease-in-out before:duration-[1s] before:hover:bg-[length:10%] active:bg-violet-700 focus:ring-violet-700 hover:brightness-110 hover:-translate-y-[1px] hover:border-b-[6px] active:border-b-[2px] active:brightness-90 active:translate-y-[2px]"
-        >
-          <p className='flex justify-center items-center pb-1 font-semibold text-[14px]'>
-            Đăng nhập
-          </p>
-        </button>
-        {showPopUp && (
-          <div className='fixed top-0 left-0 w-full h-full flex justify-center items-center bg-black bg-opacity-50'>
-            <LoginForm setShowPopUp={setShowPopUp} showPopUp={showPopUp} />
-          </div>
-        )}
+        <Link href={`/login`} target='_blank'>
+          <button className="cursor-pointer text-white font-bold relative text-[14px] w-[110px] h-[34px] mx-4 mb-1 text-center bg-gradient-to-r from-violet-500 from-10% via-sky-500 via-30% to-pink-500 to-90% bg-[length:400%] rounded-[30px] z-10 hover:animate-gradient-xy hover:bg-[length:100%] before:content-[''] before:absolute before:-top-[5px] before:-bottom-[5px] before:-left-[5px] before:-right-[5px] before:bg-gradient-to-r before:from-violet-500 before:from-10% before:via-sky-500 before:via-30% before:to-pink-500 before:bg-[length:400%] before:-z-10 before:rounded-[35px] before:hover:blur-xl before:transition-all before:ease-in-out before:duration-[1s] before:hover:bg-[length:10%] active:bg-violet-700 focus:ring-violet-700 hover:brightness-110 hover:-translate-y-[1px] hover:border-b-[6px] active:border-b-[2px] active:brightness-90 active:translate-y-[2px]">
+            <p className='flex justify-center items-center pb-1 font-semibold text-[14px]'>
+              Đăng nhập
+            </p>
+          </button>
+        </Link>
       </div>
     </div>
   );

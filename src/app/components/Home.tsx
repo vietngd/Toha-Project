@@ -124,18 +124,20 @@ const HomePage = () => {
           height: "1080px",
         }}
       >
-        <p>Mr NGUYEN DUC VIET</p>
-        <p className='text-[16px] hover:text-gray-300 cursor-pointer hover:text-[18px]'>
+        <p className='animate__animated animate__fadeInUp font-semibold'>Mr NGUYEN DUC VIET</p>
+        <p className='text-[14px] hover:text-gray-300 cursor-pointer hover:text-[18px] animate-slideIn'>
           Intern Front-End Developer in Authentic Education Hub
         </p>
 
         <div className='flex justify-center items-center pt-5' onClick={handleClick}>
-          {/* <button className="cursor-pointer text-white font-bold relative text-[14px] w-[9em] h-[3em] text-center bg-gradient-to-r from-violet-500 from-10% via-sky-500 via-30% to-pink-500 to-90% bg-[length:400%] rounded-[30px] z-10 hover:animate-gradient-xy hover:bg-[length:100%] before:content-[''] before:absolute before:-top-[5px] before:-bottom-[5px] before:-left-[5px] before:-right-[5px] before:bg-gradient-to-r before:from-violet-500 before:from-10% before:via-sky-500 before:via-30% before:to-pink-500 before:bg-[length:400%] before:-z-10 before:rounded-[35px] before:hover:blur-xl before:transition-all before:ease-in-out before:duration-[1s] before:hover:bg-[length:10%] active:bg-violet-700 focus:ring-violet-700 hover:brightness-110 hover:-translate-y-[1px] hover:border-b-[6px] active:border-b-[2px] active:brightness-90 active:translate-y-[2px]">
-            HOVER ME
-          </button> */}
           <div>
-            <button className='px-3 py-2 text-[16px] bg-slate-500 rounded-md hover:bg-slate-800'>
-              Getting Started
+            <button className='px-3 py-2 text-[16px] flex justify-center items-center gap-2 rounded-md bg-gradient-to-r from-[#4c3670] to-[#cac6c6] hover:bg-slate-800'>
+              <p>Getting Started</p>
+              <ArrowForwardOutlinedIcon
+                sx={{
+                  width: "20px",
+                }}
+              />
             </button>
           </div>
           <Dialog open={showPopUp} onClose={handleClick} maxWidth='lg'>
@@ -171,11 +173,13 @@ const HomePage = () => {
         }}
         className='flex flex-col gap-3'
       >
-        <div className='grid grid-cols-5'>
+        <div className='grid grid-cols-5 animate__animated animate__fadeInUp'>
           <div></div>
-          <div className='text-[#FFFFFF] flex flex-col col-span-3'>
-            <p className='text-[36px] pt-6 border-b-[2px] border-[#FFFFFF] text-start'>About Me</p>
-            <div className='flex flex-col gap-4 text-justify pt-4'>
+          <div className='text-[#FFFFFF] flex flex-col col-span-3 animate__animated animate__fadeInUp'>
+            <p className='text-[36px] pt-6 border-b-[2px] border-[#FFFFFF] text-start animate__animated animate__fadeInUp'>
+              About Me
+            </p>
+            <div className='flex flex-col gap-4 text-justify pt-4 animate__animated animate__fadeInUp'>
               <p>
                 My name is Nguyen Duc Viet, and I am currently a student at the Posts and
                 Telecommunications Institute of Technology, where I have had the opportunity to
@@ -212,7 +216,10 @@ const HomePage = () => {
                   meaningful impact in this ever-evolving field.
                 </p>
               )}
-              <div onClick={toggleDropdown} className='cursor-pointer text-[#B0B0B0]'>
+              <div
+                onClick={toggleDropdown}
+                className='cursor-pointer text-[#B0B0B0] animate__animated animate__fadeInUp'
+              >
                 {!statusDrop ? (
                   <div className='flex '>
                     <div className='text-[#B0B0B0] pt-[6px]'>Compact</div>
@@ -239,7 +246,7 @@ const HomePage = () => {
                       alt=''
                       width={1000}
                       height={200}
-                      className='w-full aspect-[1000/200] object-cover rounded-lg'
+                      className='w-full aspect-[1000/200] object-cover rounded-lg animate__animated animate__fadeInUp'
                     />
                   </div>
                 ))}
@@ -253,16 +260,16 @@ const HomePage = () => {
           <div className='text-[#FFFFFF] text-[36px] col-span-3'>
             <div className='border-b-[2px] border-[#FFFFFF] pb-2 w-[240px]'> My photos</div>
             <div>
-              <div className='flex gap-3 py-6'>
+              <div className=' flex gap-3 py-6'>
                 {data?.map((url: any, index: number) => (
-                  <div key={index} className='flex gap-3 justify-center items-center'>
+                  <div key={index} className='grid grid-cols-3 gap-3 justify-center items-center'>
                     <Image
                       src={url?.image}
                       alt=''
                       width={180}
                       height={150}
                       onClick={() => handleImageClick(url?.image)}
-                      className='cursor-pointer max-w-[250px] h-full rounded-md'
+                      className='cursor-pointer max-w-[350px] h-full rounded-md group overflow-hidden relative after:duration-500 before:duration-500  duration-700 hover:after:duration-700 hover:after:translate-x-24 hover:before:translate-y-12 hover:before:-translate-x-32 hover:duration-700 after:absolute after:w-24 after:h-24 after:bg-sky-700 after:rounded-full  after:blur-xl after:bottom-32 after:right-16  before:absolute   hover:rotate-12 flex justify-center items-center'
                     />
                   </div>
                 ))}

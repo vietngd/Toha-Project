@@ -16,7 +16,7 @@ import Dialog from "@mui/material/Dialog";
 import DialogActions from "@mui/material/DialogActions";
 import DialogContent from "@mui/material/DialogContent";
 import ClearIcon from "@mui/icons-material/Clear";
-import LoginForm from "./components/login/LoginForm";
+import LoginForm from "./login/LoginForm";
 interface TabPanelProps {
   children?: React.ReactNode;
   index: number;
