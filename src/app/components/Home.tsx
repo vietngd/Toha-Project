@@ -130,12 +130,13 @@ const HomePage = () => {
         </p>
 
         <div className='flex justify-center items-center pt-5' onClick={handleClick}>
-          <div>
-            <button className='px-3 py-2 text-[16px] flex justify-center items-center gap-2 rounded-md bg-gradient-to-r from-[#4c3670] to-[#cac6c6] hover:bg-slate-800'>
-              <p>Getting Started</p>
+          <div className='animate-slideIn'>
+            <button className='cursor-pointer flex uppercase bg-gradient-to-tl from-slate-400 to-slate-100 px-4 py-2 active:translate-x-0.5 active:translate-y-0.5 hover:shadow-[0.5rem_0.5rem_#F44336,-0.5rem_-0.5rem_#00BCD4] transition'>
+              <p className='text-gray-700 font-semibold pr-2 text-[16px]'>Getting Started</p>
               <ArrowForwardOutlinedIcon
                 sx={{
                   width: "20px",
+                  color: "#686868",
                 }}
               />
             </button>

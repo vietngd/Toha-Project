@@ -11,6 +11,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
+import BannerFooter from "./bannerFooter.jpg";
+
 const LayoutHeader = () => {
   const router = useRouter();
   const [activeTab, setActiveTab] = useState("/");
@@ -21,8 +23,10 @@ const LayoutHeader = () => {
 
   return (
     <div
-      className='grid grid-cols-7 p-2 text-[24px] pl-8 border-b-[1px] bg-gradient-to-r from-[#d6d2d3] to-[#dad7d7]'
-      style={{ backgroundColor: "#FFFFFF" }}
+      className='grid grid-cols-7 p-2 text-[24px] pl-8 border-b-[1px] bg-gradient-to-r from-[#e4c0c9] to-[#b4b2b2]'
+      style={{
+        backgroundImage: `url(${BannerFooter.src})`,
+      }}
     >
       <div className='flex col-span-2'>
         <div>

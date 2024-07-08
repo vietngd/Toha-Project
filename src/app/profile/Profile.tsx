@@ -15,7 +15,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
 import ImageProfile from "./profile.jpg";
-
+import BannerProfile from "@/app/components/images/bannerProfile.jpg";
 const BasicTab = () => {
   const data = {
     avatar: ImageProfile,
@@ -41,9 +41,15 @@ const BasicTab = () => {
   };
 
   return (
-    <main>
-      <Paper>
-        <div className='grid grid-cols-5'>
+    <Paper>
+      <div
+        className='grid grid-cols-5'
+        style={{
+          backgroundImage: `url(${BannerProfile.src})`,
+        }}
+      >
+        <div></div>
+        <div className='col-span-3 grid grid-cols-5 my-[80px] border-[1px] border-gray-300 rounded-xl'>
           <div className='col-span-2 bg-[#ECF3FF] h-[900px]'>
             <div>
               <div className='text-[36px] text-[#059341] font-medium text-center pt-6'>
@@ -155,9 +161,9 @@ const BasicTab = () => {
                     <div className='w-full h-3 bg-gray-300 rounded-xl'>
                       <div className='h-full bg-teal-500 rounded-xl' style={{ width: "75%" }} />
                     </div>
-                    <p className='text-[14px]'>Spanish</p>
+                    <p className='text-[14px]'>Vietnamese</p>
                     <div className='w-full h-3 bg-gray-300 rounded-xl'>
-                      <div className='h-full bg-teal-500 rounded-xl' style={{ width: "55%" }} />
+                      <div className='h-full bg-teal-500 rounded-xl' style={{ width: "100%" }} />
                     </div>
                     <p className='text-[14px]'>German</p>
                     <div className='w-full h-3 bg-gray-300 rounded-xl'>
@@ -241,8 +247,9 @@ const BasicTab = () => {
             </div>
           </div>
         </div>
-      </Paper>
-    </main>
+        <div></div>
+      </div>
+    </Paper>
   );
 };
 export default BasicTab;

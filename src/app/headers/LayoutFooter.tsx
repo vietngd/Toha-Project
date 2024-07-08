@@ -8,9 +8,15 @@ import IconFacebook from "@/app/components/images/facebook.svg";
 import IconZalo from "@/app/components/images/zalo.png";
 import IconIG from "@/app/components/images/instagram.png";
 import IconTW from "@/app/components/images/twitter.png";
+import BannerFooter from "./bannerFooter.jpg";
 const FooterLayout = () => {
   return (
-    <footer className='relative bg-blue-200 pt-8 pb-6'>
+    <footer
+      className='relative pt-8 pb-6'
+      style={{
+        backgroundImage: `url(${BannerFooter.src})`,
+      }}
+    >
       <div className='container mx-auto px-4'>
         <div className='flex flex-wrap text-left lg:text-left'>
           <div className='w-full lg:w-6/12 px-4'>
