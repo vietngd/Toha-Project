@@ -1,7 +1,6 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import { Typography } from "@mui/material";
 import ImageSamSung from "./image-profile/samsung.jpg";
 import ImagePhone from "./image-profile/product2.jpg";
 import StarIcon from "@mui/icons-material/Star";
@@ -25,7 +24,7 @@ import ImageVivo from "./image-profile/vivo-x90.jpg";
 import ImageHonor from "./image-profile/honor-magic.jpg";
 import ImageIq from "./image-profile/iq-neo8.jpg";
 import clsx from "clsx";
-
+import BannerProd from "@/app/components/image-profile/bannerProd.jpg";
 import Link from "next/link";
 const ListNews = () => {
   const bannersData = [
@@ -260,9 +259,9 @@ const ListNews = () => {
   };
   return (
     <div
-      className='grid grid-cols-6 py-6'
+      className='grid grid-cols-6 py-6 bg-gradient-to-r from-[#cfe6f0] to-[#cfeaee]'
       style={{
-        backgroundColor: "#C0CFC3",
+        backgroundImage: `url(${BannerProd.src})`,
       }}
     >
       <div></div>

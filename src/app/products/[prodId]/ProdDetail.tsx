@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import ImagePhone from "@/app/components/image-profile/iphone15.jpg";
 
-const ProdDetail = (data: any) => {
+const ProdDetail = () => {
   return (
     <div
       style={{

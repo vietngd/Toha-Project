@@ -1,33 +1,24 @@
 "use client";
-import React from "react";
-import Image from "next/image";
 import Logo from "@/app/components/images/logoheader.png";
 import TohaLogo from "@/app/components/images/toha.png";
-import { useState } from "react";
-import LoginForm from "@/app/login/LoginForm";
+import HomeIcon from "@mui/icons-material/Home";
+import InventoryIcon from "@mui/icons-material/Inventory";
+import Person4Icon from "@mui/icons-material/Person4";
+import ProductionQuantityLimitsIcon from "@mui/icons-material/ProductionQuantityLimits";
+import SearchIcon from "@mui/icons-material/Search";
+import { TextField } from "@mui/material";
+import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import BackgroundHeader from "./bg-header.jpg";
-import ViewsExtention from "../components/ViewsExtentions";
-import { TextField } from "@mui/material";
-import SearchIcon from "@mui/icons-material/Search";
-import HomeIcon from "@mui/icons-material/Home";
-import Person4Icon from "@mui/icons-material/Person4";
-import InventoryIcon from "@mui/icons-material/Inventory";
-import ProductionQuantityLimitsIcon from "@mui/icons-material/ProductionQuantityLimits";
+import { useEffect, useState } from "react";
 const LayoutHeader = () => {
   const router = useRouter();
   const [activeTab, setActiveTab] = useState("/");
-
   const handleTabClick = (path: any) => {
     setActiveTab(path);
     router.push(path);
   };
-  const [showPopUp, setShowPopUp] = useState<boolean>(false);
 
-  const handleClick = () => {
-    setShowPopUp(!showPopUp);
-  };
   return (
     <div
       className='grid grid-cols-7 p-2 text-[24px] pl-8 border-b-[1px] bg-gradient-to-r from-[#d6d2d3] to-[#dad7d7]'

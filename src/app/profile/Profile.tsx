@@ -14,11 +14,11 @@ import "slick-carousel/slick/slick.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
+import ImageProfile from "./profile.jpg";
 
 const BasicTab = () => {
   const data = {
-    avatar:
-      "https://scontent.fhan17-1.fna.fbcdn.net/v/t39.30808-6/430984083_1580392619462603_552950356467977895_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=s17iYainD-0Q7kNvgEXow0A&_nc_ht=scontent.fhan17-1.fna&oh=00_AYBnG_rokCBFhb6wj9rBirpLdRo_oto8Yp0EEoX9ZgYKSg&oe=66802D5C",
+    avatar: ImageProfile,
     name: "Nguyễn Đức Việt",
     headline: "Vô địch quốc gia môn bóng chuyền",
     phone: "0868650928",
@@ -56,13 +56,13 @@ const BasicTab = () => {
                 onMouseLeave={handleMouseLeave}
               >
                 <Avatar
-                  src={data?.avatar}
+                  src={data?.avatar.src}
                   sx={{
                     width: 180,
                     height: 180,
                     // transition: "all 0.3s ease-in-out",
                   }}
-                  className='uppercase rounded-full ml-3 mb-2 border-[2px] border-[#059341] transition-all duration-300 ease-in-out hover:transform-gpu hover:translate-y-[-25%] hover:shadow-[rgba(226,196,63,0.25)_0px_13px_47px_-5px,rgba(180,71,71,0.3)_0px_8px_16px_-8px]'
+                  className='uppercase rounded-full object-cover w-[200px] h-[200px] aspect-[1/1] ml-3 mb-2 border-[2px] border-[#059341] transition-all duration-300 ease-in-out hover:transform-gpu hover:translate-y-[-25%] hover:shadow-[rgba(226,196,63,0.25)_0px_13px_47px_-5px,rgba(180,71,71,0.3)_0px_8px_16px_-8px]'
                 />
               </div>
               <div className='px-6'>
