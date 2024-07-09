@@ -179,7 +179,7 @@ const HomePage = () => {
       <div
         style={{
           backgroundImage: `url(${BannerInfo.src})`,
-          height: !statusDrop ? "1540px" : "1340px",
+          height: !statusDrop ? "1540px" : "1380px",
         }}
         className='flex flex-col gap-3'
       >

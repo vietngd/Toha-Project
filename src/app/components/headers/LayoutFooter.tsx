@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import ViewsExtention from "../components/ViewsExtentions";
+import ViewsExtention from "../ViewsExtentions";
 import Image from "next/image";
 import Link from "next/link";
 import IconFacebook from "@/app/components/images/facebook.svg";
