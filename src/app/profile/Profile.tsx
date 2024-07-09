@@ -1,21 +1,25 @@
 "use client";
-import React from "react";
-import { useState } from "react";
-import { Paper } from "@mui/material";
-import Image from "next/image";
-import Avatar from "@mui/material/Avatar";
+import BannerProfile from "@/app/components/images/bannerProfile.jpg";
 import DateRangeIcon from "@mui/icons-material/DateRange";
+import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import MaleIcon from "@mui/icons-material/Male";
 import PhoneAndroidIcon from "@mui/icons-material/PhoneAndroid";
-import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import PlaceIcon from "@mui/icons-material/Place";
-import "slick-carousel/slick/slick-theme.css";
-import "slick-carousel/slick/slick.css";
-import Slider from "react-slick";
+import { Paper } from "@mui/material";
+import Avatar from "@mui/material/Avatar";
+import { useState } from "react";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
 import ImageProfile from "./profile.jpg";
-import BannerProfile from "@/app/components/images/bannerProfile.jpg";
+
+import AnimationIcon from "@mui/icons-material/Animation";
+import CoPresentIcon from "@mui/icons-material/CoPresent";
+import InterestsIcon from "@mui/icons-material/Interests";
+import LanguageIcon from "@mui/icons-material/Language";
+import LocalActivityIcon from "@mui/icons-material/LocalActivity";
+import MilitaryTechIcon from "@mui/icons-material/MilitaryTech";
+import SchoolIcon from "@mui/icons-material/School";
+import SubjectIcon from "@mui/icons-material/Subject";
 const BasicTab = () => {
   const data = {
     avatar: ImageProfile,
@@ -138,14 +142,20 @@ const BasicTab = () => {
               </div>
               <div className='px-6'>
                 <div className='border-b-[1px] border-[#FB9F21] pb-4'>
-                  <div className='text-[#059341] text-[18px] font-bold py-4'>Interests</div>
+                  <div className='text-[#059341] text-[18px] font-bold py-4 flex gap-1'>
+                    <InterestsIcon />
+                    Interests
+                  </div>
                   <div className='text-[14px] flex'>
                     <div className='text-[14px]'>{data?.interests}</div>
                   </div>
                 </div>
               </div>
               <div className='px-6 '>
-                <div className='text-[#059341] text-[18px] font-bold py-4'>Skills</div>
+                <div className='text-[#059341] text-[18px] font-bold py-4 flex gap-1'>
+                  <AnimationIcon />
+                  Skills
+                </div>
                 <div className='text-[14px] border-b-[1px] border-[#FB9F21] pb-4'>
                   <div className='font-bold'>{data?.skill}</div>
                   <div className=''>{data?.gifted}</div>
@@ -153,21 +163,18 @@ const BasicTab = () => {
               </div>
               <div>
                 <div className='px-6'>
-                  <p className='text-[18px] text-[#059341] py-4'>
-                    <b>Languages</b>
-                  </p>
+                  <div className='text-[18px] text-[#059341] py-4 flex gap-1'>
+                    <LanguageIcon />
+                    <p className='text-[18px] font-bold'>Languages</p>
+                  </div>
                   <div className='flex flex-col gap-2'>
-                    <p className='text-[14px]'>English</p>
-                    <div className='w-full h-3 bg-gray-300 rounded-xl'>
-                      <div className='h-full bg-teal-500 rounded-xl' style={{ width: "75%" }} />
-                    </div>
                     <p className='text-[14px]'>Vietnamese</p>
                     <div className='w-full h-3 bg-gray-300 rounded-xl'>
                       <div className='h-full bg-teal-500 rounded-xl' style={{ width: "100%" }} />
                     </div>
-                    <p className='text-[14px]'>German</p>
+                    <p className='text-[14px]'>English</p>
                     <div className='w-full h-3 bg-gray-300 rounded-xl'>
-                      <div className='h-full bg-teal-500 rounded-xl' style={{ width: "25%" }} />
+                      <div className='h-full bg-teal-500 rounded-xl' style={{ width: "75%" }} />
                     </div>
                   </div>
                 </div>
@@ -176,7 +183,10 @@ const BasicTab = () => {
           </div>
           <div className='p-6 col-span-3'>
             <div>
-              <div className='text-[#059341] font-bold py-4'>Objective</div>
+              <div className='text-[#059341] font-bold py-4 flex gap-2'>
+                <SubjectIcon />
+                Objective
+              </div>
               <div className='border-b-[1px] border-[#FB9F21] pb-4'>
                 <p>Apply the knowledge learned to become a professional programming engineer.</p>
                 <p>
@@ -188,7 +198,10 @@ const BasicTab = () => {
             </div>
 
             <div>
-              <div className='text-[#059341] font-bold py-4'>Education</div>
+              <div className='text-[#059341] font-bold py-4 flex gap-2'>
+                <SchoolIcon />
+                Education
+              </div>
               <div className='border-b-[1px] border-[#FB9F21] pb-4'>
                 <div className='flex justify-between'>
                   <p className='font-bold'>Post and Telecomunications Institute of Technology</p>
@@ -202,7 +215,10 @@ const BasicTab = () => {
             </div>
 
             <div>
-              <div className='text-[#059341] font-bold py-4'>Activities</div>
+              <div className='text-[#059341] font-bold py-4 flex gap-2'>
+                <LocalActivityIcon />
+                Activities
+              </div>
               <div className='border-b-[1px] border-[#FB9F21] pb-10'>
                 <div className='flex justify-between'>
                   <p className='font-bold'>Join the school's volunteer club</p>
@@ -215,18 +231,25 @@ const BasicTab = () => {
             </div>
 
             <div>
-              <div className='text-[#059341] font-bold py-4'>Work experience</div>
+              <div className='text-[#059341] font-bold py-4 flex gap-2'>
+                <CoPresentIcon />
+                Work experience
+              </div>
               <div className='border-b-[1px] border-[#FB9F21] pb-10'>
                 <div>
                   <p className='font-bold'>Front End Developer</p>
                 </div>
                 <div className='flex flex-col gap-1'>
+                  <div className='flex justify-between'>
+                    <p>Internship at Authentic Education Hub Joint Stock Company</p>
+                    <p>18/07/2023 - now</p>
+                  </div>
                   <p className='text-gray-500'>PTIT</p>
                   <p>Having good ability on implement algorithms, for implementation new feature</p>
                   <p>
-                    Experienced with React Hook, Next js, html, css, scss, JavaScript. Have
-                    experience tools: Microsoft Office Word, Excel, PowerPoint, Visual Studio
-                    CodeSpecial Tools: Jira, Git.
+                    Experienced with React Hook, Next js, HTML, CSS, SCSS, Tailwind Css, JavaScript,
+                    TypeScript. Have experience tools: Microsoft Office Word, Excel, PowerPoint,
+                    Visual Studio Code Special Tools: Jira, Git.
                   </p>
                   <p>Experienced implement responsive web app support for multiples devices.</p>
                   <p>
@@ -238,7 +261,10 @@ const BasicTab = () => {
             </div>
 
             <div>
-              <div className='text-[#059341] font-bold py-4'>Honors & Awards</div>
+              <div className='text-[#059341] font-bold py-4 flex gap-1'>
+                <MilitaryTechIcon />
+                Honors & Awards
+              </div>
               <div className='border-b-[1px] border-[#FB9F21] pb-10'>
                 <div>
                   <p className='font-bold'>None</p>

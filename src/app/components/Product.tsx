@@ -25,7 +25,7 @@ import ImageHonor from "./image-profile/honor-magic.jpg";
 import ImageIq from "./image-profile/iq-neo8.jpg";
 import clsx from "clsx";
 import SearchIcon from "@mui/icons-material/Search";
-import BannerProd from "@/app/components/image-profile/bannerProd.jpg";
+import BannerProd from "@/app/components/image-profile/bannerProd2.jpg";
 import Link from "next/link";
 import ProductNew from "@/app/components/products/ProductNew";
 import LocalFireDepartmentIcon from "@mui/icons-material/LocalFireDepartment";
@@ -36,7 +36,8 @@ import Dialog from "@mui/material/Dialog";
 import DialogActions from "@mui/material/DialogActions";
 import DialogContent from "@mui/material/DialogContent";
 import ClearIcon from "@mui/icons-material/Clear";
-import ProdDetail from "../products/[prodId]/ProdDetail";
+import ProdDetail from "./products/ProdDetail";
+import LoadingButton from "@mui/lab";
 const ListNews = () => {
   const bannersData = [
     {
@@ -101,10 +102,34 @@ const ListNews = () => {
       price: "24.990.000đ",
       cost: "30.990.000đ",
       salePrice: "1.290.000đ",
+      review: 4,
+      priceToRam: [
+        { ram: "128GB", price: "22.490.000đ", count: 9 },
+        {
+          ram: "256GB",
+          price: "24.990.000đ",
+          count: 5,
+        },
+        { ram: "512GB", price: "27.990.000đ", count: 2 },
+      ],
+      priceToColor: [
+        {
+          color: "Silver",
+          price: "19,990,000đ",
+        },
+        {
+          color: "Gold",
+          price: "21,990,000đ",
+        },
+        {
+          color: "Space Gray",
+          price: "20,990,000đ",
+        },
+      ],
       info: "Không phí chuyển đổi khi trả góp 0% qua thẻ tín dụng kì hạn 3-6 tháng",
       sale: "50%",
       content: () => (
-        <ol className='text-[14px] gap-2 flex flex-col'>
+        <ul className='text-[14px] gap-2 flex flex-col list-disc pl-3'>
           <li>
             Thiết kế cao cấp và bền bỉ - Mặt lưng kính với các màu sắc thời trang kết hợp với khung
             viền nhôm chắc chắn
@@ -124,7 +149,7 @@ const ListNews = () => {
             Hiệu năng vượt trội - Chip A16 Bionic mạnh mẽ đáp ứng mọi nhu cầu, kể cả những tác vụ đồ
             họa phức tạp
           </li>
-        </ol>
+        </ul>
       ),
     },
     {
@@ -133,20 +158,48 @@ const ListNews = () => {
       imageUrl: ImageSamSung,
       inches: "6.8 inches",
       capacity: "12GB",
+      review: 7,
       ram: "512GB",
       price: "22.990.000đ",
       cost: "27.990.000đ",
+      priceToRam: [
+        { ram: "128GB", price: "20.490.000đ", count: 9 },
+        {
+          ram: "256GB",
+          price: "21.990.000đ",
+          count: 5,
+        },
+        {
+          ram: "512GB",
+          price: "22.990.000đ",
+          count: 2,
+        },
+      ],
+      priceToColor: [
+        {
+          color: "Hồng đào",
+          price: "19,990,000đ",
+        },
+        {
+          color: "Xanh lá",
+          price: "21,990,000đ",
+        },
+        {
+          color: "Đen",
+          price: "20,990,000đ",
+        },
+      ],
       salePrice: "2.990.000đ",
       info: "Tặng kèm Sạc Super Fast Charging 45W",
       sale: "20%",
-      contents: () => (
-        <ol>
-          <li>Dynamic AMOLED 2X display</li>
-          <li>Snapdragon 8 Gen 2 processor</li>
-          <li>5000mAh battery with fast charging</li>
-          <li>108MP primary camera</li>
-          <li>Stylus support</li>
-        </ol>
+      content: () => (
+        <ul className='flex flex-col gap-1 list-disc'>
+          <li>Màn hình AMOLED 2X động</li>
+          <li>Bộ xử lý Snapdragon 8 thế hệ 2</li>
+          <li>Pin 5000mAh hỗ trợ sạc nhanh</li>
+          <li>Camera chính 108MP</li>
+          <li>Hỗ trợ bút cảm ứng</li>
+        </ul>
       ),
     },
     {
@@ -156,19 +209,53 @@ const ListNews = () => {
       inches: "6.55 inches",
       capacity: "8GB",
       ram: "256GB",
+      review: 34,
       price: "17.990.000đ",
       cost: "22.990.000đ",
       salePrice: "1.990.000đ",
+      priceToRam: [
+        { ram: "128GB", price: "13.490.000đ", count: 9 },
+        { ram: "256GB", price: "15.990.000đ", count: 5 },
+        {
+          ram: "512GB",
+          price: "17.990.000đ",
+          count: 2,
+        },
+      ],
+      priceToColor: [
+        {
+          color: "Silver",
+          price: "16,990,000đ",
+        },
+        {
+          color: "Gold",
+          price: "18,990,000đ",
+        },
+        {
+          color: "Space Gray",
+          price: "17,990,000đ",
+        },
+      ],
       info: "Bảo hành chính hãng 12 tháng",
       sale: "31%",
-      contents: () => (
-        <ol>
-          <li>OLED display with 120Hz refresh rate</li>
-          <li>Qualcomm Snapdragon 8 Gen 1 processor</li>
-          <li>4,500mAh battery with 80W fast charging</li>
-          <li>64MP main camera with OIS</li>
-          <li>IP68 water and dust resistance</li>
-        </ol>
+      content: () => (
+        <ul className='text-[14px] gap-2 flex flex-col list-disc pl-3'>
+          <li>
+            Màn hình AMOLED 6,78 inch với độ phân giải 2K (3216 x 1440 pixel) và tần số làm mới
+            120Hz
+          </li>
+          <li>Sử dụng vi xử lý cấp cao Qualcomm Snapdragon 8 Gen 2</li>
+          <li>Bộ nhớ RAM 12GB và bộ nhớ trong 256GB</li>
+          <li>
+            Hệ thống camera triple với camera chính 50MP, camera siêu rộng 50MP và camera telephoto
+            13MP
+          </li>
+          <li>Pin 5.000mAh với hỗ trợ sạc nhanh 80W</li>
+          <li>
+            ColorOS 13 dựa trên nền tảng Android 13 cho trải nghiệm người dùng mượt mà và trực quan
+          </li>
+          <li>Cảm biến vân tay dưới màn hình để mở khóa an toàn và thuận tiện</li>
+        </ul>
       ),
     },
     {
@@ -177,24 +264,66 @@ const ListNews = () => {
       imageUrl: ImageXiaomi,
       inches: "6.73 inches",
       capacity: "8GB",
+      review: 41,
       ram: "256GB",
       price: "11.990.000đ",
       cost: "17.990.000đ",
       salePrice: "2.990.000đ",
+      priceToRam: [
+        { ram: "128GB", price: "13.490.000đ", count: 9 },
+        {
+          ram: "256GB",
+          price: "15.990.000đ",
+          count: 5,
+        },
+        {
+          ram: "512GB",
+          price: "17.990.000đ",
+          count: 2,
+        },
+      ],
+      priceToColor: [
+        {
+          color: "Đỏ",
+          price: "16,990,000đ",
+        },
+        {
+          color: "Trắng",
+          price: "18,990,000đ",
+        },
+        {
+          color: "Bạc",
+          price: "17,990,000đ",
+        },
+      ],
       info: "Tặng kèm sạc 120W và cáp USB-C",
       sale: "19%",
-      contents: () => (
-        <ol>
-          <li>AMOLED display with 120Hz refresh rate</li>
-          <li>Snapdragon 8 Gen 2 processor</li>
-          <li>4,820mAh battery with 120W fast charging</li>
-          <li>50MP main camera with Leica optics</li>
-          <li>IP68 water and dust resistance</li>
+      content: () => (
+        <ol className='text-[12px] gap-2 flex flex-col list-disc pl-3'>
+          <li>
+            Màn hình AMOLED sắc nét với tần số quét 120Hz Cho trải nghiệm xem và cuộn trang cực kỳ
+            mượt mà
+          </li>
+          <li>
+            Sức mạnh từ chip Snapdragon 8 Gen 2 Hiệu suất xử lý cao, hỗ trợ 5G và nhiều tính năng AI
+          </li>
+          <li>
+            Pin dung lượng 4,820mAh, sạc nhanh 120W Đáp ứng nhu cầu sử dụng suốt cả ngày mà không
+            cần sạc
+          </li>
+          <li>
+            Camera chính 50MP được thiết kế cùng Leica Chụp ảnh chuyên nghiệp với chất lượng sắc nét
+            tuyệt vời
+          </li>
+          <li>
+            Chống nước bụi chuẩn IP68 Thiết bị vận hành an toàn thậm chí trong điều kiện khắc nghiệt
+          </li>
         </ol>
       ),
     },
     {
       id: 5,
+      review: 9,
       title: "Google Pixel 7 Pro 256GB | Chính hãng",
       imageUrl: ImageGoogle,
       inches: "6.7 inches",
@@ -203,44 +332,139 @@ const ListNews = () => {
       cost: "21.990.000đ",
       price: "10.490.000đ",
       salePrice: "3.990.000đ",
+      priceToRam: [
+        {
+          ram: "64GB",
+          price: "9.490.000đ",
+          count: 0,
+        },
+        {
+          ram: "128GB",
+          price: "9.990.000đ",
+          count: 0,
+        },
+        {
+          ram: "512GB",
+          price: "10.490.000đ",
+          count: 0,
+        },
+      ],
+      priceToColor: [
+        {
+          color: "Đen",
+          price: "16,990,000đ",
+        },
+        {
+          color: "Đỏ",
+          price: "18,990,000đ",
+        },
+        {
+          color: "Trắng",
+          price: "17,990,000đ",
+        },
+        {
+          color: "Tím",
+          price: "17,990,000đ",
+        },
+        {
+          color: "Vàng",
+          price: "17,990,000đ",
+        },
+      ],
       info: "Bảo hành chính hãng 12 tháng",
       sale: "40%",
-      contents: () => (
-        <ol>
-          <li>OLED display with 120Hz refresh rate</li>
-          <li>Google Tensor G2 processor</li>
-          <li>5,000mAh battery with fast charging</li>
-          <li>50MP main camera with advanced computational photography</li>
-          <li>IP68 water and dust resistance</li>
-        </ol>
+      content: () => (
+        <ul className='text-[12px] gap-2 flex flex-col list-disc pl-3'>
+          <li>Màn hình OLED 6,7 inch, độ phân giải QHD+ (3120 x 1440 pixel), tần số quét 120Hz</li>
+          <li>
+            Chip Google Tensor G2 với hiệu năng cao, kết hợp với 12GB RAM và 256GB bộ nhớ trong
+          </li>
+
+          <li>Camera selfie 11,1MP cho chất lượng ảnh chân dung tuyệt vời</li>
+          <li>Pin 5.000mAh với sạc nhanh 30W, hỗ trợ sạc không dây</li>
+          <li>Thiết kế nguyên khối, chống nước và bụi chuẩn IP68</li>
+          <li>
+            Cảm biến vân tay tích hợp trong màn hình, cảm biến khuôn mặt 3D cho bảo mật tối ưu
+          </li>
+          <li>Hệ điều hành Android 13 với các tính năng thông minh và tối ưu hiệu năng</li>
+          <li>Được bán chính hãng với đầy đủ phụ kiện và bảo hành chính thức từ Google</li>
+        </ul>
       ),
     },
     {
       id: 6,
+      review: 67,
       title: "OnePlus 11 256GB | Chính hãng",
       imageUrl: ImageOnePlus,
       inches: "6.55 inches",
       capacity: "8GB",
-      ram: "256GB",
+      ram: "64GB",
       cost: "7.990.000đ",
       price: "5.990.000đ",
       salePrice: "2.990.000đ",
+      priceToRam: [
+        {
+          ram: "32GB",
+          price: "5.990.000đ",
+          count: 0,
+        },
+        {
+          ram: "256GB",
+          price: "6.990.000đ",
+          count: 7,
+        },
+        {
+          ram: "512GB",
+          price: "7.490.000đ",
+          count: 0,
+        },
+      ],
+      priceToColor: [
+        {
+          color: "Đen",
+          price: "16,990,000đ",
+        },
+        {
+          color: "Đỏ",
+          price: "18,990,000đ",
+        },
+
+        {
+          color: "Tím",
+          price: "17,990,000đ",
+        },
+        {
+          color: "Vàng",
+          price: "17,990,000đ",
+        },
+      ],
       info: "Tặng kèm sạc siêu nhanh 80W",
       sale: "34%",
-      contents: () => (
+      content: () => (
         <div>
-          <ol>
-            <li>AMOLED display with 120Hz refresh rate</li>
-            <li>Snapdragon 8 Gen 2 processor</li>
-            <li>5,000mAh battery with 80W fast charging</li>
-            <li>50MP main camera with OIS</li>
-            <li>Dual stereo speakers with Dolby Atmos</li>
-          </ol>
+          <ul className='text-[12px] gap-2 flex flex-col list-disc pl-3'>
+            <li>
+              Màn hình AMOLED 6,7 inch, độ phân giải 2K (3216 x 1440 pixel), tần số quét 120Hz
+            </li>
+            <li>
+              Hệ thống camera triple với camera chính 50MP, camera tele 32MP và camera góc siêu rộng
+              48MP
+            </li>
+            <li>Camera selfie 16MP chụp ảnh chân dung độ nét cao</li>
+            <li>Pin 5.000mAh với sạc nhanh 80W, hỗ trợ sạc không dây 50W</li>
+            <li>Cảm biến vân tay trong màn hình, mở khóa nhanh chóng và an toàn</li>
+            <li>
+              Hệ điều hành OxygenOS 13 dựa trên Android 13, mang lại trải nghiệm người dùng mượt mà
+            </li>
+            <li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.2 và NFC cho kết nối đa dạng</li>
+            <li>Được bán chính hãng, có đầy đủ phụ kiện và bảo hành chính thức từ OnePlus</li>
+          </ul>
         </div>
       ),
     },
     {
       id: 7,
+      review: 12,
       title: "Vivo X90 Pro+ 256GB | Chính hãng",
       imageUrl: ImageVivo,
       inches: "6.78 inches",
@@ -248,21 +472,63 @@ const ListNews = () => {
       cost: "17.990.000đ",
       ram: "256GB",
       price: "12.990.000đ",
+      priceToRam: [
+        {
+          ram: "64GB",
+          price: "12.590.000đ",
+          count: 2,
+        },
+
+        {
+          ram: "256GB",
+          price: "13.990.000đ",
+          count: 4,
+        },
+      ],
+      priceToColor: [
+        {
+          color: "Đen",
+          price: "16,990,000đ",
+        },
+        {
+          color: "Đỏ",
+          price: "18,990,000đ",
+        },
+        {
+          color: "Nâu đen",
+          price: "17,990,000đ",
+        },
+        {
+          color: "Xanh dương",
+          price: "17,990,000đ",
+        },
+        {
+          color: "Vàng",
+          price: "17,990,000đ",
+        },
+      ],
       salePrice: "990.000đ",
       info: "Bảo hành chính hãng 12 tháng",
       sale: "29%",
-      contents: () => (
-        <ol>
-          <li>OLED display with 120Hz refresh rate</li>
-          <li>Snapdragon 8 Gen 2 processor</li>
-          <li>4,700mAh battery with 120W fast charging</li>
-          <li>50MP main camera with Zeiss optics</li>
-          <li>IP68 water and dust resistance</li>
-        </ol>
+      content: () => (
+        <ul className='text-[12px] gap-2 flex flex-col list-disc pl-3'>
+          <li>Màn hình AMOLED 6,78 inch, độ phân giải 2K (3200 x 1440 pixel), tần số quét 120Hz</li>
+          <li>Chip Qualcomm Snapdragon 8 Gen 2, kết hợp với 12GB RAM và 256GB bộ nhớ trong</li>
+          <li>
+            Hệ thống camera chuyên nghiệp với camera chính 50MP, camera tele 64MP, camera góc siêu
+            rộng 48MP và camera macro 8MP
+          </li>
+          <li>Camera selfie 32MP chụp ảnh chân dung tuyệt đẹp</li>
+          <li>Pin 4.700mAh với sạc nhanh 80W, hỗ trợ sạc không dây 50W</li>
+          <li>Thiết kế nguyên khối, chống nước bụi chuẩn IP68</li>
+          <li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.3 và NFC cho kết nối đa dạng</li>
+          <li>Được bán chính hãng, có đầy đủ phụ kiện và bảo hành chính thức từ Vivo</li>
+        </ul>
       ),
     },
     {
       id: 8,
+      review: 23,
       title: "Realme GT3 256GB | Chính hãng",
       imageUrl: ImageRealme,
       inches: "6.43 inches",
@@ -271,42 +537,124 @@ const ListNews = () => {
       ram: "256GB",
       price: "4.990.000đ",
       salePrice: "1.490.000đ",
+      priceToRam: [
+        {
+          ram: "16GB",
+          price: "3.590.000đ",
+          count: 8,
+        },
+        {
+          ram: "256GB",
+          price: "4.590.000đ",
+          count: 0,
+        },
+      ],
+      priceToColor: [
+        {
+          color: "Đen",
+          price: "16,990,000đ",
+        },
+        {
+          color: "Đỏ",
+          price: "18,990,000đ",
+        },
+        {
+          color: "Xanh than",
+          price: "17,990,000đ",
+        },
+        {
+          color: "Tím",
+          price: "17,990,000đ",
+        },
+        {
+          color: "Vàng khè",
+          price: "17,990,000đ",
+        },
+      ],
       info: "Tặng kèm sạc 240W siêu nhanh",
       sale: "28%",
-      contents: () => (
-        <ol>
-          <li>AMOLED display with 144Hz refresh rate</li>
-          <li>Snapdragon 8+ Gen 1 processor</li>
-          <li>5,000mAh battery with 240W fast charging</li>
-          <li>50MP main camera with OIS</li>
-          <li>Dual stereo speakers with Dolby Atmos</li>
-        </ol>
+      content: () => (
+        <ul className='text-[14px] gap-2 flex flex-col list-disc pl-3'>
+          <li>Màn hình AMOLED 6,7 inch, 2K (3216 x 1440), 120Hz</li>
+          <li>Chip Snapdragon 8 Gen 2, RAM 12GB, bộ nhớ 256GB</li>
+          <li>Camera chính 50MP, camera góc siêu rộng 50MP, camera tele 32MP</li>
+          <li>Camera selfie 16MP</li>
+          <li>Pin 5.000mAh, sạc nhanh 240W</li>
+          <li>Thiết kế nguyên khối, IP54</li>
+          <li>Vân tay trong màn hình, Android 13</li>
+          <li>Kết nối 5G, Wi-Fi 6, Bluetooth 5.3</li>
+        </ul>
       ),
     },
     {
       id: 9,
+      review: 0,
       title: "Honor Magic5 Pro 256GB | Chính hãng",
       imageUrl: ImageHonor,
       inches: "6.81 inches",
       capacity: "12GB",
-      ram: "256GB",
-      cost: "40.990.000đ",
+      ram: "512GB",
+      cost: "30.990.000đ",
       price: "22.990.000đ",
       salePrice: "2.990.000đ",
+      priceToRam: [
+        {
+          ram: "128GB",
+          price: "20.590.000đ",
+          count: 21,
+        },
+        {
+          ram: "256GB",
+          price: "21.590.000đ",
+          count: 28,
+        },
+        {
+          ram: "512GB",
+          price: "22.990.000đ",
+          count: 29,
+        },
+      ],
+      priceToColor: [
+        {
+          color: "Xám",
+          price: "16,990,000đ",
+        },
+        {
+          color: "Đỏ",
+          price: "18,990,000đ",
+        },
+        {
+          color: "Lục",
+          price: "17,990,000đ",
+        },
+        {
+          color: "Lam",
+          price: "17,990,000đ",
+        },
+        {
+          color: "Vàng",
+          price: "17,990,000đ",
+        },
+      ],
       info: "Bảo hành chính hãng 12 tháng",
       sale: "10%",
-      contents: () => (
-        <ol>
-          <li>OLED display with 120Hz refresh rate</li>
-          <li>Snapdragon 8 Gen 2 processor</li>
-          <li>5,100mAh battery with 66W fast charging</li>
-          <li>50MP main camera with OIS</li>
-          <li>IP68 water and dust resistance</li>
+      content: () => (
+        <ol className='text-[14px] gap-2 flex flex-col list-disc pl-3'>
+          <li>Màn hình OLED 6,81 inch, độ phân giải 2848 x 1312, tần số quét 120Hz</li>
+          <li>Chip Qualcomm Snapdragon 8 Gen 2, RAM 12GB, bộ nhớ trong 256GB</li>
+          <li>Hệ thống camera chuyên nghiệp: chính 50MP, tele 50MP, góc siêu rộng 13MP</li>
+          <li>Camera selfie 12MP, hỗ trợ quay video 4K</li>
+          <li>Pin 5.100mAh, sạc nhanh 66W, sạc không dây 50W</li>
+          <li>Thiết kế kim loại, kính cường lực, chống nước IP68</li>
+          <li>Cảm biến vân tay trong màn hình, nhận diện khuôn mặt 3D</li>
+          <li>Hệ điều hành Magic UI 7.1 dựa trên Android 13</li>
+          <li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.2, NFC</li>
         </ol>
       ),
     },
     {
       id: 10,
+      review: 132,
       title: "IQOO Neo7 5G 256GB | Chính hãng",
       imageUrl: ImageIq,
       inches: "6.62 inches",
@@ -315,20 +663,75 @@ const ListNews = () => {
       ram: "256GB",
       price: "13.990.000đ",
       salePrice: "1.400.000đ",
+      priceToRam: [
+        {
+          ram: "64GB",
+          price: "12.590.000đ",
+          count: 0,
+        },
+        {
+          ram: "128GB",
+          price: "13.590.000đ",
+          count: 12,
+        },
+        {
+          ram: "256GB",
+          price: "13.990.000đ",
+          count: 12,
+        },
+      ],
+      priceToColor: [
+        {
+          color: "Đen",
+          price: "16,990,000đ",
+        },
+        {
+          color: "Đỏ",
+          price: "18,990,000đ",
+        },
+        {
+          color: "Chàm",
+          price: "17,990,000đ",
+        },
+        {
+          color: "Tím",
+          price: "17,990,000đ",
+        },
+        {
+          color: "Xanh",
+          price: "17,990,000đ",
+        },
+      ],
       info: "Tặng kèm tai nghe không dây",
       sale: "16%",
-      contents: () => (
-        <ol>
-          <li>AMOLED display with 120Hz refresh rate</li>
-          <li>Snapdragon 8+ Gen 1 processor</li>
-          <li>5,000mAh battery with 120W fast charging</li>
-          <li>64MP main camera with OIS</li>
-          <li>Dual stereo speakers with Hi-Res Audio</li>
+      content: () => (
+        <ol className='text-[14px] gap-2 flex flex-col list-disc pl-3'>
+          <li>
+            Màn hình AMOLED sống động với tốc độ làm tươi 120Hz Trải nghiệm xem liền mạch, mượt mà
+            và chi tiết
+          </li>
+          <li>
+            Vi xử lý Snapdragon 8+ Gen 1 hiệu suất mạnh mẽ Hỗ trợ 5G, AI và nhiều tính năng công
+            nghệ tiên tiến
+          </li>
+          <li>
+            Pin dung lượng 5,000mAh, sạc nhanh 120W Thời lượng sử dụng lâu dài, chỉ mất vài phút để
+            sạc đầy
+          </li>
+          <li>
+            Camera chính 64MP có chống rung quang học (OIS) Chụp ảnh sắc nét, chất lượng cao ngay cả
+            trong điều kiện ánh sáng yếu
+          </li>
+          <li>
+            Loa nổi kép hỗ trợ công nghệ âm thanh Hi-Res Audio Âm thanh sống động, chất lượng tuyệt
+            vời cho trải nghiệm nghe nhạc
+          </li>
         </ol>
       ),
     },
     {
       id: 11,
+      review: 4,
       title: "Redmi K60 oltra 256GB | Chính hãng",
       imageUrl: ImageOnePlus,
       inches: "6.67 inches",
@@ -337,20 +740,52 @@ const ListNews = () => {
       ram: "256GB",
       price: "5.450.000đ",
       salePrice: "590.000đ",
+      priceToRam: [
+        {
+          ram: "64GB",
+          price: "4.590.000đ",
+          count: 2,
+        },
+        {
+          ram: "128GB",
+          price: "4.990.000đ",
+          count: 8,
+        },
+        {
+          ram: "512GB",
+          price: "5.490.000đ",
+          count: 0,
+        },
+      ],
+      priceToColor: [
+        {
+          color: "Rêu đá",
+          price: "17,990,000đ",
+        },
+        {
+          color: "Bạch kim",
+          price: "17,990,000đ",
+        },
+      ],
       info: "Bảo hành chính hãng 12 tháng",
       sale: "8%",
-      contents: () => (
-        <ol>
-          <li>AMOLED display with 120Hz refresh rate</li>
-          <li>Mediatek Dimensity 8100 oltra processor</li>
-          <li>5,000mAh battery with 67W fast charging</li>
-          <li>64MP main camera with OIS</li>
-          <li>Dual stereo speakers with Dolby Atmos</li>
+      content: () => (
+        <ol className='text-[14px] gap-2 flex flex-col list-disc pl-3'>
+          <li>Màn hình AMOLED 6,67 inch, 2K (2K+), tần số quét 120Hz, HDR10+, Dolby Vision</li>
+          <li>Chip Qualcomm Snapdragon 8 Gen 2, RAM 12GB, bộ nhớ trong 256GB</li>
+          <li>Camera chính 50MP, camera góc siêu rộng 13MP, camera tele 2X 12MP</li>
+          <li>Camera selfie 16MP</li>
+          <li>Pin 5.000mAh, sạc nhanh 67W, sạc không dây 30W</li>
+          <li>Thiết kế kim loại, kính cường lực, chống nước IP68</li>
+          <li>Cảm biến vân tay trong màn hình, âm thanh stereo, NFC</li>
+          <li>Hệ điều hành MIUI 14 dựa trên Android 13</li>
+          <li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.2</li>
         </ol>
       ),
     },
     {
       id: 12,
+      review: 56,
       title: "Redmi K60 oltra 256GB | Chính hãng",
       imageUrl: ImageSamSung,
       inches: "6.67 inches",
@@ -359,15 +794,51 @@ const ListNews = () => {
       ram: "256GB",
       price: "2.990.000đ",
       salePrice: "990.000đ",
+      priceToRam: [
+        {
+          ram: "32GB",
+          price: "1.590.000đ",
+          count: 1,
+        },
+        {
+          ram: "64GB",
+          price: "2.990.000đ",
+          count: 6,
+        },
+        {
+          ram: "256GB",
+          price: "3.490.000đ",
+          count: 9,
+        },
+      ],
+      priceToColor: [
+        {
+          color: "Đen",
+          price: "16,990,000đ",
+        },
+        {
+          color: "Đỏ",
+          price: "18,990,000đ",
+        },
+        {
+          color: "Đỏ thẫm",
+          price: "17,990,000đ",
+        },
+        {
+          color: "Vàng",
+          price: "17,990,000đ",
+        },
+      ],
       info: "Bảo hành chính hãng 12 tháng",
       sale: "21%",
-      contents: () => (
-        <ol>
-          <li>AMOLED display with 120Hz refresh rate</li>
-          <li>Mediatek Dimensity 8100 oltra processor</li>
-          <li>5,000mAh battery with 67W fast charging</li>
-          <li>64MP main camera with OIS</li>
-          <li>Dual stereo speakers with Dolby Atmos</li>
+      content: () => (
+        <ol className='text-[14px] gap-2 flex flex-col list-disc pl-3'>
+          <li>Thiết kế siêu mỏng với màn hình AMOLED sống động</li>
+          <li>Hiệu năng mạnh mẽ với chip Snapdragon 8+ Gen 1</li>
+          <li>Bộ nhớ trong dung lượng lớn 256GB</li>
+          <li>Camera chính 50MP chụp ảnh và quay video chuyên nghiệp</li>
+          <li>Pin dung lượng 5,000mAh với sạc nhanh 120W</li>
+          <li>Hệ điều hành MIUI 13 trực quan và tiện dụng</li>
         </ol>
       ),
     },
@@ -432,7 +903,12 @@ const ListNews = () => {
             />
           </div>
         </div>
-        <ProductNew />
+        <ProductNew
+          setShowPopUp={setShowPopUp}
+          showPopUp={showPopUp}
+          handleNewsItemClick={handleNewsItemClick}
+          selectedNewsId={selectedNewsId}
+        />
         {/* <div className='pt-6'>
           <Slider {...settings}>
             {bannersData?.map((el: any, i: number) => (
@@ -587,14 +1063,24 @@ const ListNews = () => {
             <Pagination count={10} variant='outlined' shape='rounded' color='secondary' />
           </Stack>
         </div>
-        <Dialog open={showPopUp} onClose={handleNewsItemClick} maxWidth='lg'>
+        <Dialog
+          open={showPopUp}
+          onClose={handleNewsItemClick}
+          maxWidth='lg'
+          PaperProps={{
+            style: {
+              // backgroundColor: "#FFFFFF",
+              backgroundImage: `url(${BannerProd.src})`,
+            },
+          }}
+        >
           <div
             className='flex justify-end items-end px-5 pt-2 cursor-pointer'
             onClick={() => setShowPopUp(false)}
           >
             <ClearIcon
               sx={{
-                color: "#B0B0B0",
+                color: "#000001",
               }}
             />
           </div>
@@ -604,10 +1090,19 @@ const ListNews = () => {
             </div>
           </DialogContent>
           <DialogActions>
-            <Button onClick={() => setShowPopUp(false)}>Close</Button>
-            <Button onClick={() => setShowPopUp(false)} autoFocus>
+            <button
+              className='px-5 bg-slate-200 py-3 rounded-lg hover:bg-opacity-80'
+              onClick={() => setShowPopUp(false)}
+            >
+              Đóng
+            </button>
+            <button
+              className='bg-[#4767f3] text-white rounded-lg w-[60px] px-2 py-3 hover:bg-opacity-60 outline-none'
+              onClick={() => setShowPopUp(false)}
+              autoFocus
+            >
               OK
-            </Button>
+            </button>
           </DialogActions>
         </Dialog>
       </div>

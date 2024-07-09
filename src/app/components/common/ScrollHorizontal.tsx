@@ -59,8 +59,8 @@ const ScrollHorizontal = ({ children, elementId, widthItem, total, wrapperClass 
     if (el) {
       setDisabled(true);
       const value = widthItem + 16;
-      const scrollDuration = 50; // Duration of the scroll animation in milliseconds
-      const scrollStep = 5; // Scroll step in pixels
+      const scrollDuration = 50;
+      const scrollStep = 5;
 
       const scrollRightInterval = setInterval(() => {
         if (el.scrollLeft + el.offsetWidth >= el.scrollWidth) {
@@ -82,7 +82,7 @@ const ScrollHorizontal = ({ children, elementId, widthItem, total, wrapperClass 
   }, []);
 
   return (
-    <div className='w-full relative'>
+    <div className='w-full relative overflow-hidden'>
       {isLeftActive && (
         <div
           className={clsx(
@@ -118,7 +118,7 @@ const ScrollHorizontal = ({ children, elementId, widthItem, total, wrapperClass 
         id={elementId}
         className={clsx(
           "w-[calc(100%_+_4px)] ml-[-4px] pl-[4px] ",
-          "flex gap-2 overflow-x-auto hidden-scroll-bar",
+          "flex gap-2 overflow-hidden hidden-scroll-bar",
           wrapperClass
         )}
         onScroll={() => checkScroll()}

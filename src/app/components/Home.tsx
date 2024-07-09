@@ -22,7 +22,7 @@ import banner3 from "./image-profile/banner3.jpg";
 import banner4 from "./image-profile/banner4.jpg";
 import banner6 from "./image-profile/banner6.jpg";
 import BannerInfo from "./image-profile/bannerInfo.jpg";
-import BannerHome from "./image-profile/bannerHome.jpg";
+import BannerHome from "./image-profile/bannerHome2.jpg";
 import BannerBottom from "./image-profile/bannerBottom.jpg";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -37,6 +37,7 @@ import DialogContentText from "@mui/material/DialogContentText";
 import DialogTitle from "@mui/material/DialogTitle";
 import Profile from "../profile/Profile";
 import ClearIcon from "@mui/icons-material/Clear";
+import WeatherToday from "./common/Weather";
 
 const HomePage = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
@@ -118,59 +119,67 @@ const HomePage = () => {
   return (
     <div className='w-full h-full'>
       <div
-        className='text-[60px] text-white flex flex-col text-center pl-[120px] pt-[200px]'
+        className='text-[60px] text-white flex-col text-center pl-[120px] pt-[150px]'
         style={{
           backgroundImage: `url(${BannerHome.src})`,
           height: "1080px",
         }}
       >
-        <p className='animate__animated animate__fadeInUp font-semibold'>Mr NGUYEN DUC VIET</p>
-        <p className='text-[14px] hover:text-gray-300 cursor-pointer hover:text-[18px] animate-slideIn'>
-          Intern Front-End Developer in Authentic Education Hub
-        </p>
-
-        <div className='flex justify-center items-center pt-5' onClick={handleClick}>
-          <div className='animate-slideIn'>
-            <button className='cursor-pointer flex uppercase bg-gradient-to-tl from-slate-400 to-slate-100 px-4 py-2 active:translate-x-0.5 active:translate-y-0.5 hover:shadow-[0.5rem_0.5rem_#F44336,-0.5rem_-0.5rem_#00BCD4] transition'>
-              <p className='text-gray-700 font-semibold pr-2 text-[16px]'>Getting Started</p>
-              <ArrowForwardOutlinedIcon
-                sx={{
-                  width: "20px",
-                  color: "#686868",
-                }}
-              />
-            </button>
+        <div className='col-span-3'>
+          <p className='animate__animated animate__fadeInUp font-semibold'>Mr NGUYEN DUC VIET</p>
+          <p className='text-[14px] hover:text-gray-300 cursor-pointer hover:text-[18px] animate-slideIn'>
+            Intern Front-End Developer in Authentic Education Hub
+          </p>
+          <div className='flex justify-center items-center py-[50px]'>
+            <div className='animate-spin rounded-full h-12 w-32 border-t-2 border-b-2 border-blue-900'></div>
           </div>
-          <Dialog open={showPopUp} onClose={handleClick} maxWidth='lg'>
-            <div
-              className='flex justify-end items-end px-5 pt-2 cursor-pointer'
-              onClick={() => setShowPopUp(false)}
-            >
-              <ClearIcon
-                sx={{
-                  color: "#B0B0B0",
-                }}
-              />
+
+          <div className='flex justify-center items-center pt-5' onClick={handleClick}>
+            <div className='animate-slideIn'>
+              <button className='cursor-pointer flex uppercase bg-gradient-to-tl from-slate-400 to-slate-100 px-4 py-2 active:translate-x-0.5 active:translate-y-0.5 hover:shadow-[0.5rem_0.5rem_#F44336,-0.5rem_-0.5rem_#00BCD4] transition'>
+                <p className='text-gray-700 font-semibold pr-2 text-[16px]'>Getting Started</p>
+                <ArrowForwardOutlinedIcon
+                  sx={{
+                    width: "20px",
+                    color: "#686868",
+                  }}
+                />
+              </button>
             </div>
-            <DialogContent>
-              <div>
-                <Profile />
+            <Dialog open={showPopUp} onClose={handleClick} maxWidth='lg'>
+              <div
+                className='flex justify-end items-end px-5 pt-2 cursor-pointer'
+                onClick={() => setShowPopUp(false)}
+              >
+                <ClearIcon
+                  sx={{
+                    color: "#B0B0B0",
+                  }}
+                />
               </div>
-            </DialogContent>
-            <DialogActions>
-              <Button onClick={handleClick}>Close</Button>
-              <Button onClick={handleClick} autoFocus>
-                OK
-              </Button>
-            </DialogActions>
-          </Dialog>
+              <DialogContent>
+                <div>
+                  <Profile />
+                </div>
+              </DialogContent>
+              <DialogActions>
+                <Button onClick={handleClick}>Close</Button>
+                <Button onClick={handleClick} autoFocus>
+                  OK
+                </Button>
+              </DialogActions>
+            </Dialog>
+          </div>
+          <div className='flex justify-center items-center py-6 animate__animated animate__fadeInUp'>
+            <WeatherToday />
+          </div>
         </div>
       </div>
 
       <div
         style={{
           backgroundImage: `url(${BannerInfo.src})`,
-          height: !statusDrop ? "1300px" : "1140px",
+          height: !statusDrop ? "1540px" : "1340px",
         }}
         className='flex flex-col gap-3'
       >
@@ -293,6 +302,32 @@ const HomePage = () => {
                 </div>
               )}
             </div>
+          </div>
+        </div>
+
+        <div className='card flex justify-center items-center'>
+          <div className='relative bg-black w-[300px] sm:w-[500px] group transition-all duration-700 aspect-video flex items-center justify-center'>
+            <div className='transition-all flex flex-col items-center py-3 justify-start duration-300 group-hover:duration-1000 bg-white w-[500px] h-full absolute group-hover:-translate-y-16'>
+              <p className='text-xl sm:text-[24px] font-semibold text-gray-500 font-serif'>
+                Thank You
+              </p>
+              <p className='px-10 text-[10px] text-center sm:text-[12px] text-gray-700'>
+                I look forward to the opportunity to discuss and cooperate with you in the future.
+                If you need any further information, please contact me via email address:
+                viet.ngd.2002@gmail.com or phone number: 0868650928.
+              </p>
+              <p className='font-serif text-[10px] sm:text-[12px text-gray-700'>
+                Wishing you a fantastic day ahead!
+              </p>
+              <p className='font-sans text-[10px] text-gray-700 pt-5'>Viet Nguyen</p>
+            </div>
+            <button className='seal bg-rose-500 text-red-800 w-10 aspect-square rounded-full z-40 text-[10px] flex items-center justify-center font-semibold [clip-path:polygon(50%_0%,_80%_10%,_100%_35%,_100%_70%,_80%_90%,_50%_100%,_20%_90%,_0%_70%,_0%_35%,_20%_10%)] group-hover:opacity-0 transition-all duration-1000 group-hover:scale-0 group-hover:rotate-180 border-4 border-rose-900'>
+              Open
+            </button>
+            <div className='tp transition-all duration-1000 group-hover:duration-100 bg-neutral-800 absolute group-hover:[clip-path:polygon(50%_0%,_100%_0,_0_0)] w-full h-full [clip-path:polygon(50%_50%,_100%_0,_0_0)]'></div>
+            <div className='lft transition-all duration-700 absolute w-full h-full bg-neutral-900 [clip-path:polygon(50%_50%,_0_0,_0_100%)]'></div>
+            <div className='rgt transition-all duration-700 absolute w-full h-full bg-neutral-800 [clip-path:polygon(50%_50%,_100%_0,_100%_100%)]'></div>
+            <div className='btm transition-all duration-700 absolute w-full h-full bg-neutral-900 [clip-path:polygon(50%_50%,_100%_100%,_0_100%)]'></div>
           </div>
         </div>
       </div>

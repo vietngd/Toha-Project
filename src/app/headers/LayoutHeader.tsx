@@ -23,7 +23,7 @@ const LayoutHeader = () => {
 
   return (
     <div
-      className='grid grid-cols-7 p-2 text-[24px] pl-8 border-b-[1px] bg-gradient-to-r from-[#e4c0c9] to-[#b4b2b2]'
+      className='grid grid-cols-7 p-2 text-[24px] pl-8 border-b-[1px] bg-gradient-to-r from-[#eedadf] to-[#b4b2b2]'
       style={{
         backgroundImage: `url(${BannerFooter.src})`,
       }}
@@ -59,7 +59,7 @@ const LayoutHeader = () => {
           } hover:after:opacity-100 !transition-all !duration-300`}
           onClick={() => handleTabClick("/products")}
         >
-          <InventoryIcon sx={{ color: "#B0B0B0" }} /> Sản phẩm
+          <InventoryIcon sx={{ color: "#B0B0B0" }} /> Sản phẩm thực hiện
         </button>
         <button
           className={`text-[16px] text-center pt-2 flex justify-center items-center gap-2  relative after:absolute after:bottom-0 after:left-0 after:w-full pb-3 after:h-1 after:bg-blue-500 ${
