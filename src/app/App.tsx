@@ -1,22 +1,7 @@
 "use client";
-import React from "react";
-import Tabs from "@mui/material/Tabs";
-import Tab from "@mui/material/Tab";
 import Box from "@mui/material/Box";
-import { useState } from "react";
-import { Paper, Button } from "@mui/material";
-import AccountBalanceIcon from "@mui/icons-material/AccountBalance";
-import Profile from "./profile/Profile";
+import React, { useState } from "react";
 import HomePage from "./components/Home";
-import Image from "next/image";
-import Logo from "./components/images/logoheader.png";
-import TohaLogo from "./components/images/toha.png";
-import Product from "./components/Product";
-import Dialog from "@mui/material/Dialog";
-import DialogActions from "@mui/material/DialogActions";
-import DialogContent from "@mui/material/DialogContent";
-import ClearIcon from "@mui/icons-material/Clear";
-import LoginForm from "./login/LoginForm";
 interface TabPanelProps {
   children?: React.ReactNode;
   index: number;

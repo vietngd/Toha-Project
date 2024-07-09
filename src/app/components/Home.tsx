@@ -35,7 +35,7 @@ import DialogActions from "@mui/material/DialogActions";
 import DialogContent from "@mui/material/DialogContent";
 import DialogContentText from "@mui/material/DialogContentText";
 import DialogTitle from "@mui/material/DialogTitle";
-import Profile from "../profile/Profile";
+import Profile from "./Profile";
 import ClearIcon from "@mui/icons-material/Clear";
 import WeatherToday from "./common/Weather";
 

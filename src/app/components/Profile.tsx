@@ -10,8 +10,7 @@ import Avatar from "@mui/material/Avatar";
 import { useState } from "react";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
-import ImageProfile from "./profile.jpg";
-
+import ImageProfile from "@/app/components/image-profile/profile.jpg";
 import AnimationIcon from "@mui/icons-material/Animation";
 import CoPresentIcon from "@mui/icons-material/CoPresent";
 import InterestsIcon from "@mui/icons-material/Interests";

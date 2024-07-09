@@ -1,5 +1,5 @@
 "use client";
-import LoginForm from "./LoginForm";
+import LoginForm from "@/app/components/LoginForm";
 import BannerLogin from "./bannerLogin.jpg";
 
 const ClassDetail = () => {

@@ -14,7 +14,7 @@ import {
 import Link from "next/link";
 import { useState } from "react";
 import { Controller, useForm } from "react-hook-form";
-import RequireMark from "../components/common/RequireMark";
+import RequireMark from "@/app/components/common/RequireMark";
 
 const FormLoginBasic = () => {
   const [showPassword, setShowPassword] = useState<boolean>(false);
