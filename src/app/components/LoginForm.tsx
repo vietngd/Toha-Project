@@ -15,10 +15,14 @@ import Link from "next/link";
 import { useState } from "react";
 import { Controller, useForm } from "react-hook-form";
 import RequireMark from "@/app/components/common/RequireMark";
+import { useRouter } from "next/navigation";
 
 const FormLoginBasic = () => {
   const [showPassword, setShowPassword] = useState<boolean>(false);
   const [modal, setModal] = useState<any>(null);
+  const [userName, setUserName] = useState("");
+  const [password, setPassword] = useState("");
+  const router = useRouter();
   const {
     control,
     handleSubmit,
@@ -33,15 +37,29 @@ const FormLoginBasic = () => {
       password: "",
     },
   });
-  const onHandleSubmit = async (data: any) => {
+
+  const onHandleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
     try {
-      console.log("Thành công");
-      setModal({});
-    } catch (error: any) {
-    } finally {
+      const response = await fetch("../api/login", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ userName, password }),
+      });
+
+      if (response.ok) {
+        // Login successful, redirect to a protected page
+        router.push("/protected");
+      } else {
+        // Login failed, display an error message
+        alert("Invalid username or password");
+      }
+    } catch (error) {
+      console.error("Error logging in:", error);
     }
   };
-
   const onSubmit = (data: any) => {
     onHandleSubmit(data);
   };
@@ -72,6 +90,8 @@ const FormLoginBasic = () => {
                       variant='outlined'
                       type='text'
                       fullWidth
+                      value={userName}
+                      onChange={e => setUserName(e.target.value)}
                       InputProps={{
                         style: {
                           fontSize: "14px",
@@ -103,6 +123,8 @@ const FormLoginBasic = () => {
                       variant='outlined'
                       type={showPassword ? "text" : "password"}
                       fullWidth
+                      value={password}
+                      onChange={e => setPassword(e.target.value)}
                       InputProps={{
                         style: {
                           fontSize: "14px",

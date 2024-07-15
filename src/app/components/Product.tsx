@@ -1,44 +1,40 @@
 "use client";
-import React, { useState, useEffect } from "react";
-import Image from "next/image";
-import ImageSamSung from "./image-profile/samsung.jpg";
-import ImagePhone from "./image-profile/product2.jpg";
-import StarIcon from "@mui/icons-material/Star";
-import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
-import FavoriteIcon from "@mui/icons-material/Favorite";
-import FilterListIcon from "@mui/icons-material/FilterList";
-import VisibilityIcon from "@mui/icons-material/Visibility";
-import LoyaltyIcon from "@mui/icons-material/Loyalty";
-import Slider from "react-slick";
+import BannerProd from "@/app/components/image-profile/bannerProd2.jpg";
+import ProductNew from "@/app/components/products/ProductNew";
 import banner1 from "@/app/products/banner1.jpg";
+import ClearIcon from "@mui/icons-material/Clear";
+import FavoriteIcon from "@mui/icons-material/Favorite";
+import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
+import FilterListIcon from "@mui/icons-material/FilterList";
+import LocalFireDepartmentIcon from "@mui/icons-material/LocalFireDepartment";
+import LoyaltyIcon from "@mui/icons-material/Loyalty";
+import SearchIcon from "@mui/icons-material/Search";
+import VisibilityIcon from "@mui/icons-material/Visibility";
+import { TextField } from "@mui/material";
+import Dialog from "@mui/material/Dialog";
+import DialogActions from "@mui/material/DialogActions";
+import DialogContent from "@mui/material/DialogContent";
+import Pagination from "@mui/material/Pagination";
+import Stack from "@mui/material/Stack";
+import clsx from "clsx";
+import Image from "next/image";
+import React, { useState } from "react";
+import ReviewStar from "./common/Ratting";
 import banner2 from "./image-profile/banner2.jpg";
 import banner3 from "./image-profile/banner3.jpg";
 import banner4 from "./image-profile/banner4.jpg";
 import banner6 from "./image-profile/banner6.jpg";
-import ImageOppo from "./image-profile/oppo.jpg";
-import ImageXiaomi from "./image-profile/xiaimi.jpg";
 import ImageGoogle from "./image-profile/gg-pxel.jpg";
-import ImageOnePlus from "./image-profile/on-pluss.jpg";
-import ImageRealme from "./image-profile/ralme-gt3.jpg";
-import ImageVivo from "./image-profile/vivo-x90.jpg";
 import ImageHonor from "./image-profile/honor-magic.jpg";
 import ImageIq from "./image-profile/iq-neo8.jpg";
-import clsx from "clsx";
-import SearchIcon from "@mui/icons-material/Search";
-import BannerProd from "@/app/components/image-profile/bannerProd2.jpg";
-import Link from "next/link";
-import ProductNew from "@/app/components/products/ProductNew";
-import LocalFireDepartmentIcon from "@mui/icons-material/LocalFireDepartment";
-import { TextField, Button } from "@mui/material";
-import Pagination from "@mui/material/Pagination";
-import Stack from "@mui/material/Stack";
-import Dialog from "@mui/material/Dialog";
-import DialogActions from "@mui/material/DialogActions";
-import DialogContent from "@mui/material/DialogContent";
-import ClearIcon from "@mui/icons-material/Clear";
+import ImageOnePlus from "./image-profile/on-pluss.jpg";
+import ImageOppo from "./image-profile/oppo.jpg";
+import ImagePhone from "./image-profile/product2.jpg";
+import ImageRealme from "./image-profile/ralme-gt3.jpg";
+import ImageSamSung from "./image-profile/samsung.jpg";
+import ImageVivo from "./image-profile/vivo-x90.jpg";
+import ImageXiaomi from "./image-profile/xiaimi.jpg";
 import ProdDetail from "./products/ProdDetail";
-import axios from "axios";
-import LoadingButton from "@mui/lab";
 const ListNews = () => {
   const bannersData = [
     {
@@ -1017,31 +1013,7 @@ const ListNews = () => {
               <div className='text-[12px] pt-2 h-[46px]'>{el?.info}</div>
               <div className='flex justify-between'>
                 <div>
-                  <StarIcon
-                    sx={{
-                      color: "#f1dc1b",
-                    }}
-                  />
-                  <StarIcon
-                    sx={{
-                      color: "#f1dc1b",
-                    }}
-                  />
-                  <StarIcon
-                    sx={{
-                      color: "#f1dc1b",
-                    }}
-                  />
-                  <StarIcon
-                    sx={{
-                      color: "#f1dc1b",
-                    }}
-                  />
-                  <StarIcon
-                    sx={{
-                      color: "#f1dc1b",
-                    }}
-                  />
+                  <ReviewStar value={0} onChange={handleMouseEnter} />
                 </div>
                 <div
                   className='text-[14px] font-semibold flex justify-between items-center gap-2 cursor-pointer'
