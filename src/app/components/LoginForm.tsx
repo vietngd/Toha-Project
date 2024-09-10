@@ -1,7 +1,6 @@
 "use client";
 import VisibilityIcon from "@mui/icons-material/Visibility";
 import VisibilityOffIcon from "@mui/icons-material/VisibilityOff";
-
 import {
   FormControl,
   FormHelperText,
@@ -14,12 +13,10 @@ import {
 import Link from "next/link";
 import { useState } from "react";
 import { Controller, useForm } from "react-hook-form";
-import RequireMark from "@/app/components/common/RequireMark";
 import { useRouter } from "next/navigation";
 
 const FormLoginBasic = () => {
   const [showPassword, setShowPassword] = useState<boolean>(false);
-  const [modal, setModal] = useState<any>(null);
   const [userName, setUserName] = useState("");
   const [password, setPassword] = useState("");
   const router = useRouter();
@@ -27,41 +24,41 @@ const FormLoginBasic = () => {
     control,
     handleSubmit,
     formState: { errors },
-    setValue,
-    reset,
-    watch,
-    getValues,
   } = useForm({
     defaultValues: {
       email: "",
       password: "",
     },
   });
+  const fakeLoginAPI = async (
+    userName: string,
+    password: string
+  ): Promise<{ success: boolean; message: string }> => {
+    await new Promise(resolve => setTimeout(resolve, 500));
 
-  const onHandleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
+    if (userName === "abc@gmail.com" && password === "123456") {
+      return { success: true, message: "Login successful" };
+    } else {
+      return { success: false, message: "Invalid username or password" };
+    }
+  };
+  const onHandleSubmit = async () => {
     try {
-      const response = await fetch("../api/login", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ userName, password }),
-      });
+      const response = await fakeLoginAPI(userName, password);
 
-      if (response.ok) {
-        // Login successful, redirect to a protected page
-        router.push("/protected");
+      if (response.success) {
+        alert(response.message);
+        router.push("/home");
       } else {
-        // Login failed, display an error message
-        alert("Invalid username or password");
+        alert(response.message);
       }
     } catch (error) {
       console.error("Error logging in:", error);
+      alert("An error occurred while logging in");
     }
   };
   const onSubmit = (data: any) => {
-    onHandleSubmit(data);
+    onHandleSubmit();
   };
   return (
     <form onSubmit={handleSubmit(onSubmit)}>
@@ -76,11 +73,10 @@ const FormLoginBasic = () => {
               <Controller
                 name='email'
                 control={control}
-                rules={{ required: "Trường thông tin này là bắt buộc" }}
                 render={({ field }) => (
                   <FormControl component='fieldset' fullWidth error={!!errors.email}>
                     <Typography variant='body2' color='initial' fontWeight={600}>
-                      Email <RequireMark />
+                      Email
                     </Typography>
                     <TextField
                       {...field}
@@ -109,11 +105,10 @@ const FormLoginBasic = () => {
               <Controller
                 name='password'
                 control={control}
-                rules={{ required: "Trường thông tin này là bắt buộc" }}
                 render={({ field }) => (
                   <FormControl component='fieldset' fullWidth error={!!errors.password}>
                     <Typography variant='body2' color='initial' fontWeight={600}>
-                      Mật khẩu <RequireMark />
+                      Mật khẩu
                     </Typography>
                     <TextField
                       {...field}
