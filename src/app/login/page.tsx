@@ -1,7 +1,7 @@
 "use client";
 import LoginForm from "@/app/components/LoginForm";
 import BannerLogin from "./bannerLogin.jpg";
-
+import { SnackbarProvider } from "notistack";
 const ClassDetail = () => {
   return (
     <main

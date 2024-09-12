@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useEffect } from "react";
 import { useState } from "react";
 import IconFacebook from "./images/facebook.svg";
 import IconZalo from "./images/zalo.png";
@@ -43,6 +43,7 @@ const HomePage = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
   const [statusDrop, setStatusDrop] = useState<boolean>(true);
   const [showPopUp, setShowPopUp] = useState<boolean>(false);
+
   const handleClick = () => {
     setShowPopUp(!showPopUp);
   };
@@ -56,6 +57,7 @@ const HomePage = () => {
   const handleCloseModal = () => {
     setSelectedImage(null);
   };
+
   const data = [
     {
       id: 1,

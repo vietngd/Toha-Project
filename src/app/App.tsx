@@ -2,6 +2,7 @@
 import Box from "@mui/material/Box";
 import React, { useState } from "react";
 import HomePage from "./components/Home";
+import { ToastContainer } from "react-toastify";
 interface TabPanelProps {
   children?: React.ReactNode;
   index: number;
@@ -42,6 +43,7 @@ const BasicTab = () => {
   return (
     <div>
       <HomePage />
+      <ToastContainer />
     </div>
   );
 };
