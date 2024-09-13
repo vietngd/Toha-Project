@@ -9,9 +9,12 @@
       "inches": "6.55 inches",
       "capacity": "8GB",
       "ram": "64GB",
+      "isFavorite": false,
+
       "cost": "7.990.000đ",
       "price": "5.990.000đ",
       "salePrice": "2.990.000đ",
+      "rating": 3,
       "priceToRam": [
         {
           "ram": "32GB",
@@ -53,7 +56,10 @@
     },
     {
       "id": 2,
+      "rating": 3.5,
       "review": 12,
+      "isFavorite": true,
+
       "title": "Vivo X90 Pro+ 256GB | Chính hãng",
       "imageUrl": "https://img.ws.mms.shopee.vn/7e07f670fe59ab60d9342f737202f026",
       "inches": "6.78 inches",
@@ -102,7 +108,10 @@
     },
     {
       "id": 3,
+      "rating": 3,
       "review": 45,
+      "isFavorite": true,
+
       "title": "Samsung Galaxy S23 Ultra 512GB | Chính hãng",
       "imageUrl": "https://azmobile.net/files/ckeditor/images/h%C3%ACnh%20%E1%BA%A3nh%20%C4%91i%E1%BB%87n%20tho%E1%BA%A1i%20samsung%20sau%20khi%20%C4%91%C6%B0%E1%BB%A3c%20c%C3%A1%20nh%C3%A2n%20h%C3%B3a.jpg",
       "inches": "6.8 inches",
@@ -152,9 +161,12 @@
     },
     {
       "id": 4,
+      "rating": 4,
       "review": 23,
+      "isFavorite": true,
+
       "title": "Xiaomi Mi 13 Pro 256GB | Chính hãng",
-      "imageUrl": "https://cdn-images.vtv.vn/2019/10/10/photo-1-15706463929181755249740.jpg",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ87m6DuNZ-wHb7iLSIUIjiYg6y1K08clmktQ&s",
       "inches": "6.73 inches",
       "capacity": "12GB",
       "ram": "256GB",
@@ -199,6 +211,8 @@
     {
       "id": 5,
       "review": 30,
+      "isFavorite": false,
+      "rating": 5,
       "title": "Sony Xperia 1 IV 256GB | Chính hãng",
       "imageUrl": "https://cdn-www.vinid.net/2020/09/e9e5897c-i%E1%BB%87n-tho%E1%BA%A1i-ch%E1%BB%A5p-%E1%BA%A3nh-%C4%91%E1%BA%B9p.jpg",
       "inches": "6.5 inches",
@@ -239,7 +253,10 @@
     },
     {
       "id": 6,
+      "rating": 4.5,
       "review": 58,
+      "isFavorite": false,
+
       "title": "Asus ROG Phone 6 Pro 512GB | Chính hãng",
       "imageUrl": "https://cdn-www.vinid.net/2020/09/1463ca4c-vsmart-joy-2-.jpg",
       "inches": "6.78 inches",
@@ -276,6 +293,9 @@
     },
     {
       "id": 7,
+      "rating": 5,
+      "isFavorite": true,
+
       "review": 22,
       "title": "Huawei Mate 50 Pro 256GB | Chính hãng",
       "imageUrl": "https://hoanghamobile.com/tin-tuc/wp-content/uploads/2020/03/nhung-smartphone-chup-anh-dep-1.jpg",
@@ -317,6 +337,8 @@
     },
     {
       "id": 8,
+      "rating": 5,
+      "isFavorite": true,
       "review": 37,
       "title": "Oppo Find X5 Pro 256GB | Chính hãng",
       "imageUrl": "https://cdn.nguyenkimmall.com/images/companies/_1/Content/Blog/dien-thoai/top-06-dien-thoai-chup-anh-dep-cho-tin-do-me-song-ao-3.jpg",
@@ -355,6 +377,3949 @@
       "info": "Tặng kèm ốp lưng và sạc nhanh 80W",
       "sale": "20%",
       "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình AMOLED 6,7 inch, độ phân giải QHD+ (3216 x 1440 pixel), tần số quét 120Hz</li><li>Chip Snapdragon 8 Gen 1, kết hợp với 12GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 50MP, camera góc siêu rộng 50MP và camera tele 13MP</li><li>Camera selfie 32MP với chất lượng ảnh chân dung xuất sắc</li><li>Pin 5.000mAh với sạc nhanh 80W, hỗ trợ sạc không dây 50W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.2 và NFC</li></ul>"
+    },
+    {
+      "id": 9,
+      "rating": 4,
+      "isFavorite": false,
+      "review": 28,
+      "title": "Samsung Galaxy S23 Ultra 256GB | Chính hãng",
+      "imageUrl": "https://clickbuy.com.vn/_uploads/pro/xiaomi-redmi-13-4g-6gb-128gb-chinh-hang-1977430198.jpg",
+      "inches": "6.8 inches",
+      "capacity": "12GB",
+      "ram": "256GB",
+      "cost": "22.990.000đ",
+      "price": "18.990.000đ",
+      "salePrice": "4.000.000đ",
+      "priceToRam": [
+        {
+          "ram": "128GB",
+          "price": "19.990.000đ",
+          "count": 4
+        },
+        {
+          "ram": "256GB",
+          "price": "22.990.000đ",
+          "count": 6
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "20.990.000đ"
+        },
+        {
+          "color": "Trắng",
+          "price": "21.990.000đ"
+        },
+        {
+          "color": "Xanh dương",
+          "price": "22.990.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "15%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình Dynamic AMOLED 6,8 inch, độ phân giải WQHD+ (3088 x 1440 pixel), tần số quét 120Hz</li><li>Chip Exynos 2200, kết hợp với 12GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 108MP, camera góc siêu rộng 12MP và camera tele 10MP</li><li>Camera selfie 40MP với chế độ chụp chân dung nâng cao</li><li>Pin 5.000mAh với sạc nhanh 45W, hỗ trợ sạc không dây 15W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6E, Bluetooth 5.2 và NFC</li></ul>"
+    },
+    {
+      "id": 10,
+      "rating": 4,
+      "isFavorite": true,
+      "review": 22,
+      "title": "Xiaomi Mi 13 Pro 256GB | Chính hãng",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ87m6DuNZ-wHb7iLSIUIjiYg6y1K08clmktQ&s",
+      "inches": "6.73 inches",
+      "capacity": "12GB",
+      "ram": "256GB",
+      "cost": "18.490.000đ",
+      "price": "14.990.000đ",
+      "salePrice": "3.500.000đ",
+      "priceToRam": [
+        {
+          "ram": "128GB",
+          "price": "16.490.000đ",
+          "count": 3
+        },
+        {
+          "ram": "256GB",
+          "price": "18.490.000đ",
+          "count": 5
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "17.490.000đ"
+        },
+        {
+          "color": "Trắng",
+          "price": "17.990.000đ"
+        },
+        {
+          "color": "Xanh",
+          "price": "18.490.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "19%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình AMOLED 6,73 inch, độ phân giải 2K (3200 x 1440 pixel), tần số quét 120Hz</li><li>Chip Snapdragon 8 Gen 2, kết hợp với 12GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 50MP, camera góc siêu rộng 50MP và camera tele 50MP</li><li>Camera selfie 32MP với khả năng chụp đẹp trong điều kiện ánh sáng yếu</li><li>Pin 4.820mAh với sạc nhanh 120W, hỗ trợ sạc không dây 50W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.3 và NFC</li></ul>"
+    },
+    {
+      "id": 11,
+      "rating": 3,
+      "isFavorite": false,
+      "review": 15,
+      "title": "OnePlus 11 Pro 256GB | Chính hãng",
+      "imageUrl": "https://cdn.britannica.com/01/178901-050-FF5C52B1/iPhone-6-2014.jpg",
+      "inches": "6.7 inches",
+      "capacity": "16GB",
+      "ram": "256GB",
+      "cost": "21.990.000đ",
+      "price": "17.990.000đ",
+      "salePrice": "4.000.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "21.990.000đ",
+          "count": 6
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "19.990.000đ"
+        },
+        {
+          "color": "Xanh lá",
+          "price": "20.990.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và tai nghe không dây",
+      "sale": "18%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình AMOLED 6,7 inch, độ phân giải QHD+ (3216 x 1440 pixel), tần số quét 120Hz</li><li>Chip Snapdragon 8 Gen 2, kết hợp với 16GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 50MP, camera góc siêu rộng 48MP và camera tele 32MP</li><li>Camera selfie 16MP với chất lượng ảnh sắc nét</li><li>Pin 5.000mAh với sạc nhanh 80W, hỗ trợ sạc không dây 50W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.3 và NFC</li></ul>"
+    },
+    {
+      "id": 12,
+      "rating": 4,
+      "isFavorite": true,
+      "review": 30,
+      "title": "Huawei P60 Pro 256GB | Chính hãng",
+      "imageUrl": "https://cdn.nguyenkimmall.com/images/companies/_1/Content/Blog/dien-thoai/huawei-p60-pro.jpg",
+      "inches": "6.6 inches",
+      "capacity": "12GB",
+      "ram": "256GB",
+      "cost": "20.490.000đ",
+      "price": "16.990.000đ",
+      "salePrice": "3.500.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "20.490.000đ",
+          "count": 4
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Tím",
+          "price": "18.990.000đ"
+        },
+        {
+          "color": "Xanh dương",
+          "price": "19.490.000đ"
+        },
+        {
+          "color": "Đen",
+          "price": "20.490.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "17%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình OLED 6,6 inch, độ phân giải QHD+ (2700 x 1220 pixel), tần số quét 120Hz</li><li>Chip Kirin 9000, kết hợp với 12GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 50MP, camera góc siêu rộng 20MP và camera tele 12MP</li><li>Camera selfie 32MP với chế độ làm đẹp AI</li><li>Pin 4.600mAh với sạc nhanh 66W, hỗ trợ sạc không dây 50W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.2 và NFC</li></ul>"
+    },
+    {
+      "id": 13,
+      "rating": 5,
+      "isFavorite": true,
+      "review": 45,
+      "title": "Sony Xperia 1 IV 256GB | Chính hãng",
+      "imageUrl": "https://cdn.nguyenkimmall.com/images/companies/_1/Content/Blog/dien-thoai/sony-xperia-1-iv.jpg",
+      "inches": "6.5 inches",
+      "capacity": "12GB",
+      "ram": "256GB",
+      "cost": "23.990.000đ",
+      "price": "19.990.000đ",
+      "salePrice": "4.000.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "23.990.000đ",
+          "count": 5
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "21.990.000đ"
+        },
+        {
+          "color": "Bạc",
+          "price": "22.990.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và tai nghe không dây",
+      "sale": "16%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình OLED 6,5 inch, độ phân giải 4K (3840 x 1644 pixel), tần số quét 120Hz</li><li>Chip Snapdragon 8 Gen 1, kết hợp với 12GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 12MP, camera góc siêu rộng 12MP và camera tele 12MP</li><li>Camera selfie 8MP với khả năng chụp ảnh 4K</li><li>Pin 5.000mAh với sạc nhanh 30W, hỗ trợ sạc không dây 15W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.2 và NFC</li></ul>"
+    },
+    {
+      "id": 14,
+      "rating": 4,
+      "isFavorite": false,
+      "review": 18,
+      "title": "Realme GT 2 Pro 256GB | Chính hãng",
+      "imageUrl": "https://shopdunk.com/images/thumbs/0012265_iphone-13-pro-max.png",
+      "inches": "6.7 inches",
+      "capacity": "12GB",
+      "ram": "256GB",
+      "cost": "17.990.000đ",
+      "price": "14.490.000đ",
+      "salePrice": "3.500.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "17.990.000đ",
+          "count": 4
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Xanh dương",
+          "price": "15.990.000đ"
+        },
+        {
+          "color": "Trắng",
+          "price": "16.490.000đ"
+        },
+        {
+          "color": "Đen",
+          "price": "17.990.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "20%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình AMOLED 6,7 inch, độ phân giải QHD+ (3216 x 1440 pixel), tần số quét 120Hz</li><li>Chip Snapdragon 8 Gen 1, kết hợp với 12GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 50MP, camera góc siêu rộng 50MP và camera macro 2MP</li><li>Camera selfie 32MP với khả năng chụp ảnh sắc nét</li><li>Pin 5.000mAh với sạc nhanh 65W, hỗ trợ sạc không dây 50W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.2 và NFC</li></ul>"
+    },
+    {
+      "id": 15,
+      "rating": 3,
+      "isFavorite": true,
+      "review": 25,
+      "title": "Asus ROG Phone 6 256GB | Chính hãng",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7Yref8JlovhtYFW_5G59jcNBCf5giaWq-MA&s",
+      "inches": "6.78 inches",
+      "capacity": "16GB",
+      "ram": "256GB",
+      "cost": "24.990.000đ",
+      "price": "20.990.000đ",
+      "salePrice": "4.000.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "24.990.000đ",
+          "count": 5
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "22.990.000đ"
+        },
+        {
+          "color": "Trắng",
+          "price": "23.990.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và quạt làm mát",
+      "sale": "16%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình AMOLED 6,78 inch, độ phân giải Full HD+ (2448 x 1080 pixel), tần số quét 165Hz</li><li>Chip Snapdragon 8+ Gen 1, kết hợp với 16GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 50MP, camera góc siêu rộng 13MP và camera macro 5MP</li><li>Camera selfie 12MP với khả năng chụp ảnh rõ nét</li><li>Pin 6.000mAh với sạc nhanh 65W, hỗ trợ sạc không dây 15W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.3 và NFC</li></ul>"
+    },
+    {
+      "id": 16,
+      "rating": 4,
+      "isFavorite": false,
+      "review": 17,
+      "title": "Nokia X60 Pro 256GB | Chính hãng",
+      "imageUrl": "https://shopdunk.com/images/thumbs/0012265_iphone-13-pro-max.png",
+      "inches": "6.5 inches",
+      "capacity": "8GB",
+      "ram": "256GB",
+      "cost": "15.990.000đ",
+      "price": "13.490.000đ",
+      "salePrice": "2.500.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "15.990.000đ",
+          "count": 4
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Xám",
+          "price": "13.990.000đ"
+        },
+        {
+          "color": "Xanh dương",
+          "price": "14.490.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "16%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình AMOLED 6,5 inch, độ phân giải Full HD+ (2400 x 1080 pixel), tần số quét 120Hz</li><li>Chip Snapdragon 778G, kết hợp với 8GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 64MP, camera góc siêu rộng 12MP và camera macro 5MP</li><li>Camera selfie 24MP với khả năng chụp ảnh đẹp</li><li>Pin 4.500mAh với sạc nhanh 33W, hỗ trợ sạc không dây 15W</li><li>Thiết kế chống nước và bụi chuẩn IP67</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.2 và NFC</li></ul>"
+    },
+    {
+      "id": 17,
+      "rating": 4,
+      "isFavorite": true,
+      "review": 20,
+      "title": "Oppo Reno 8 Pro 256GB | Chính hãng",
+      "imageUrl": "https://cdn11.dienmaycholon.vn/filewebdmclnew/DMCL21/Picture//Apro/Apro_product_33035/iphone-15-128gb_multi_0_484_450.png.webp",
+      "inches": "6.7 inches",
+      "capacity": "12GB",
+      "ram": "256GB",
+      "cost": "19.490.000đ",
+      "price": "16.990.000đ",
+      "salePrice": "2.500.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "19.490.000đ",
+          "count": 4
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "17.990.000đ"
+        },
+        {
+          "color": "Trắng",
+          "price": "18.490.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "13%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình AMOLED 6,7 inch, độ phân giải Full HD+ (2412 x 1080 pixel), tần số quét 120Hz</li><li>Chip Dimensity 8100, kết hợp với 12GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 50MP, camera góc siêu rộng 8MP và camera macro 2MP</li><li>Camera selfie 32MP với khả năng chụp ảnh sắc nét</li><li>Pin 4.500mAh với sạc nhanh 80W, hỗ trợ sạc không dây 50W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.2 và NFC</li></ul>"
+    },
+    {
+      "id": 18,
+      "rating": 5,
+      "isFavorite": true,
+      "review": 37,
+      "title": "Apple iPhone 13 Pro Max 256GB | Chính hãng",
+      "imageUrl": "https://cdn-v2.didongviet.vn/files/products/2023/4/9/1/1683605592281_thumb_iphone_11_didongviet.jpg",
+      "inches": "6.7 inches",
+      "capacity": "8GB",
+      "ram": "256GB",
+      "cost": "29.990.000đ",
+      "price": "24.990.000đ",
+      "salePrice": "5.000.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "29.990.000đ",
+          "count": 4
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "26.990.000đ"
+        },
+        {
+          "color": "Bạc",
+          "price": "27.990.000đ"
+        },
+        {
+          "color": "Tím",
+          "price": "29.990.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng chính hãng",
+      "sale": "16%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình Super Retina XDR 6,7 inch, độ phân giải 2778 x 1284 pixel, tần số quét 120Hz</li><li>Chip A16 Bionic, kết hợp với 8GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 48MP, camera góc siêu rộng 12MP và camera tele 12MP</li><li>Camera selfie 12MP với chế độ chụp Portrait</li><li>Pin 4.323mAh với sạc nhanh 20W, hỗ trợ sạc không dây 15W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.3 và NFC</li></ul>"
+    },
+    {
+      "id": 19,
+      "rating": 3,
+      "isFavorite": false,
+      "review": 12,
+      "title": "Vivo X80 Pro 256GB | Chính hãng",
+      "imageUrl": "https://lh4.googleusercontent.com/proxy/8zdsxPfk__BkHBaiuSY5Zq2uSvPQgC8y9d30h9BxCI5NgFAX1H15uAaKMzdJX-AR-zdSwWA4245NWpWlGqvzLZJiWu7aFksKWIaif_CTQpD7z9Q50GaA0rY9RZT0zhPqVA",
+      "inches": "6.78 inches",
+      "capacity": "12GB",
+      "ram": "256GB",
+      "cost": "22.990.000đ",
+      "price": "18.990.000đ",
+      "salePrice": "4.000.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "22.990.000đ",
+          "count": 4
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Xanh",
+          "price": "20.990.000đ"
+        },
+        {
+          "color": "Đen",
+          "price": "21.490.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "17%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình AMOLED 6,78 inch, độ phân giải 2K (3200 x 1440 pixel), tần số quét 120Hz</li><li>Chip Snapdragon 8 Gen 1, kết hợp với 12GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 50MP, camera góc siêu rộng 48MP và camera tele 12MP</li><li>Camera selfie 32MP với khả năng chụp ảnh sắc nét</li><li>Pin 4.700mAh với sạc nhanh 80W, hỗ trợ sạc không dây 50W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.2 và NFC</li></ul>"
+    },
+    {
+      "id": 20,
+      "rating": 4,
+      "isFavorite": true,
+      "review": 27,
+      "title": "LG V60 ThinQ 256GB | Chính hãng",
+      "imageUrl": "https://didongalpha.vn/wp-content/uploads/2022/07/4919407_LG_V60_thinq_5G_tinhte_3-600x400.jpg",
+      "inches": "6.8 inches",
+      "capacity": "8GB",
+      "ram": "256GB",
+      "cost": "17.490.000đ",
+      "price": "13.990.000đ",
+      "salePrice": "3.500.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "17.490.000đ",
+          "count": 4
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "15.990.000đ"
+        },
+        {
+          "color": "Trắng",
+          "price": "16.490.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "20%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình OLED 6,8 inch, độ phân giải QHD+ (2560 x 1440 pixel), tần số quét 60Hz</li><li>Chip Snapdragon 865, kết hợp với 8GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 64MP, camera góc siêu rộng 13MP và camera TOF 3D</li><li>Camera selfie 10MP với chế độ chụp ảnh chân dung</li><li>Pin 5.000mAh với sạc nhanh 25W, hỗ trợ sạc không dây 15W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.1 và NFC</li></ul>"
+    },
+    {
+      "id": 9,
+      "rating": 4,
+      "isFavorite": false,
+      "review": 28,
+      "title": "Samsung Galaxy S23 Ultra 256GB | Chính hãng",
+      "imageUrl": "https://clickbuy.com.vn/_uploads/pro/xiaomi-redmi-13-4g-6gb-128gb-chinh-hang-1977430198.jpg",
+      "inches": "6.8 inches",
+      "capacity": "12GB",
+      "ram": "256GB",
+      "cost": "22.990.000đ",
+      "price": "18.990.000đ",
+      "salePrice": "4.000.000đ",
+      "priceToRam": [
+        {
+          "ram": "128GB",
+          "price": "19.990.000đ",
+          "count": 4
+        },
+        {
+          "ram": "256GB",
+          "price": "22.990.000đ",
+          "count": 6
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "20.990.000đ"
+        },
+        {
+          "color": "Trắng",
+          "price": "21.990.000đ"
+        },
+        {
+          "color": "Xanh dương",
+          "price": "22.990.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "15%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình Dynamic AMOLED 6,8 inch, độ phân giải WQHD+ (3088 x 1440 pixel), tần số quét 120Hz</li><li>Chip Exynos 2200, kết hợp với 12GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 108MP, camera góc siêu rộng 12MP và camera tele 10MP</li><li>Camera selfie 40MP với chế độ chụp chân dung nâng cao</li><li>Pin 5.000mAh với sạc nhanh 45W, hỗ trợ sạc không dây 15W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6E, Bluetooth 5.2 và NFC</li></ul>"
+    },
+    {
+      "id": 10,
+      "rating": 4,
+      "isFavorite": true,
+      "review": 22,
+      "title": "Xiaomi Mi 13 Pro 256GB | Chính hãng",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ87m6DuNZ-wHb7iLSIUIjiYg6y1K08clmktQ&s",
+      "inches": "6.73 inches",
+      "capacity": "12GB",
+      "ram": "256GB",
+      "cost": "18.490.000đ",
+      "price": "14.990.000đ",
+      "salePrice": "3.500.000đ",
+      "priceToRam": [
+        {
+          "ram": "128GB",
+          "price": "16.490.000đ",
+          "count": 3
+        },
+        {
+          "ram": "256GB",
+          "price": "18.490.000đ",
+          "count": 5
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "17.490.000đ"
+        },
+        {
+          "color": "Trắng",
+          "price": "17.990.000đ"
+        },
+        {
+          "color": "Xanh",
+          "price": "18.490.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "19%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình AMOLED 6,73 inch, độ phân giải 2K (3200 x 1440 pixel), tần số quét 120Hz</li><li>Chip Snapdragon 8 Gen 2, kết hợp với 12GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 50MP, camera góc siêu rộng 50MP và camera tele 50MP</li><li>Camera selfie 32MP với khả năng chụp đẹp trong điều kiện ánh sáng yếu</li><li>Pin 4.820mAh với sạc nhanh 120W, hỗ trợ sạc không dây 50W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.3 và NFC</li></ul>"
+    },
+    {
+      "id": 11,
+      "rating": 3,
+      "isFavorite": false,
+      "review": 15,
+      "title": "OnePlus 11 Pro 256GB | Chính hãng",
+      "imageUrl": "https://cdn.britannica.com/01/178901-050-FF5C52B1/iPhone-6-2014.jpg",
+      "inches": "6.7 inches",
+      "capacity": "16GB",
+      "ram": "256GB",
+      "cost": "21.990.000đ",
+      "price": "17.990.000đ",
+      "salePrice": "4.000.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "21.990.000đ",
+          "count": 6
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "19.990.000đ"
+        },
+        {
+          "color": "Xanh lá",
+          "price": "20.990.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và tai nghe không dây",
+      "sale": "18%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình AMOLED 6,7 inch, độ phân giải QHD+ (3216 x 1440 pixel), tần số quét 120Hz</li><li>Chip Snapdragon 8 Gen 2, kết hợp với 16GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 50MP, camera góc siêu rộng 48MP và camera tele 32MP</li><li>Camera selfie 16MP với chất lượng ảnh sắc nét</li><li>Pin 5.000mAh với sạc nhanh 80W, hỗ trợ sạc không dây 50W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.3 và NFC</li></ul>"
+    },
+    {
+      "id": 12,
+      "rating": 4,
+      "isFavorite": true,
+      "review": 30,
+      "title": "Huawei P60 Pro 256GB | Chính hãng",
+      "imageUrl": "https://cdn.nguyenkimmall.com/images/companies/_1/Content/Blog/dien-thoai/huawei-p60-pro.jpg",
+      "inches": "6.6 inches",
+      "capacity": "12GB",
+      "ram": "256GB",
+      "cost": "20.490.000đ",
+      "price": "16.990.000đ",
+      "salePrice": "3.500.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "20.490.000đ",
+          "count": 4
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Tím",
+          "price": "18.990.000đ"
+        },
+        {
+          "color": "Xanh dương",
+          "price": "19.490.000đ"
+        },
+        {
+          "color": "Đen",
+          "price": "20.490.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "17%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình OLED 6,6 inch, độ phân giải QHD+ (2700 x 1220 pixel), tần số quét 120Hz</li><li>Chip Kirin 9000, kết hợp với 12GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 50MP, camera góc siêu rộng 20MP và camera tele 12MP</li><li>Camera selfie 32MP với chế độ làm đẹp AI</li><li>Pin 4.600mAh với sạc nhanh 66W, hỗ trợ sạc không dây 50W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.2 và NFC</li></ul>"
+    },
+    {
+      "id": 13,
+      "rating": 5,
+      "isFavorite": true,
+      "review": 45,
+      "title": "Sony Xperia 1 IV 256GB | Chính hãng",
+      "imageUrl": "https://cdn.nguyenkimmall.com/images/companies/_1/Content/Blog/dien-thoai/sony-xperia-1-iv.jpg",
+      "inches": "6.5 inches",
+      "capacity": "12GB",
+      "ram": "256GB",
+      "cost": "23.990.000đ",
+      "price": "19.990.000đ",
+      "salePrice": "4.000.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "23.990.000đ",
+          "count": 5
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "21.990.000đ"
+        },
+        {
+          "color": "Bạc",
+          "price": "22.990.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và tai nghe không dây",
+      "sale": "16%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình OLED 6,5 inch, độ phân giải 4K (3840 x 1644 pixel), tần số quét 120Hz</li><li>Chip Snapdragon 8 Gen 1, kết hợp với 12GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 12MP, camera góc siêu rộng 12MP và camera tele 12MP</li><li>Camera selfie 8MP với khả năng chụp ảnh 4K</li><li>Pin 5.000mAh với sạc nhanh 30W, hỗ trợ sạc không dây 15W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.2 và NFC</li></ul>"
+    },
+    {
+      "id": 14,
+      "rating": 4,
+      "isFavorite": false,
+      "review": 18,
+      "title": "Realme GT 2 Pro 256GB | Chính hãng",
+      "imageUrl": "https://shopdunk.com/images/thumbs/0012265_iphone-13-pro-max.png",
+      "inches": "6.7 inches",
+      "capacity": "12GB",
+      "ram": "256GB",
+      "cost": "17.990.000đ",
+      "price": "14.490.000đ",
+      "salePrice": "3.500.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "17.990.000đ",
+          "count": 4
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Xanh dương",
+          "price": "15.990.000đ"
+        },
+        {
+          "color": "Trắng",
+          "price": "16.490.000đ"
+        },
+        {
+          "color": "Đen",
+          "price": "17.990.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "20%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình AMOLED 6,7 inch, độ phân giải QHD+ (3216 x 1440 pixel), tần số quét 120Hz</li><li>Chip Snapdragon 8 Gen 1, kết hợp với 12GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 50MP, camera góc siêu rộng 50MP và camera macro 2MP</li><li>Camera selfie 32MP với khả năng chụp ảnh sắc nét</li><li>Pin 5.000mAh với sạc nhanh 65W, hỗ trợ sạc không dây 50W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.2 và NFC</li></ul>"
+    },
+    {
+      "id": 15,
+      "rating": 3,
+      "isFavorite": true,
+      "review": 25,
+      "title": "Asus ROG 12 256GB | Chính hãng",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7Yref8JlovhtYFW_5G59jcNBCf5giaWq-MA&s",
+      "inches": "6.78 inches",
+      "capacity": "16GB",
+      "ram": "256GB",
+      "cost": "24.990.000đ",
+      "price": "20.990.000đ",
+      "salePrice": "4.000.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "24.990.000đ",
+          "count": 5
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "22.990.000đ"
+        },
+        {
+          "color": "Trắng",
+          "price": "23.990.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và quạt làm mát",
+      "sale": "16%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình AMOLED 6,78 inch, độ phân giải Full HD+ (2448 x 1080 pixel), tần số quét 165Hz</li><li>Chip Snapdragon 8+ Gen 1, kết hợp với 16GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 50MP, camera góc siêu rộng 13MP và camera macro 5MP</li><li>Camera selfie 12MP với khả năng chụp ảnh rõ nét</li><li>Pin 6.000mAh với sạc nhanh 65W, hỗ trợ sạc không dây 15W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.3 và NFC</li></ul>"
+    },
+    {
+      "id": 16,
+      "rating": 4,
+      "isFavorite": false,
+      "review": 17,
+      "title": "Nokia X60 Pro 256GB | Chính hãng",
+      "imageUrl": "https://shopdunk.com/images/thumbs/0012265_iphone-13-pro-max.png",
+      "inches": "6.5 inches",
+      "capacity": "8GB",
+      "ram": "256GB",
+      "cost": "15.990.000đ",
+      "price": "13.490.000đ",
+      "salePrice": "2.500.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "15.990.000đ",
+          "count": 4
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Xám",
+          "price": "13.990.000đ"
+        },
+        {
+          "color": "Xanh dương",
+          "price": "14.490.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "16%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình AMOLED 6,5 inch, độ phân giải Full HD+ (2400 x 1080 pixel), tần số quét 120Hz</li><li>Chip Snapdragon 778G, kết hợp với 8GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 64MP, camera góc siêu rộng 12MP và camera macro 5MP</li><li>Camera selfie 24MP với khả năng chụp ảnh đẹp</li><li>Pin 4.500mAh với sạc nhanh 33W, hỗ trợ sạc không dây 15W</li><li>Thiết kế chống nước và bụi chuẩn IP67</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.2 và NFC</li></ul>"
+    },
+    {
+      "id": 17,
+      "rating": 4,
+      "isFavorite": true,
+      "review": 20,
+      "title": "Oppo Reno 8 Pro 256GB | Chính hãng",
+      "imageUrl": "https://cdn11.dienmaycholon.vn/filewebdmclnew/DMCL21/Picture//Apro/Apro_product_33035/iphone-15-128gb_multi_0_484_450.png.webp",
+      "inches": "6.7 inches",
+      "capacity": "12GB",
+      "ram": "256GB",
+      "cost": "19.490.000đ",
+      "price": "16.990.000đ",
+      "salePrice": "2.500.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "19.490.000đ",
+          "count": 4
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "17.990.000đ"
+        },
+        {
+          "color": "Trắng",
+          "price": "18.490.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "13%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình AMOLED 6,7 inch, độ phân giải Full HD+ (2412 x 1080 pixel), tần số quét 120Hz</li><li>Chip Dimensity 8100, kết hợp với 12GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 50MP, camera góc siêu rộng 8MP và camera macro 2MP</li><li>Camera selfie 32MP với khả năng chụp ảnh sắc nét</li><li>Pin 4.500mAh với sạc nhanh 80W, hỗ trợ sạc không dây 50W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.2 và NFC</li></ul>"
+    },
+    {
+      "id": 18,
+      "rating": 5,
+      "isFavorite": true,
+      "review": 37,
+      "title": "Apple iPhone 14 Pro Max 128GB | Chính hãng",
+      "imageUrl": "https://cdn-v2.didongviet.vn/files/products/2023/4/9/1/1683605592281_thumb_iphone_11_didongviet.jpg",
+      "inches": "6.7 inches",
+      "capacity": "8GB",
+      "ram": "256GB",
+      "cost": "29.990.000đ",
+      "price": "24.990.000đ",
+      "salePrice": "5.000.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "29.990.000đ",
+          "count": 4
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "26.990.000đ"
+        },
+        {
+          "color": "Bạc",
+          "price": "27.990.000đ"
+        },
+        {
+          "color": "Tím",
+          "price": "29.990.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng chính hãng",
+      "sale": "16%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình Super Retina XDR 6,7 inch, độ phân giải 2778 x 1284 pixel, tần số quét 120Hz</li><li>Chip A16 Bionic, kết hợp với 8GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 48MP, camera góc siêu rộng 12MP và camera tele 12MP</li><li>Camera selfie 12MP với chế độ chụp Portrait</li><li>Pin 4.323mAh với sạc nhanh 20W, hỗ trợ sạc không dây 15W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.3 và NFC</li></ul>"
+    },
+    {
+      "id": 19,
+      "rating": 3,
+      "isFavorite": false,
+      "review": 12,
+      "title": "Vivo X80 Pro 256GB | Chính hãng",
+      "imageUrl": "https://lh4.googleusercontent.com/proxy/8zdsxPfk__BkHBaiuSY5Zq2uSvPQgC8y9d30h9BxCI5NgFAX1H15uAaKMzdJX-AR-zdSwWA4245NWpWlGqvzLZJiWu7aFksKWIaif_CTQpD7z9Q50GaA0rY9RZT0zhPqVA",
+      "inches": "6.78 inches",
+      "capacity": "12GB",
+      "ram": "256GB",
+      "cost": "22.990.000đ",
+      "price": "18.990.000đ",
+      "salePrice": "4.000.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "22.990.000đ",
+          "count": 4
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Xanh",
+          "price": "20.990.000đ"
+        },
+        {
+          "color": "Đen",
+          "price": "21.490.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "17%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình AMOLED 6,78 inch, độ phân giải 2K (3200 x 1440 pixel), tần số quét 120Hz</li><li>Chip Snapdragon 8 Gen 1, kết hợp với 12GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 50MP, camera góc siêu rộng 48MP và camera tele 12MP</li><li>Camera selfie 32MP với khả năng chụp ảnh sắc nét</li><li>Pin 4.700mAh với sạc nhanh 80W, hỗ trợ sạc không dây 50W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.2 và NFC</li></ul>"
+    },
+    {
+      "id": 20,
+      "rating": 4,
+      "isFavorite": true,
+      "review": 27,
+      "title": "LG V60 ThinQ 256GB | Chính hãng",
+      "imageUrl": "https://didongalpha.vn/wp-content/uploads/2022/07/4919407_LG_V60_thinq_5G_tinhte_3-600x400.jpg",
+      "inches": "6.8 inches",
+      "capacity": "8GB",
+      "ram": "256GB",
+      "cost": "17.490.000đ",
+      "price": "13.990.000đ",
+      "salePrice": "3.500.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "17.490.000đ",
+          "count": 4
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "15.990.000đ"
+        },
+        {
+          "color": "Trắng",
+          "price": "16.490.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "20%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình OLED 6,8 inch, độ phân giải QHD+ (2560 x 1440 pixel), tần số quét 60Hz</li><li>Chip Snapdragon 865, kết hợp với 8GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 64MP, camera góc siêu rộng 13MP và camera TOF 3D</li><li>Camera selfie 10MP với chế độ chụp ảnh chân dung</li><li>Pin 5.000mAh với sạc nhanh 25W, hỗ trợ sạc không dây 15W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.1 và NFC</li></ul>"
+    },
+    {
+      "id": 9,
+      "rating": 4,
+      "isFavorite": false,
+      "review": 28,
+      "title": "Samsung Galaxy S23 Ultra 256GB | Chính hãng",
+      "imageUrl": "https://clickbuy.com.vn/_uploads/pro/xiaomi-redmi-13-4g-6gb-128gb-chinh-hang-1977430198.jpg",
+      "inches": "6.8 inches",
+      "capacity": "12GB",
+      "ram": "256GB",
+      "cost": "22.990.000đ",
+      "price": "18.990.000đ",
+      "salePrice": "4.000.000đ",
+      "priceToRam": [
+        {
+          "ram": "128GB",
+          "price": "19.990.000đ",
+          "count": 4
+        },
+        {
+          "ram": "256GB",
+          "price": "22.990.000đ",
+          "count": 6
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "20.990.000đ"
+        },
+        {
+          "color": "Trắng",
+          "price": "21.990.000đ"
+        },
+        {
+          "color": "Xanh dương",
+          "price": "22.990.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "15%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình Dynamic AMOLED 6,8 inch, độ phân giải WQHD+ (3088 x 1440 pixel), tần số quét 120Hz</li><li>Chip Exynos 2200, kết hợp với 12GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 108MP, camera góc siêu rộng 12MP và camera tele 10MP</li><li>Camera selfie 40MP với chế độ chụp chân dung nâng cao</li><li>Pin 5.000mAh với sạc nhanh 45W, hỗ trợ sạc không dây 15W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6E, Bluetooth 5.2 và NFC</li></ul>"
+    },
+    {
+      "id": 10,
+      "rating": 4,
+      "isFavorite": true,
+      "review": 22,
+      "title": "Xiaomi Mi 13 Pro 256GB | Chính hãng",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ87m6DuNZ-wHb7iLSIUIjiYg6y1K08clmktQ&s",
+      "inches": "6.73 inches",
+      "capacity": "12GB",
+      "ram": "256GB",
+      "cost": "18.490.000đ",
+      "price": "14.990.000đ",
+      "salePrice": "3.500.000đ",
+      "priceToRam": [
+        {
+          "ram": "128GB",
+          "price": "16.490.000đ",
+          "count": 3
+        },
+        {
+          "ram": "256GB",
+          "price": "18.490.000đ",
+          "count": 5
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "17.490.000đ"
+        },
+        {
+          "color": "Trắng",
+          "price": "17.990.000đ"
+        },
+        {
+          "color": "Xanh",
+          "price": "18.490.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "19%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình AMOLED 6,73 inch, độ phân giải 2K (3200 x 1440 pixel), tần số quét 120Hz</li><li>Chip Snapdragon 8 Gen 2, kết hợp với 12GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 50MP, camera góc siêu rộng 50MP và camera tele 50MP</li><li>Camera selfie 32MP với khả năng chụp đẹp trong điều kiện ánh sáng yếu</li><li>Pin 4.820mAh với sạc nhanh 120W, hỗ trợ sạc không dây 50W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.3 và NFC</li></ul>"
+    },
+    {
+      "id": 11,
+      "rating": 3,
+      "isFavorite": false,
+      "review": 15,
+      "title": "OnePlus 11 Pro 256GB | Chính hãng",
+      "imageUrl": "https://cdn.britannica.com/01/178901-050-FF5C52B1/iPhone-6-2014.jpg",
+      "inches": "6.7 inches",
+      "capacity": "16GB",
+      "ram": "256GB",
+      "cost": "21.990.000đ",
+      "price": "17.990.000đ",
+      "salePrice": "4.000.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "21.990.000đ",
+          "count": 6
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "19.990.000đ"
+        },
+        {
+          "color": "Xanh lá",
+          "price": "20.990.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và tai nghe không dây",
+      "sale": "18%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình AMOLED 6,7 inch, độ phân giải QHD+ (3216 x 1440 pixel), tần số quét 120Hz</li><li>Chip Snapdragon 8 Gen 2, kết hợp với 16GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 50MP, camera góc siêu rộng 48MP và camera tele 32MP</li><li>Camera selfie 16MP với chất lượng ảnh sắc nét</li><li>Pin 5.000mAh với sạc nhanh 80W, hỗ trợ sạc không dây 50W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.3 và NFC</li></ul>"
+    },
+    {
+      "id": 12,
+      "rating": 4,
+      "isFavorite": true,
+      "review": 30,
+      "title": "Huawei P60 Pro 256GB | Chính hãng",
+      "imageUrl": "https://cdn.nguyenkimmall.com/images/companies/_1/Content/Blog/dien-thoai/huawei-p60-pro.jpg",
+      "inches": "6.6 inches",
+      "capacity": "12GB",
+      "ram": "256GB",
+      "cost": "20.490.000đ",
+      "price": "16.990.000đ",
+      "salePrice": "3.500.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "20.490.000đ",
+          "count": 4
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Tím",
+          "price": "18.990.000đ"
+        },
+        {
+          "color": "Xanh dương",
+          "price": "19.490.000đ"
+        },
+        {
+          "color": "Đen",
+          "price": "20.490.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "17%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình OLED 6,6 inch, độ phân giải QHD+ (2700 x 1220 pixel), tần số quét 120Hz</li><li>Chip Kirin 9000, kết hợp với 12GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 50MP, camera góc siêu rộng 20MP và camera tele 12MP</li><li>Camera selfie 32MP với chế độ làm đẹp AI</li><li>Pin 4.600mAh với sạc nhanh 66W, hỗ trợ sạc không dây 50W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.2 và NFC</li></ul>"
+    },
+    {
+      "id": 13,
+      "rating": 5,
+      "isFavorite": true,
+      "review": 45,
+      "title": "Sony Xperia 1 IV 256GB | Chính hãng",
+      "imageUrl": "https://cdn.nguyenkimmall.com/images/companies/_1/Content/Blog/dien-thoai/sony-xperia-1-iv.jpg",
+      "inches": "6.5 inches",
+      "capacity": "12GB",
+      "ram": "256GB",
+      "cost": "23.990.000đ",
+      "price": "19.990.000đ",
+      "salePrice": "4.000.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "23.990.000đ",
+          "count": 5
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "21.990.000đ"
+        },
+        {
+          "color": "Bạc",
+          "price": "22.990.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và tai nghe không dây",
+      "sale": "16%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình OLED 6,5 inch, độ phân giải 4K (3840 x 1644 pixel), tần số quét 120Hz</li><li>Chip Snapdragon 8 Gen 1, kết hợp với 12GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 12MP, camera góc siêu rộng 12MP và camera tele 12MP</li><li>Camera selfie 8MP với khả năng chụp ảnh 4K</li><li>Pin 5.000mAh với sạc nhanh 30W, hỗ trợ sạc không dây 15W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.2 và NFC</li></ul>"
+    },
+    {
+      "id": 14,
+      "rating": 4,
+      "isFavorite": false,
+      "review": 18,
+      "title": "Realme GT 2 Pro 256GB | Chính hãng",
+      "imageUrl": "https://shopdunk.com/images/thumbs/0012265_iphone-13-pro-max.png",
+      "inches": "6.7 inches",
+      "capacity": "12GB",
+      "ram": "256GB",
+      "cost": "17.990.000đ",
+      "price": "14.490.000đ",
+      "salePrice": "3.500.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "17.990.000đ",
+          "count": 4
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Xanh dương",
+          "price": "15.990.000đ"
+        },
+        {
+          "color": "Trắng",
+          "price": "16.490.000đ"
+        },
+        {
+          "color": "Đen",
+          "price": "17.990.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "20%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình AMOLED 6,7 inch, độ phân giải QHD+ (3216 x 1440 pixel), tần số quét 120Hz</li><li>Chip Snapdragon 8 Gen 1, kết hợp với 12GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 50MP, camera góc siêu rộng 50MP và camera macro 2MP</li><li>Camera selfie 32MP với khả năng chụp ảnh sắc nét</li><li>Pin 5.000mAh với sạc nhanh 65W, hỗ trợ sạc không dây 50W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.2 và NFC</li></ul>"
+    },
+    {
+      "id": 15,
+      "rating": 3,
+      "isFavorite": true,
+      "review": 25,
+      "title": "Asus ROG Phone 6 256GB | Chính hãng",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7Yref8JlovhtYFW_5G59jcNBCf5giaWq-MA&s",
+      "inches": "6.78 inches",
+      "capacity": "16GB",
+      "ram": "256GB",
+      "cost": "24.990.000đ",
+      "price": "20.990.000đ",
+      "salePrice": "4.000.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "24.990.000đ",
+          "count": 5
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "22.990.000đ"
+        },
+        {
+          "color": "Trắng",
+          "price": "23.990.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và quạt làm mát",
+      "sale": "16%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình AMOLED 6,78 inch, độ phân giải Full HD+ (2448 x 1080 pixel), tần số quét 165Hz</li><li>Chip Snapdragon 8+ Gen 1, kết hợp với 16GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 50MP, camera góc siêu rộng 13MP và camera macro 5MP</li><li>Camera selfie 12MP với khả năng chụp ảnh rõ nét</li><li>Pin 6.000mAh với sạc nhanh 65W, hỗ trợ sạc không dây 15W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.3 và NFC</li></ul>"
+    },
+    {
+      "id": 16,
+      "rating": 4,
+      "isFavorite": false,
+      "review": 17,
+      "title": "Nokia X60 Pro 256GB | Chính hãng",
+      "imageUrl": "https://shopdunk.com/images/thumbs/0012265_iphone-13-pro-max.png",
+      "inches": "6.5 inches",
+      "capacity": "8GB",
+      "ram": "256GB",
+      "cost": "15.990.000đ",
+      "price": "13.490.000đ",
+      "salePrice": "2.500.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "15.990.000đ",
+          "count": 4
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Xám",
+          "price": "13.990.000đ"
+        },
+        {
+          "color": "Xanh dương",
+          "price": "14.490.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "16%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình AMOLED 6,5 inch, độ phân giải Full HD+ (2400 x 1080 pixel), tần số quét 120Hz</li><li>Chip Snapdragon 778G, kết hợp với 8GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 64MP, camera góc siêu rộng 12MP và camera macro 5MP</li><li>Camera selfie 24MP với khả năng chụp ảnh đẹp</li><li>Pin 4.500mAh với sạc nhanh 33W, hỗ trợ sạc không dây 15W</li><li>Thiết kế chống nước và bụi chuẩn IP67</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.2 và NFC</li></ul>"
+    },
+    {
+      "id": 17,
+      "rating": 4,
+      "isFavorite": true,
+      "review": 20,
+      "title": "Oppo Reno 8 Pro 256GB | Chính hãng",
+      "imageUrl": "https://cdn11.dienmaycholon.vn/filewebdmclnew/DMCL21/Picture//Apro/Apro_product_33035/iphone-15-128gb_multi_0_484_450.png.webp",
+      "inches": "6.7 inches",
+      "capacity": "12GB",
+      "ram": "256GB",
+      "cost": "19.490.000đ",
+      "price": "16.990.000đ",
+      "salePrice": "2.500.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "19.490.000đ",
+          "count": 4
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "17.990.000đ"
+        },
+        {
+          "color": "Trắng",
+          "price": "18.490.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "13%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình AMOLED 6,7 inch, độ phân giải Full HD+ (2412 x 1080 pixel), tần số quét 120Hz</li><li>Chip Dimensity 8100, kết hợp với 12GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 50MP, camera góc siêu rộng 8MP và camera macro 2MP</li><li>Camera selfie 32MP với khả năng chụp ảnh sắc nét</li><li>Pin 4.500mAh với sạc nhanh 80W, hỗ trợ sạc không dây 50W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.2 và NFC</li></ul>"
+    },
+    {
+      "id": 18,
+      "rating": 5,
+      "isFavorite": true,
+      "review": 37,
+      "title": "Apple iPhone 12 Pro Max 256GB | Chính hãng",
+      "imageUrl": "https://cdn-v2.didongviet.vn/files/products/2023/4/9/1/1683605592281_thumb_iphone_11_didongviet.jpg",
+      "inches": "6.7 inches",
+      "capacity": "8GB",
+      "ram": "256GB",
+      "cost": "29.990.000đ",
+      "price": "24.990.000đ",
+      "salePrice": "5.000.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "29.990.000đ",
+          "count": 4
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "26.990.000đ"
+        },
+        {
+          "color": "Bạc",
+          "price": "27.990.000đ"
+        },
+        {
+          "color": "Tím",
+          "price": "29.990.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng chính hãng",
+      "sale": "16%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình Super Retina XDR 6,7 inch, độ phân giải 2778 x 1284 pixel, tần số quét 120Hz</li><li>Chip A16 Bionic, kết hợp với 8GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 48MP, camera góc siêu rộng 12MP và camera tele 12MP</li><li>Camera selfie 12MP với chế độ chụp Portrait</li><li>Pin 4.323mAh với sạc nhanh 20W, hỗ trợ sạc không dây 15W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.3 và NFC</li></ul>"
+    },
+    {
+      "id": 19,
+      "rating": 3,
+      "isFavorite": false,
+      "review": 12,
+      "title": "Vivo X80 Pro 256GB | Chính hãng",
+      "imageUrl": "https://lh4.googleusercontent.com/proxy/8zdsxPfk__BkHBaiuSY5Zq2uSvPQgC8y9d30h9BxCI5NgFAX1H15uAaKMzdJX-AR-zdSwWA4245NWpWlGqvzLZJiWu7aFksKWIaif_CTQpD7z9Q50GaA0rY9RZT0zhPqVA",
+      "inches": "6.78 inches",
+      "capacity": "12GB",
+      "ram": "256GB",
+      "cost": "22.990.000đ",
+      "price": "18.990.000đ",
+      "salePrice": "4.000.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "22.990.000đ",
+          "count": 4
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Xanh",
+          "price": "20.990.000đ"
+        },
+        {
+          "color": "Đen",
+          "price": "21.490.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "17%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình AMOLED 6,78 inch, độ phân giải 2K (3200 x 1440 pixel), tần số quét 120Hz</li><li>Chip Snapdragon 8 Gen 1, kết hợp với 12GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 50MP, camera góc siêu rộng 48MP và camera tele 12MP</li><li>Camera selfie 32MP với khả năng chụp ảnh sắc nét</li><li>Pin 4.700mAh với sạc nhanh 80W, hỗ trợ sạc không dây 50W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.2 và NFC</li></ul>"
+    },
+    {
+      "id": 20,
+      "rating": 4,
+      "isFavorite": true,
+      "review": 27,
+      "title": "LG V60 ThinQ 256GB | Chính hãng",
+      "imageUrl": "https://didongalpha.vn/wp-content/uploads/2022/07/4919407_LG_V60_thinq_5G_tinhte_3-600x400.jpg",
+      "inches": "6.8 inches",
+      "capacity": "8GB",
+      "ram": "256GB",
+      "cost": "17.490.000đ",
+      "price": "13.990.000đ",
+      "salePrice": "3.500.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "17.490.000đ",
+          "count": 4
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "15.990.000đ"
+        },
+        {
+          "color": "Trắng",
+          "price": "16.490.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "20%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình OLED 6,8 inch, độ phân giải QHD+ (2560 x 1440 pixel), tần số quét 60Hz</li><li>Chip Snapdragon 865, kết hợp với 8GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 64MP, camera góc siêu rộng 13MP và camera TOF 3D</li><li>Camera selfie 10MP với chế độ chụp ảnh chân dung</li><li>Pin 5.000mAh với sạc nhanh 25W, hỗ trợ sạc không dây 15W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.1 và NFC</li></ul>"
+    },
+    {
+      "id": 9,
+      "rating": 4,
+      "isFavorite": false,
+      "review": 28,
+      "title": "Samsung Galaxy S23 Ultra 256GB | Chính hãng",
+      "imageUrl": "https://clickbuy.com.vn/_uploads/pro/xiaomi-redmi-13-4g-6gb-128gb-chinh-hang-1977430198.jpg",
+      "inches": "6.8 inches",
+      "capacity": "12GB",
+      "ram": "256GB",
+      "cost": "22.990.000đ",
+      "price": "18.990.000đ",
+      "salePrice": "4.000.000đ",
+      "priceToRam": [
+        {
+          "ram": "128GB",
+          "price": "19.990.000đ",
+          "count": 4
+        },
+        {
+          "ram": "256GB",
+          "price": "22.990.000đ",
+          "count": 6
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "20.990.000đ"
+        },
+        {
+          "color": "Trắng",
+          "price": "21.990.000đ"
+        },
+        {
+          "color": "Xanh dương",
+          "price": "22.990.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "15%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình Dynamic AMOLED 6,8 inch, độ phân giải WQHD+ (3088 x 1440 pixel), tần số quét 120Hz</li><li>Chip Exynos 2200, kết hợp với 12GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 108MP, camera góc siêu rộng 12MP và camera tele 10MP</li><li>Camera selfie 40MP với chế độ chụp chân dung nâng cao</li><li>Pin 5.000mAh với sạc nhanh 45W, hỗ trợ sạc không dây 15W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6E, Bluetooth 5.2 và NFC</li></ul>"
+    },
+    {
+      "id": 10,
+      "rating": 4,
+      "isFavorite": true,
+      "review": 22,
+      "title": "Xiaomi Mi 13 Pro 256GB | Chính hãng",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ87m6DuNZ-wHb7iLSIUIjiYg6y1K08clmktQ&s",
+      "inches": "6.73 inches",
+      "capacity": "12GB",
+      "ram": "256GB",
+      "cost": "18.490.000đ",
+      "price": "14.990.000đ",
+      "salePrice": "3.500.000đ",
+      "priceToRam": [
+        {
+          "ram": "128GB",
+          "price": "16.490.000đ",
+          "count": 3
+        },
+        {
+          "ram": "256GB",
+          "price": "18.490.000đ",
+          "count": 5
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "17.490.000đ"
+        },
+        {
+          "color": "Trắng",
+          "price": "17.990.000đ"
+        },
+        {
+          "color": "Xanh",
+          "price": "18.490.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "19%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình AMOLED 6,73 inch, độ phân giải 2K (3200 x 1440 pixel), tần số quét 120Hz</li><li>Chip Snapdragon 8 Gen 2, kết hợp với 12GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 50MP, camera góc siêu rộng 50MP và camera tele 50MP</li><li>Camera selfie 32MP với khả năng chụp đẹp trong điều kiện ánh sáng yếu</li><li>Pin 4.820mAh với sạc nhanh 120W, hỗ trợ sạc không dây 50W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.3 và NFC</li></ul>"
+    },
+    {
+      "id": 11,
+      "rating": 3,
+      "isFavorite": false,
+      "review": 15,
+      "title": "OnePlus 11 Pro 256GB | Chính hãng",
+      "imageUrl": "https://cdn.britannica.com/01/178901-050-FF5C52B1/iPhone-6-2014.jpg",
+      "inches": "6.7 inches",
+      "capacity": "16GB",
+      "ram": "256GB",
+      "cost": "21.990.000đ",
+      "price": "17.990.000đ",
+      "salePrice": "4.000.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "21.990.000đ",
+          "count": 6
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "19.990.000đ"
+        },
+        {
+          "color": "Xanh lá",
+          "price": "20.990.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và tai nghe không dây",
+      "sale": "18%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình AMOLED 6,7 inch, độ phân giải QHD+ (3216 x 1440 pixel), tần số quét 120Hz</li><li>Chip Snapdragon 8 Gen 2, kết hợp với 16GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 50MP, camera góc siêu rộng 48MP và camera tele 32MP</li><li>Camera selfie 16MP với chất lượng ảnh sắc nét</li><li>Pin 5.000mAh với sạc nhanh 80W, hỗ trợ sạc không dây 50W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.3 và NFC</li></ul>"
+    },
+    {
+      "id": 12,
+      "rating": 4,
+      "isFavorite": true,
+      "review": 30,
+      "title": "Huawei P60 Pro 256GB | Chính hãng",
+      "imageUrl": "https://cdn.nguyenkimmall.com/images/companies/_1/Content/Blog/dien-thoai/huawei-p60-pro.jpg",
+      "inches": "6.6 inches",
+      "capacity": "12GB",
+      "ram": "256GB",
+      "cost": "20.490.000đ",
+      "price": "16.990.000đ",
+      "salePrice": "3.500.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "20.490.000đ",
+          "count": 4
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Tím",
+          "price": "18.990.000đ"
+        },
+        {
+          "color": "Xanh dương",
+          "price": "19.490.000đ"
+        },
+        {
+          "color": "Đen",
+          "price": "20.490.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "17%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình OLED 6,6 inch, độ phân giải QHD+ (2700 x 1220 pixel), tần số quét 120Hz</li><li>Chip Kirin 9000, kết hợp với 12GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 50MP, camera góc siêu rộng 20MP và camera tele 12MP</li><li>Camera selfie 32MP với chế độ làm đẹp AI</li><li>Pin 4.600mAh với sạc nhanh 66W, hỗ trợ sạc không dây 50W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.2 và NFC</li></ul>"
+    },
+    {
+      "id": 13,
+      "rating": 5,
+      "isFavorite": true,
+      "review": 45,
+      "title": "Sony Xperia 1 IV 256GB | Chính hãng",
+      "imageUrl": "https://cdn.nguyenkimmall.com/images/companies/_1/Content/Blog/dien-thoai/sony-xperia-1-iv.jpg",
+      "inches": "6.5 inches",
+      "capacity": "12GB",
+      "ram": "256GB",
+      "cost": "23.990.000đ",
+      "price": "19.990.000đ",
+      "salePrice": "4.000.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "23.990.000đ",
+          "count": 5
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "21.990.000đ"
+        },
+        {
+          "color": "Bạc",
+          "price": "22.990.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và tai nghe không dây",
+      "sale": "16%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình OLED 6,5 inch, độ phân giải 4K (3840 x 1644 pixel), tần số quét 120Hz</li><li>Chip Snapdragon 8 Gen 1, kết hợp với 12GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 12MP, camera góc siêu rộng 12MP và camera tele 12MP</li><li>Camera selfie 8MP với khả năng chụp ảnh 4K</li><li>Pin 5.000mAh với sạc nhanh 30W, hỗ trợ sạc không dây 15W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.2 và NFC</li></ul>"
+    },
+    {
+      "id": 14,
+      "rating": 4,
+      "isFavorite": false,
+      "review": 18,
+      "title": "Realme GT 2 Pro 256GB | Chính hãng",
+      "imageUrl": "https://shopdunk.com/images/thumbs/0012265_iphone-13-pro-max.png",
+      "inches": "6.7 inches",
+      "capacity": "12GB",
+      "ram": "256GB",
+      "cost": "17.990.000đ",
+      "price": "14.490.000đ",
+      "salePrice": "3.500.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "17.990.000đ",
+          "count": 4
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Xanh dương",
+          "price": "15.990.000đ"
+        },
+        {
+          "color": "Trắng",
+          "price": "16.490.000đ"
+        },
+        {
+          "color": "Đen",
+          "price": "17.990.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "20%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình AMOLED 6,7 inch, độ phân giải QHD+ (3216 x 1440 pixel), tần số quét 120Hz</li><li>Chip Snapdragon 8 Gen 1, kết hợp với 12GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 50MP, camera góc siêu rộng 50MP và camera macro 2MP</li><li>Camera selfie 32MP với khả năng chụp ảnh sắc nét</li><li>Pin 5.000mAh với sạc nhanh 65W, hỗ trợ sạc không dây 50W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.2 và NFC</li></ul>"
+    },
+    {
+      "id": 15,
+      "rating": 3,
+      "isFavorite": true,
+      "review": 25,
+      "title": "ROG Phone 17 256GB | Chính hãng",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7Yref8JlovhtYFW_5G59jcNBCf5giaWq-MA&s",
+      "inches": "6.78 inches",
+      "capacity": "16GB",
+      "ram": "256GB",
+      "cost": "24.990.000đ",
+      "price": "20.990.000đ",
+      "salePrice": "4.000.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "24.990.000đ",
+          "count": 5
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "22.990.000đ"
+        },
+        {
+          "color": "Trắng",
+          "price": "23.990.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và quạt làm mát",
+      "sale": "16%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình AMOLED 6,78 inch, độ phân giải Full HD+ (2448 x 1080 pixel), tần số quét 165Hz</li><li>Chip Snapdragon 8+ Gen 1, kết hợp với 16GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 50MP, camera góc siêu rộng 13MP và camera macro 5MP</li><li>Camera selfie 12MP với khả năng chụp ảnh rõ nét</li><li>Pin 6.000mAh với sạc nhanh 65W, hỗ trợ sạc không dây 15W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.3 và NFC</li></ul>"
+    },
+    {
+      "id": 16,
+      "rating": 4,
+      "isFavorite": false,
+      "review": 17,
+      "title": "Nokia X60 Pro 256GB | Chính hãng",
+      "imageUrl": "https://shopdunk.com/images/thumbs/0012265_iphone-13-pro-max.png",
+      "inches": "6.5 inches",
+      "capacity": "8GB",
+      "ram": "256GB",
+      "cost": "15.990.000đ",
+      "price": "13.490.000đ",
+      "salePrice": "2.500.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "15.990.000đ",
+          "count": 4
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Xám",
+          "price": "13.990.000đ"
+        },
+        {
+          "color": "Xanh dương",
+          "price": "14.490.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "16%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình AMOLED 6,5 inch, độ phân giải Full HD+ (2400 x 1080 pixel), tần số quét 120Hz</li><li>Chip Snapdragon 778G, kết hợp với 8GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 64MP, camera góc siêu rộng 12MP và camera macro 5MP</li><li>Camera selfie 24MP với khả năng chụp ảnh đẹp</li><li>Pin 4.500mAh với sạc nhanh 33W, hỗ trợ sạc không dây 15W</li><li>Thiết kế chống nước và bụi chuẩn IP67</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.2 và NFC</li></ul>"
+    },
+    {
+      "id": 17,
+      "rating": 4,
+      "isFavorite": true,
+      "review": 20,
+      "title": "Oppo Reno 8 Pro 256GB | Chính hãng",
+      "imageUrl": "https://cdn11.dienmaycholon.vn/filewebdmclnew/DMCL21/Picture//Apro/Apro_product_33035/iphone-15-128gb_multi_0_484_450.png.webp",
+      "inches": "6.7 inches",
+      "capacity": "12GB",
+      "ram": "256GB",
+      "cost": "19.490.000đ",
+      "price": "16.990.000đ",
+      "salePrice": "2.500.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "19.490.000đ",
+          "count": 4
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "17.990.000đ"
+        },
+        {
+          "color": "Trắng",
+          "price": "18.490.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "13%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình AMOLED 6,7 inch, độ phân giải Full HD+ (2412 x 1080 pixel), tần số quét 120Hz</li><li>Chip Dimensity 8100, kết hợp với 12GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 50MP, camera góc siêu rộng 8MP và camera macro 2MP</li><li>Camera selfie 32MP với khả năng chụp ảnh sắc nét</li><li>Pin 4.500mAh với sạc nhanh 80W, hỗ trợ sạc không dây 50W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.2 và NFC</li></ul>"
+    },
+    {
+      "id": 18,
+      "rating": 5,
+      "isFavorite": true,
+      "review": 37,
+      "title": "Apple iPhone 11 Pro Max 256GB | Chính hãng",
+      "imageUrl": "https://cdn-v2.didongviet.vn/files/products/2023/4/9/1/1683605592281_thumb_iphone_11_didongviet.jpg",
+      "inches": "6.7 inches",
+      "capacity": "8GB",
+      "ram": "256GB",
+      "cost": "29.990.000đ",
+      "price": "24.990.000đ",
+      "salePrice": "5.000.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "29.990.000đ",
+          "count": 4
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "26.990.000đ"
+        },
+        {
+          "color": "Bạc",
+          "price": "27.990.000đ"
+        },
+        {
+          "color": "Tím",
+          "price": "29.990.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng chính hãng",
+      "sale": "16%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình Super Retina XDR 6,7 inch, độ phân giải 2778 x 1284 pixel, tần số quét 120Hz</li><li>Chip A16 Bionic, kết hợp với 8GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 48MP, camera góc siêu rộng 12MP và camera tele 12MP</li><li>Camera selfie 12MP với chế độ chụp Portrait</li><li>Pin 4.323mAh với sạc nhanh 20W, hỗ trợ sạc không dây 15W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.3 và NFC</li></ul>"
+    },
+    {
+      "id": 19,
+      "rating": 3,
+      "isFavorite": false,
+      "review": 12,
+      "title": "Vivo X80 Pro 256GB | Chính hãng",
+      "imageUrl": "https://lh4.googleusercontent.com/proxy/8zdsxPfk__BkHBaiuSY5Zq2uSvPQgC8y9d30h9BxCI5NgFAX1H15uAaKMzdJX-AR-zdSwWA4245NWpWlGqvzLZJiWu7aFksKWIaif_CTQpD7z9Q50GaA0rY9RZT0zhPqVA",
+      "inches": "6.78 inches",
+      "capacity": "12GB",
+      "ram": "256GB",
+      "cost": "22.990.000đ",
+      "price": "18.990.000đ",
+      "salePrice": "4.000.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "22.990.000đ",
+          "count": 4
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Xanh",
+          "price": "20.990.000đ"
+        },
+        {
+          "color": "Đen",
+          "price": "21.490.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "17%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình AMOLED 6,78 inch, độ phân giải 2K (3200 x 1440 pixel), tần số quét 120Hz</li><li>Chip Snapdragon 8 Gen 1, kết hợp với 12GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 50MP, camera góc siêu rộng 48MP và camera tele 12MP</li><li>Camera selfie 32MP với khả năng chụp ảnh sắc nét</li><li>Pin 4.700mAh với sạc nhanh 80W, hỗ trợ sạc không dây 50W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.2 và NFC</li></ul>"
+    },
+    {
+      "id": 20,
+      "rating": 4,
+      "isFavorite": true,
+      "review": 27,
+      "title": "LG V60 ThinQ 256GB | Chính hãng",
+      "imageUrl": "https://didongalpha.vn/wp-content/uploads/2022/07/4919407_LG_V60_thinq_5G_tinhte_3-600x400.jpg",
+      "inches": "6.8 inches",
+      "capacity": "8GB",
+      "ram": "256GB",
+      "cost": "17.490.000đ",
+      "price": "13.990.000đ",
+      "salePrice": "3.500.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "17.490.000đ",
+          "count": 4
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "15.990.000đ"
+        },
+        {
+          "color": "Trắng",
+          "price": "16.490.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "20%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình OLED 6,8 inch, độ phân giải QHD+ (2560 x 1440 pixel), tần số quét 60Hz</li><li>Chip Snapdragon 865, kết hợp với 8GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 64MP, camera góc siêu rộng 13MP và camera TOF 3D</li><li>Camera selfie 10MP với chế độ chụp ảnh chân dung</li><li>Pin 5.000mAh với sạc nhanh 25W, hỗ trợ sạc không dây 15W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.1 và NFC</li></ul>"
+    },
+    {
+      "id": 9,
+      "rating": 4,
+      "isFavorite": false,
+      "review": 28,
+      "title": "Samsung Galaxy S23 Ultra 256GB | Chính hãng",
+      "imageUrl": "https://clickbuy.com.vn/_uploads/pro/xiaomi-redmi-13-4g-6gb-128gb-chinh-hang-1977430198.jpg",
+      "inches": "6.8 inches",
+      "capacity": "12GB",
+      "ram": "256GB",
+      "cost": "22.990.000đ",
+      "price": "18.990.000đ",
+      "salePrice": "4.000.000đ",
+      "priceToRam": [
+        {
+          "ram": "128GB",
+          "price": "19.990.000đ",
+          "count": 4
+        },
+        {
+          "ram": "256GB",
+          "price": "22.990.000đ",
+          "count": 6
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "20.990.000đ"
+        },
+        {
+          "color": "Trắng",
+          "price": "21.990.000đ"
+        },
+        {
+          "color": "Xanh dương",
+          "price": "22.990.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "15%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình Dynamic AMOLED 6,8 inch, độ phân giải WQHD+ (3088 x 1440 pixel), tần số quét 120Hz</li><li>Chip Exynos 2200, kết hợp với 12GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 108MP, camera góc siêu rộng 12MP và camera tele 10MP</li><li>Camera selfie 40MP với chế độ chụp chân dung nâng cao</li><li>Pin 5.000mAh với sạc nhanh 45W, hỗ trợ sạc không dây 15W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6E, Bluetooth 5.2 và NFC</li></ul>"
+    },
+    {
+      "id": 10,
+      "rating": 4,
+      "isFavorite": true,
+      "review": 22,
+      "title": "Xiaomi Mi 13 Pro 256GB | Chính hãng",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ87m6DuNZ-wHb7iLSIUIjiYg6y1K08clmktQ&s",
+      "inches": "6.73 inches",
+      "capacity": "12GB",
+      "ram": "256GB",
+      "cost": "18.490.000đ",
+      "price": "14.990.000đ",
+      "salePrice": "3.500.000đ",
+      "priceToRam": [
+        {
+          "ram": "128GB",
+          "price": "16.490.000đ",
+          "count": 3
+        },
+        {
+          "ram": "256GB",
+          "price": "18.490.000đ",
+          "count": 5
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "17.490.000đ"
+        },
+        {
+          "color": "Trắng",
+          "price": "17.990.000đ"
+        },
+        {
+          "color": "Xanh",
+          "price": "18.490.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "19%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình AMOLED 6,73 inch, độ phân giải 2K (3200 x 1440 pixel), tần số quét 120Hz</li><li>Chip Snapdragon 8 Gen 2, kết hợp với 12GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 50MP, camera góc siêu rộng 50MP và camera tele 50MP</li><li>Camera selfie 32MP với khả năng chụp đẹp trong điều kiện ánh sáng yếu</li><li>Pin 4.820mAh với sạc nhanh 120W, hỗ trợ sạc không dây 50W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.3 và NFC</li></ul>"
+    },
+    {
+      "id": 11,
+      "rating": 3,
+      "isFavorite": false,
+      "review": 15,
+      "title": "OnePlus 11 Pro 256GB | Chính hãng",
+      "imageUrl": "https://cdn.britannica.com/01/178901-050-FF5C52B1/iPhone-6-2014.jpg",
+      "inches": "6.7 inches",
+      "capacity": "16GB",
+      "ram": "256GB",
+      "cost": "21.990.000đ",
+      "price": "17.990.000đ",
+      "salePrice": "4.000.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "21.990.000đ",
+          "count": 6
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "19.990.000đ"
+        },
+        {
+          "color": "Xanh lá",
+          "price": "20.990.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và tai nghe không dây",
+      "sale": "18%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình AMOLED 6,7 inch, độ phân giải QHD+ (3216 x 1440 pixel), tần số quét 120Hz</li><li>Chip Snapdragon 8 Gen 2, kết hợp với 16GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 50MP, camera góc siêu rộng 48MP và camera tele 32MP</li><li>Camera selfie 16MP với chất lượng ảnh sắc nét</li><li>Pin 5.000mAh với sạc nhanh 80W, hỗ trợ sạc không dây 50W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.3 và NFC</li></ul>"
+    },
+    {
+      "id": 12,
+      "rating": 4,
+      "isFavorite": true,
+      "review": 30,
+      "title": "Huawei P60 Pro 256GB | Chính hãng",
+      "imageUrl": "https://cdn.nguyenkimmall.com/images/companies/_1/Content/Blog/dien-thoai/huawei-p60-pro.jpg",
+      "inches": "6.6 inches",
+      "capacity": "12GB",
+      "ram": "256GB",
+      "cost": "20.490.000đ",
+      "price": "16.990.000đ",
+      "salePrice": "3.500.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "20.490.000đ",
+          "count": 4
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Tím",
+          "price": "18.990.000đ"
+        },
+        {
+          "color": "Xanh dương",
+          "price": "19.490.000đ"
+        },
+        {
+          "color": "Đen",
+          "price": "20.490.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "17%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình OLED 6,6 inch, độ phân giải QHD+ (2700 x 1220 pixel), tần số quét 120Hz</li><li>Chip Kirin 9000, kết hợp với 12GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 50MP, camera góc siêu rộng 20MP và camera tele 12MP</li><li>Camera selfie 32MP với chế độ làm đẹp AI</li><li>Pin 4.600mAh với sạc nhanh 66W, hỗ trợ sạc không dây 50W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.2 và NFC</li></ul>"
+    },
+    {
+      "id": 13,
+      "rating": 5,
+      "isFavorite": true,
+      "review": 45,
+      "title": "Sony Xperia 1 IV 256GB | Chính hãng",
+      "imageUrl": "https://cdn.nguyenkimmall.com/images/companies/_1/Content/Blog/dien-thoai/sony-xperia-1-iv.jpg",
+      "inches": "6.5 inches",
+      "capacity": "12GB",
+      "ram": "256GB",
+      "cost": "23.990.000đ",
+      "price": "19.990.000đ",
+      "salePrice": "4.000.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "23.990.000đ",
+          "count": 5
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "21.990.000đ"
+        },
+        {
+          "color": "Bạc",
+          "price": "22.990.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và tai nghe không dây",
+      "sale": "16%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình OLED 6,5 inch, độ phân giải 4K (3840 x 1644 pixel), tần số quét 120Hz</li><li>Chip Snapdragon 8 Gen 1, kết hợp với 12GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 12MP, camera góc siêu rộng 12MP và camera tele 12MP</li><li>Camera selfie 8MP với khả năng chụp ảnh 4K</li><li>Pin 5.000mAh với sạc nhanh 30W, hỗ trợ sạc không dây 15W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.2 và NFC</li></ul>"
+    },
+    {
+      "id": 14,
+      "rating": 4,
+      "isFavorite": false,
+      "review": 18,
+      "title": "Realme GT 2 Pro 256GB | Chính hãng",
+      "imageUrl": "https://shopdunk.com/images/thumbs/0012265_iphone-13-pro-max.png",
+      "inches": "6.7 inches",
+      "capacity": "12GB",
+      "ram": "256GB",
+      "cost": "17.990.000đ",
+      "price": "14.490.000đ",
+      "salePrice": "3.500.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "17.990.000đ",
+          "count": 4
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Xanh dương",
+          "price": "15.990.000đ"
+        },
+        {
+          "color": "Trắng",
+          "price": "16.490.000đ"
+        },
+        {
+          "color": "Đen",
+          "price": "17.990.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "20%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình AMOLED 6,7 inch, độ phân giải QHD+ (3216 x 1440 pixel), tần số quét 120Hz</li><li>Chip Snapdragon 8 Gen 1, kết hợp với 12GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 50MP, camera góc siêu rộng 50MP và camera macro 2MP</li><li>Camera selfie 32MP với khả năng chụp ảnh sắc nét</li><li>Pin 5.000mAh với sạc nhanh 65W, hỗ trợ sạc không dây 50W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.2 và NFC</li></ul>"
+    },
+    {
+      "id": 15,
+      "rating": 3,
+      "isFavorite": true,
+      "review": 25,
+      "title": "Asus ROG Phone 6 256GB | Chính hãng",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7Yref8JlovhtYFW_5G59jcNBCf5giaWq-MA&s",
+      "inches": "6.78 inches",
+      "capacity": "16GB",
+      "ram": "256GB",
+      "cost": "24.990.000đ",
+      "price": "20.990.000đ",
+      "salePrice": "4.000.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "24.990.000đ",
+          "count": 5
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "22.990.000đ"
+        },
+        {
+          "color": "Trắng",
+          "price": "23.990.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và quạt làm mát",
+      "sale": "16%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình AMOLED 6,78 inch, độ phân giải Full HD+ (2448 x 1080 pixel), tần số quét 165Hz</li><li>Chip Snapdragon 8+ Gen 1, kết hợp với 16GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 50MP, camera góc siêu rộng 13MP và camera macro 5MP</li><li>Camera selfie 12MP với khả năng chụp ảnh rõ nét</li><li>Pin 6.000mAh với sạc nhanh 65W, hỗ trợ sạc không dây 15W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.3 và NFC</li></ul>"
+    },
+    {
+      "id": 16,
+      "rating": 4,
+      "isFavorite": false,
+      "review": 17,
+      "title": "Nokia X60 Pro 256GB | Chính hãng",
+      "imageUrl": "https://shopdunk.com/images/thumbs/0012265_iphone-13-pro-max.png",
+      "inches": "6.5 inches",
+      "capacity": "8GB",
+      "ram": "256GB",
+      "cost": "15.990.000đ",
+      "price": "13.490.000đ",
+      "salePrice": "2.500.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "15.990.000đ",
+          "count": 4
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Xám",
+          "price": "13.990.000đ"
+        },
+        {
+          "color": "Xanh dương",
+          "price": "14.490.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "16%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình AMOLED 6,5 inch, độ phân giải Full HD+ (2400 x 1080 pixel), tần số quét 120Hz</li><li>Chip Snapdragon 778G, kết hợp với 8GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 64MP, camera góc siêu rộng 12MP và camera macro 5MP</li><li>Camera selfie 24MP với khả năng chụp ảnh đẹp</li><li>Pin 4.500mAh với sạc nhanh 33W, hỗ trợ sạc không dây 15W</li><li>Thiết kế chống nước và bụi chuẩn IP67</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.2 và NFC</li></ul>"
+    },
+    {
+      "id": 17,
+      "rating": 4,
+      "isFavorite": true,
+      "review": 20,
+      "title": "Oppo Reno 8 Pro 256GB | Chính hãng",
+      "imageUrl": "https://cdn11.dienmaycholon.vn/filewebdmclnew/DMCL21/Picture//Apro/Apro_product_33035/iphone-15-128gb_multi_0_484_450.png.webp",
+      "inches": "6.7 inches",
+      "capacity": "12GB",
+      "ram": "256GB",
+      "cost": "19.490.000đ",
+      "price": "16.990.000đ",
+      "salePrice": "2.500.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "19.490.000đ",
+          "count": 4
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "17.990.000đ"
+        },
+        {
+          "color": "Trắng",
+          "price": "18.490.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "13%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình AMOLED 6,7 inch, độ phân giải Full HD+ (2412 x 1080 pixel), tần số quét 120Hz</li><li>Chip Dimensity 8100, kết hợp với 12GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 50MP, camera góc siêu rộng 8MP và camera macro 2MP</li><li>Camera selfie 32MP với khả năng chụp ảnh sắc nét</li><li>Pin 4.500mAh với sạc nhanh 80W, hỗ trợ sạc không dây 50W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.2 và NFC</li></ul>"
+    },
+    {
+      "id": 18,
+      "rating": 5,
+      "isFavorite": true,
+      "review": 37,
+      "title": "Apple iPhone 14 Pro Max 256GB | Chính hãng",
+      "imageUrl": "https://cdn-v2.didongviet.vn/files/products/2023/4/9/1/1683605592281_thumb_iphone_11_didongviet.jpg",
+      "inches": "6.7 inches",
+      "capacity": "8GB",
+      "ram": "256GB",
+      "cost": "29.990.000đ",
+      "price": "24.990.000đ",
+      "salePrice": "5.000.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "29.990.000đ",
+          "count": 4
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "26.990.000đ"
+        },
+        {
+          "color": "Bạc",
+          "price": "27.990.000đ"
+        },
+        {
+          "color": "Tím",
+          "price": "29.990.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng chính hãng",
+      "sale": "16%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình Super Retina XDR 6,7 inch, độ phân giải 2778 x 1284 pixel, tần số quét 120Hz</li><li>Chip A16 Bionic, kết hợp với 8GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 48MP, camera góc siêu rộng 12MP và camera tele 12MP</li><li>Camera selfie 12MP với chế độ chụp Portrait</li><li>Pin 4.323mAh với sạc nhanh 20W, hỗ trợ sạc không dây 15W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.3 và NFC</li></ul>"
+    },
+    {
+      "id": 19,
+      "rating": 3,
+      "isFavorite": false,
+      "review": 12,
+      "title": "Vivo X80 Pro 256GB | Chính hãng",
+      "imageUrl": "https://lh4.googleusercontent.com/proxy/8zdsxPfk__BkHBaiuSY5Zq2uSvPQgC8y9d30h9BxCI5NgFAX1H15uAaKMzdJX-AR-zdSwWA4245NWpWlGqvzLZJiWu7aFksKWIaif_CTQpD7z9Q50GaA0rY9RZT0zhPqVA",
+      "inches": "6.78 inches",
+      "capacity": "12GB",
+      "ram": "256GB",
+      "cost": "22.990.000đ",
+      "price": "18.990.000đ",
+      "salePrice": "4.000.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "22.990.000đ",
+          "count": 4
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Xanh",
+          "price": "20.990.000đ"
+        },
+        {
+          "color": "Đen",
+          "price": "21.490.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "17%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình AMOLED 6,78 inch, độ phân giải 2K (3200 x 1440 pixel), tần số quét 120Hz</li><li>Chip Snapdragon 8 Gen 1, kết hợp với 12GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 50MP, camera góc siêu rộng 48MP và camera tele 12MP</li><li>Camera selfie 32MP với khả năng chụp ảnh sắc nét</li><li>Pin 4.700mAh với sạc nhanh 80W, hỗ trợ sạc không dây 50W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.2 và NFC</li></ul>"
+    },
+    {
+      "id": 20,
+      "rating": 4,
+      "isFavorite": true,
+      "review": 27,
+      "title": "LG V60 ThinQ 256GB | Chính hãng",
+      "imageUrl": "https://didongalpha.vn/wp-content/uploads/2022/07/4919407_LG_V60_thinq_5G_tinhte_3-600x400.jpg",
+      "inches": "6.8 inches",
+      "capacity": "8GB",
+      "ram": "256GB",
+      "cost": "17.490.000đ",
+      "price": "13.990.000đ",
+      "salePrice": "3.500.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "17.490.000đ",
+          "count": 4
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "15.990.000đ"
+        },
+        {
+          "color": "Trắng",
+          "price": "16.490.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "20%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình OLED 6,8 inch, độ phân giải QHD+ (2560 x 1440 pixel), tần số quét 60Hz</li><li>Chip Snapdragon 865, kết hợp với 8GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 64MP, camera góc siêu rộng 13MP và camera TOF 3D</li><li>Camera selfie 10MP với chế độ chụp ảnh chân dung</li><li>Pin 5.000mAh với sạc nhanh 25W, hỗ trợ sạc không dây 15W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.1 và NFC</li></ul>"
+    },
+    {
+      "id": 9,
+      "rating": 4,
+      "isFavorite": false,
+      "review": 28,
+      "title": "Samsung Galaxy S23 Ultra 256GB | Chính hãng",
+      "imageUrl": "https://clickbuy.com.vn/_uploads/pro/xiaomi-redmi-13-4g-6gb-128gb-chinh-hang-1977430198.jpg",
+      "inches": "6.8 inches",
+      "capacity": "12GB",
+      "ram": "256GB",
+      "cost": "22.990.000đ",
+      "price": "18.990.000đ",
+      "salePrice": "4.000.000đ",
+      "priceToRam": [
+        {
+          "ram": "128GB",
+          "price": "19.990.000đ",
+          "count": 4
+        },
+        {
+          "ram": "256GB",
+          "price": "22.990.000đ",
+          "count": 6
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "20.990.000đ"
+        },
+        {
+          "color": "Trắng",
+          "price": "21.990.000đ"
+        },
+        {
+          "color": "Xanh dương",
+          "price": "22.990.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "15%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình Dynamic AMOLED 6,8 inch, độ phân giải WQHD+ (3088 x 1440 pixel), tần số quét 120Hz</li><li>Chip Exynos 2200, kết hợp với 12GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 108MP, camera góc siêu rộng 12MP và camera tele 10MP</li><li>Camera selfie 40MP với chế độ chụp chân dung nâng cao</li><li>Pin 5.000mAh với sạc nhanh 45W, hỗ trợ sạc không dây 15W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6E, Bluetooth 5.2 và NFC</li></ul>"
+    },
+    {
+      "id": 10,
+      "rating": 4,
+      "isFavorite": true,
+      "review": 22,
+      "title": "Xiaomi Mi 13 Pro 256GB | Chính hãng",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ87m6DuNZ-wHb7iLSIUIjiYg6y1K08clmktQ&s",
+      "inches": "6.73 inches",
+      "capacity": "12GB",
+      "ram": "256GB",
+      "cost": "18.490.000đ",
+      "price": "14.990.000đ",
+      "salePrice": "3.500.000đ",
+      "priceToRam": [
+        {
+          "ram": "128GB",
+          "price": "16.490.000đ",
+          "count": 3
+        },
+        {
+          "ram": "256GB",
+          "price": "18.490.000đ",
+          "count": 5
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "17.490.000đ"
+        },
+        {
+          "color": "Trắng",
+          "price": "17.990.000đ"
+        },
+        {
+          "color": "Xanh",
+          "price": "18.490.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "19%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình AMOLED 6,73 inch, độ phân giải 2K (3200 x 1440 pixel), tần số quét 120Hz</li><li>Chip Snapdragon 8 Gen 2, kết hợp với 12GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 50MP, camera góc siêu rộng 50MP và camera tele 50MP</li><li>Camera selfie 32MP với khả năng chụp đẹp trong điều kiện ánh sáng yếu</li><li>Pin 4.820mAh với sạc nhanh 120W, hỗ trợ sạc không dây 50W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.3 và NFC</li></ul>"
+    },
+    {
+      "id": 11,
+      "rating": 3,
+      "isFavorite": false,
+      "review": 15,
+      "title": "OnePlus 11 Pro 256GB | Chính hãng",
+      "imageUrl": "https://cdn.britannica.com/01/178901-050-FF5C52B1/iPhone-6-2014.jpg",
+      "inches": "6.7 inches",
+      "capacity": "16GB",
+      "ram": "256GB",
+      "cost": "21.990.000đ",
+      "price": "17.990.000đ",
+      "salePrice": "4.000.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "21.990.000đ",
+          "count": 6
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "19.990.000đ"
+        },
+        {
+          "color": "Xanh lá",
+          "price": "20.990.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và tai nghe không dây",
+      "sale": "18%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình AMOLED 6,7 inch, độ phân giải QHD+ (3216 x 1440 pixel), tần số quét 120Hz</li><li>Chip Snapdragon 8 Gen 2, kết hợp với 16GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 50MP, camera góc siêu rộng 48MP và camera tele 32MP</li><li>Camera selfie 16MP với chất lượng ảnh sắc nét</li><li>Pin 5.000mAh với sạc nhanh 80W, hỗ trợ sạc không dây 50W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.3 và NFC</li></ul>"
+    },
+    {
+      "id": 12,
+      "rating": 4,
+      "isFavorite": true,
+      "review": 30,
+      "title": "Huawei P60 Pro 256GB | Chính hãng",
+      "imageUrl": "https://cdn.nguyenkimmall.com/images/companies/_1/Content/Blog/dien-thoai/huawei-p60-pro.jpg",
+      "inches": "6.6 inches",
+      "capacity": "12GB",
+      "ram": "256GB",
+      "cost": "20.490.000đ",
+      "price": "16.990.000đ",
+      "salePrice": "3.500.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "20.490.000đ",
+          "count": 4
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Tím",
+          "price": "18.990.000đ"
+        },
+        {
+          "color": "Xanh dương",
+          "price": "19.490.000đ"
+        },
+        {
+          "color": "Đen",
+          "price": "20.490.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "17%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình OLED 6,6 inch, độ phân giải QHD+ (2700 x 1220 pixel), tần số quét 120Hz</li><li>Chip Kirin 9000, kết hợp với 12GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 50MP, camera góc siêu rộng 20MP và camera tele 12MP</li><li>Camera selfie 32MP với chế độ làm đẹp AI</li><li>Pin 4.600mAh với sạc nhanh 66W, hỗ trợ sạc không dây 50W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.2 và NFC</li></ul>"
+    },
+    {
+      "id": 13,
+      "rating": 5,
+      "isFavorite": true,
+      "review": 45,
+      "title": "Sony Xperia 1 IV 256GB | Chính hãng",
+      "imageUrl": "https://cdn.nguyenkimmall.com/images/companies/_1/Content/Blog/dien-thoai/sony-xperia-1-iv.jpg",
+      "inches": "6.5 inches",
+      "capacity": "12GB",
+      "ram": "256GB",
+      "cost": "23.990.000đ",
+      "price": "19.990.000đ",
+      "salePrice": "4.000.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "23.990.000đ",
+          "count": 5
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "21.990.000đ"
+        },
+        {
+          "color": "Bạc",
+          "price": "22.990.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và tai nghe không dây",
+      "sale": "16%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình OLED 6,5 inch, độ phân giải 4K (3840 x 1644 pixel), tần số quét 120Hz</li><li>Chip Snapdragon 8 Gen 1, kết hợp với 12GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 12MP, camera góc siêu rộng 12MP và camera tele 12MP</li><li>Camera selfie 8MP với khả năng chụp ảnh 4K</li><li>Pin 5.000mAh với sạc nhanh 30W, hỗ trợ sạc không dây 15W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.2 và NFC</li></ul>"
+    },
+    {
+      "id": 14,
+      "rating": 4,
+      "isFavorite": false,
+      "review": 18,
+      "title": "Realme GT 2 Pro 256GB | Chính hãng",
+      "imageUrl": "https://shopdunk.com/images/thumbs/0012265_iphone-13-pro-max.png",
+      "inches": "6.7 inches",
+      "capacity": "12GB",
+      "ram": "256GB",
+      "cost": "17.990.000đ",
+      "price": "14.490.000đ",
+      "salePrice": "3.500.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "17.990.000đ",
+          "count": 4
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Xanh dương",
+          "price": "15.990.000đ"
+        },
+        {
+          "color": "Trắng",
+          "price": "16.490.000đ"
+        },
+        {
+          "color": "Đen",
+          "price": "17.990.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "20%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình AMOLED 6,7 inch, độ phân giải QHD+ (3216 x 1440 pixel), tần số quét 120Hz</li><li>Chip Snapdragon 8 Gen 1, kết hợp với 12GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 50MP, camera góc siêu rộng 50MP và camera macro 2MP</li><li>Camera selfie 32MP với khả năng chụp ảnh sắc nét</li><li>Pin 5.000mAh với sạc nhanh 65W, hỗ trợ sạc không dây 50W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.2 và NFC</li></ul>"
+    },
+    {
+      "id": 15,
+      "rating": 3,
+      "isFavorite": true,
+      "review": 25,
+      "title": "Asus ROG Phone 6 256GB | Chính hãng",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7Yref8JlovhtYFW_5G59jcNBCf5giaWq-MA&s",
+      "inches": "6.78 inches",
+      "capacity": "16GB",
+      "ram": "256GB",
+      "cost": "24.990.000đ",
+      "price": "20.990.000đ",
+      "salePrice": "4.000.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "24.990.000đ",
+          "count": 5
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "22.990.000đ"
+        },
+        {
+          "color": "Trắng",
+          "price": "23.990.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và quạt làm mát",
+      "sale": "16%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình AMOLED 6,78 inch, độ phân giải Full HD+ (2448 x 1080 pixel), tần số quét 165Hz</li><li>Chip Snapdragon 8+ Gen 1, kết hợp với 16GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 50MP, camera góc siêu rộng 13MP và camera macro 5MP</li><li>Camera selfie 12MP với khả năng chụp ảnh rõ nét</li><li>Pin 6.000mAh với sạc nhanh 65W, hỗ trợ sạc không dây 15W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.3 và NFC</li></ul>"
+    },
+    {
+      "id": 16,
+      "rating": 4,
+      "isFavorite": false,
+      "review": 17,
+      "title": "Nokia X60 Pro 256GB | Chính hãng",
+      "imageUrl": "https://shopdunk.com/images/thumbs/0012265_iphone-13-pro-max.png",
+      "inches": "6.5 inches",
+      "capacity": "8GB",
+      "ram": "256GB",
+      "cost": "15.990.000đ",
+      "price": "13.490.000đ",
+      "salePrice": "2.500.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "15.990.000đ",
+          "count": 4
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Xám",
+          "price": "13.990.000đ"
+        },
+        {
+          "color": "Xanh dương",
+          "price": "14.490.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "16%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình AMOLED 6,5 inch, độ phân giải Full HD+ (2400 x 1080 pixel), tần số quét 120Hz</li><li>Chip Snapdragon 778G, kết hợp với 8GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 64MP, camera góc siêu rộng 12MP và camera macro 5MP</li><li>Camera selfie 24MP với khả năng chụp ảnh đẹp</li><li>Pin 4.500mAh với sạc nhanh 33W, hỗ trợ sạc không dây 15W</li><li>Thiết kế chống nước và bụi chuẩn IP67</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.2 và NFC</li></ul>"
+    },
+    {
+      "id": 17,
+      "rating": 4,
+      "isFavorite": true,
+      "review": 20,
+      "title": "Oppo Reno 8 Pro 256GB | Chính hãng",
+      "imageUrl": "https://cdn11.dienmaycholon.vn/filewebdmclnew/DMCL21/Picture//Apro/Apro_product_33035/iphone-15-128gb_multi_0_484_450.png.webp",
+      "inches": "6.7 inches",
+      "capacity": "12GB",
+      "ram": "256GB",
+      "cost": "19.490.000đ",
+      "price": "16.990.000đ",
+      "salePrice": "2.500.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "19.490.000đ",
+          "count": 4
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "17.990.000đ"
+        },
+        {
+          "color": "Trắng",
+          "price": "18.490.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "13%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình AMOLED 6,7 inch, độ phân giải Full HD+ (2412 x 1080 pixel), tần số quét 120Hz</li><li>Chip Dimensity 8100, kết hợp với 12GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 50MP, camera góc siêu rộng 8MP và camera macro 2MP</li><li>Camera selfie 32MP với khả năng chụp ảnh sắc nét</li><li>Pin 4.500mAh với sạc nhanh 80W, hỗ trợ sạc không dây 50W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.2 và NFC</li></ul>"
+    },
+    {
+      "id": 18,
+      "rating": 5,
+      "isFavorite": true,
+      "review": 37,
+      "title": "Apple iPhone 14 Pro Max 256GB | Chính hãng",
+      "imageUrl": "https://cdn-v2.didongviet.vn/files/products/2023/4/9/1/1683605592281_thumb_iphone_11_didongviet.jpg",
+      "inches": "6.7 inches",
+      "capacity": "8GB",
+      "ram": "256GB",
+      "cost": "29.990.000đ",
+      "price": "24.990.000đ",
+      "salePrice": "5.000.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "29.990.000đ",
+          "count": 4
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "26.990.000đ"
+        },
+        {
+          "color": "Bạc",
+          "price": "27.990.000đ"
+        },
+        {
+          "color": "Tím",
+          "price": "29.990.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng chính hãng",
+      "sale": "16%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình Super Retina XDR 6,7 inch, độ phân giải 2778 x 1284 pixel, tần số quét 120Hz</li><li>Chip A16 Bionic, kết hợp với 8GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 48MP, camera góc siêu rộng 12MP và camera tele 12MP</li><li>Camera selfie 12MP với chế độ chụp Portrait</li><li>Pin 4.323mAh với sạc nhanh 20W, hỗ trợ sạc không dây 15W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.3 và NFC</li></ul>"
+    },
+    {
+      "id": 19,
+      "rating": 3,
+      "isFavorite": false,
+      "review": 12,
+      "title": "Vivo X80 Pro 256GB | Chính hãng",
+      "imageUrl": "https://lh4.googleusercontent.com/proxy/8zdsxPfk__BkHBaiuSY5Zq2uSvPQgC8y9d30h9BxCI5NgFAX1H15uAaKMzdJX-AR-zdSwWA4245NWpWlGqvzLZJiWu7aFksKWIaif_CTQpD7z9Q50GaA0rY9RZT0zhPqVA",
+      "inches": "6.78 inches",
+      "capacity": "12GB",
+      "ram": "256GB",
+      "cost": "22.990.000đ",
+      "price": "18.990.000đ",
+      "salePrice": "4.000.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "22.990.000đ",
+          "count": 4
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Xanh",
+          "price": "20.990.000đ"
+        },
+        {
+          "color": "Đen",
+          "price": "21.490.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "17%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình AMOLED 6,78 inch, độ phân giải 2K (3200 x 1440 pixel), tần số quét 120Hz</li><li>Chip Snapdragon 8 Gen 1, kết hợp với 12GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 50MP, camera góc siêu rộng 48MP và camera tele 12MP</li><li>Camera selfie 32MP với khả năng chụp ảnh sắc nét</li><li>Pin 4.700mAh với sạc nhanh 80W, hỗ trợ sạc không dây 50W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.2 và NFC</li></ul>"
+    },
+    {
+      "id": 20,
+      "rating": 4,
+      "isFavorite": true,
+      "review": 27,
+      "title": "LG V60 ThinQ 256GB | Chính hãng",
+      "imageUrl": "https://didongalpha.vn/wp-content/uploads/2022/07/4919407_LG_V60_thinq_5G_tinhte_3-600x400.jpg",
+      "inches": "6.8 inches",
+      "capacity": "8GB",
+      "ram": "256GB",
+      "cost": "17.490.000đ",
+      "price": "13.990.000đ",
+      "salePrice": "3.500.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "17.490.000đ",
+          "count": 4
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "15.990.000đ"
+        },
+        {
+          "color": "Trắng",
+          "price": "16.490.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "20%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình OLED 6,8 inch, độ phân giải QHD+ (2560 x 1440 pixel), tần số quét 60Hz</li><li>Chip Snapdragon 865, kết hợp với 8GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 64MP, camera góc siêu rộng 13MP và camera TOF 3D</li><li>Camera selfie 10MP với chế độ chụp ảnh chân dung</li><li>Pin 5.000mAh với sạc nhanh 25W, hỗ trợ sạc không dây 15W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.1 và NFC</li></ul>"
+    },
+    {
+      "id": 9,
+      "rating": 4,
+      "isFavorite": false,
+      "review": 28,
+      "title": "Samsung Galaxy S23 Ultra 256GB | Chính hãng",
+      "imageUrl": "https://clickbuy.com.vn/_uploads/pro/xiaomi-redmi-13-4g-6gb-128gb-chinh-hang-1977430198.jpg",
+      "inches": "6.8 inches",
+      "capacity": "12GB",
+      "ram": "256GB",
+      "cost": "22.990.000đ",
+      "price": "18.990.000đ",
+      "salePrice": "4.000.000đ",
+      "priceToRam": [
+        {
+          "ram": "128GB",
+          "price": "19.990.000đ",
+          "count": 4
+        },
+        {
+          "ram": "256GB",
+          "price": "22.990.000đ",
+          "count": 6
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "20.990.000đ"
+        },
+        {
+          "color": "Trắng",
+          "price": "21.990.000đ"
+        },
+        {
+          "color": "Xanh dương",
+          "price": "22.990.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "15%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình Dynamic AMOLED 6,8 inch, độ phân giải WQHD+ (3088 x 1440 pixel), tần số quét 120Hz</li><li>Chip Exynos 2200, kết hợp với 12GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 108MP, camera góc siêu rộng 12MP và camera tele 10MP</li><li>Camera selfie 40MP với chế độ chụp chân dung nâng cao</li><li>Pin 5.000mAh với sạc nhanh 45W, hỗ trợ sạc không dây 15W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6E, Bluetooth 5.2 và NFC</li></ul>"
+    },
+    {
+      "id": 10,
+      "rating": 4,
+      "isFavorite": true,
+      "review": 22,
+      "title": "Xiaomi Mi 13 Pro 256GB | Chính hãng",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ87m6DuNZ-wHb7iLSIUIjiYg6y1K08clmktQ&s",
+      "inches": "6.73 inches",
+      "capacity": "12GB",
+      "ram": "256GB",
+      "cost": "18.490.000đ",
+      "price": "14.990.000đ",
+      "salePrice": "3.500.000đ",
+      "priceToRam": [
+        {
+          "ram": "128GB",
+          "price": "16.490.000đ",
+          "count": 3
+        },
+        {
+          "ram": "256GB",
+          "price": "18.490.000đ",
+          "count": 5
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "17.490.000đ"
+        },
+        {
+          "color": "Trắng",
+          "price": "17.990.000đ"
+        },
+        {
+          "color": "Xanh",
+          "price": "18.490.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "19%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình AMOLED 6,73 inch, độ phân giải 2K (3200 x 1440 pixel), tần số quét 120Hz</li><li>Chip Snapdragon 8 Gen 2, kết hợp với 12GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 50MP, camera góc siêu rộng 50MP và camera tele 50MP</li><li>Camera selfie 32MP với khả năng chụp đẹp trong điều kiện ánh sáng yếu</li><li>Pin 4.820mAh với sạc nhanh 120W, hỗ trợ sạc không dây 50W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.3 và NFC</li></ul>"
+    },
+    {
+      "id": 11,
+      "rating": 3,
+      "isFavorite": false,
+      "review": 15,
+      "title": "OnePlus 11 Pro 256GB | Chính hãng",
+      "imageUrl": "https://cdn.britannica.com/01/178901-050-FF5C52B1/iPhone-6-2014.jpg",
+      "inches": "6.7 inches",
+      "capacity": "16GB",
+      "ram": "256GB",
+      "cost": "21.990.000đ",
+      "price": "17.990.000đ",
+      "salePrice": "4.000.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "21.990.000đ",
+          "count": 6
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "19.990.000đ"
+        },
+        {
+          "color": "Xanh lá",
+          "price": "20.990.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và tai nghe không dây",
+      "sale": "18%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình AMOLED 6,7 inch, độ phân giải QHD+ (3216 x 1440 pixel), tần số quét 120Hz</li><li>Chip Snapdragon 8 Gen 2, kết hợp với 16GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 50MP, camera góc siêu rộng 48MP và camera tele 32MP</li><li>Camera selfie 16MP với chất lượng ảnh sắc nét</li><li>Pin 5.000mAh với sạc nhanh 80W, hỗ trợ sạc không dây 50W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.3 và NFC</li></ul>"
+    },
+    {
+      "id": 12,
+      "rating": 4,
+      "isFavorite": true,
+      "review": 30,
+      "title": "Huawei P60 Pro 256GB | Chính hãng",
+      "imageUrl": "https://cdn.nguyenkimmall.com/images/companies/_1/Content/Blog/dien-thoai/huawei-p60-pro.jpg",
+      "inches": "6.6 inches",
+      "capacity": "12GB",
+      "ram": "256GB",
+      "cost": "20.490.000đ",
+      "price": "16.990.000đ",
+      "salePrice": "3.500.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "20.490.000đ",
+          "count": 4
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Tím",
+          "price": "18.990.000đ"
+        },
+        {
+          "color": "Xanh dương",
+          "price": "19.490.000đ"
+        },
+        {
+          "color": "Đen",
+          "price": "20.490.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "17%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình OLED 6,6 inch, độ phân giải QHD+ (2700 x 1220 pixel), tần số quét 120Hz</li><li>Chip Kirin 9000, kết hợp với 12GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 50MP, camera góc siêu rộng 20MP và camera tele 12MP</li><li>Camera selfie 32MP với chế độ làm đẹp AI</li><li>Pin 4.600mAh với sạc nhanh 66W, hỗ trợ sạc không dây 50W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.2 và NFC</li></ul>"
+    },
+    {
+      "id": 13,
+      "rating": 5,
+      "isFavorite": true,
+      "review": 45,
+      "title": "Sony Xperia 1 IV 256GB | Chính hãng",
+      "imageUrl": "https://cdn.nguyenkimmall.com/images/companies/_1/Content/Blog/dien-thoai/sony-xperia-1-iv.jpg",
+      "inches": "6.5 inches",
+      "capacity": "12GB",
+      "ram": "256GB",
+      "cost": "23.990.000đ",
+      "price": "19.990.000đ",
+      "salePrice": "4.000.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "23.990.000đ",
+          "count": 5
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "21.990.000đ"
+        },
+        {
+          "color": "Bạc",
+          "price": "22.990.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và tai nghe không dây",
+      "sale": "16%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình OLED 6,5 inch, độ phân giải 4K (3840 x 1644 pixel), tần số quét 120Hz</li><li>Chip Snapdragon 8 Gen 1, kết hợp với 12GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 12MP, camera góc siêu rộng 12MP và camera tele 12MP</li><li>Camera selfie 8MP với khả năng chụp ảnh 4K</li><li>Pin 5.000mAh với sạc nhanh 30W, hỗ trợ sạc không dây 15W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.2 và NFC</li></ul>"
+    },
+    {
+      "id": 14,
+      "rating": 4,
+      "isFavorite": false,
+      "review": 18,
+      "title": "Realme GT 2 Pro 256GB | Chính hãng",
+      "imageUrl": "https://shopdunk.com/images/thumbs/0012265_iphone-13-pro-max.png",
+      "inches": "6.7 inches",
+      "capacity": "12GB",
+      "ram": "256GB",
+      "cost": "17.990.000đ",
+      "price": "14.490.000đ",
+      "salePrice": "3.500.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "17.990.000đ",
+          "count": 4
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Xanh dương",
+          "price": "15.990.000đ"
+        },
+        {
+          "color": "Trắng",
+          "price": "16.490.000đ"
+        },
+        {
+          "color": "Đen",
+          "price": "17.990.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "20%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình AMOLED 6,7 inch, độ phân giải QHD+ (3216 x 1440 pixel), tần số quét 120Hz</li><li>Chip Snapdragon 8 Gen 1, kết hợp với 12GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 50MP, camera góc siêu rộng 50MP và camera macro 2MP</li><li>Camera selfie 32MP với khả năng chụp ảnh sắc nét</li><li>Pin 5.000mAh với sạc nhanh 65W, hỗ trợ sạc không dây 50W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.2 và NFC</li></ul>"
+    },
+    {
+      "id": 15,
+      "rating": 3,
+      "isFavorite": true,
+      "review": 25,
+      "title": "Asus ROG Phone 6 256GB | Chính hãng",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7Yref8JlovhtYFW_5G59jcNBCf5giaWq-MA&s",
+      "inches": "6.78 inches",
+      "capacity": "16GB",
+      "ram": "256GB",
+      "cost": "24.990.000đ",
+      "price": "20.990.000đ",
+      "salePrice": "4.000.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "24.990.000đ",
+          "count": 5
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "22.990.000đ"
+        },
+        {
+          "color": "Trắng",
+          "price": "23.990.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và quạt làm mát",
+      "sale": "16%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình AMOLED 6,78 inch, độ phân giải Full HD+ (2448 x 1080 pixel), tần số quét 165Hz</li><li>Chip Snapdragon 8+ Gen 1, kết hợp với 16GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 50MP, camera góc siêu rộng 13MP và camera macro 5MP</li><li>Camera selfie 12MP với khả năng chụp ảnh rõ nét</li><li>Pin 6.000mAh với sạc nhanh 65W, hỗ trợ sạc không dây 15W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.3 và NFC</li></ul>"
+    },
+    {
+      "id": 16,
+      "rating": 4,
+      "isFavorite": false,
+      "review": 17,
+      "title": "Nokia X60 Pro 256GB | Chính hãng",
+      "imageUrl": "https://shopdunk.com/images/thumbs/0012265_iphone-13-pro-max.png",
+      "inches": "6.5 inches",
+      "capacity": "8GB",
+      "ram": "256GB",
+      "cost": "15.990.000đ",
+      "price": "13.490.000đ",
+      "salePrice": "2.500.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "15.990.000đ",
+          "count": 4
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Xám",
+          "price": "13.990.000đ"
+        },
+        {
+          "color": "Xanh dương",
+          "price": "14.490.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "16%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình AMOLED 6,5 inch, độ phân giải Full HD+ (2400 x 1080 pixel), tần số quét 120Hz</li><li>Chip Snapdragon 778G, kết hợp với 8GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 64MP, camera góc siêu rộng 12MP và camera macro 5MP</li><li>Camera selfie 24MP với khả năng chụp ảnh đẹp</li><li>Pin 4.500mAh với sạc nhanh 33W, hỗ trợ sạc không dây 15W</li><li>Thiết kế chống nước và bụi chuẩn IP67</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.2 và NFC</li></ul>"
+    },
+    {
+      "id": 17,
+      "rating": 4,
+      "isFavorite": true,
+      "review": 20,
+      "title": "Oppo Reno 8 Pro 256GB | Chính hãng",
+      "imageUrl": "https://cdn11.dienmaycholon.vn/filewebdmclnew/DMCL21/Picture//Apro/Apro_product_33035/iphone-15-128gb_multi_0_484_450.png.webp",
+      "inches": "6.7 inches",
+      "capacity": "12GB",
+      "ram": "256GB",
+      "cost": "19.490.000đ",
+      "price": "16.990.000đ",
+      "salePrice": "2.500.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "19.490.000đ",
+          "count": 4
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "17.990.000đ"
+        },
+        {
+          "color": "Trắng",
+          "price": "18.490.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "13%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình AMOLED 6,7 inch, độ phân giải Full HD+ (2412 x 1080 pixel), tần số quét 120Hz</li><li>Chip Dimensity 8100, kết hợp với 12GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 50MP, camera góc siêu rộng 8MP và camera macro 2MP</li><li>Camera selfie 32MP với khả năng chụp ảnh sắc nét</li><li>Pin 4.500mAh với sạc nhanh 80W, hỗ trợ sạc không dây 50W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.2 và NFC</li></ul>"
+    },
+    {
+      "id": 18,
+      "rating": 5,
+      "isFavorite": true,
+      "review": 37,
+      "title": "Apple iPhone 14 Pro Max 256GB | Chính hãng",
+      "imageUrl": "https://cdn-v2.didongviet.vn/files/products/2023/4/9/1/1683605592281_thumb_iphone_11_didongviet.jpg",
+      "inches": "6.7 inches",
+      "capacity": "8GB",
+      "ram": "256GB",
+      "cost": "29.990.000đ",
+      "price": "24.990.000đ",
+      "salePrice": "5.000.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "29.990.000đ",
+          "count": 4
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "26.990.000đ"
+        },
+        {
+          "color": "Bạc",
+          "price": "27.990.000đ"
+        },
+        {
+          "color": "Tím",
+          "price": "29.990.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng chính hãng",
+      "sale": "16%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình Super Retina XDR 6,7 inch, độ phân giải 2778 x 1284 pixel, tần số quét 120Hz</li><li>Chip A16 Bionic, kết hợp với 8GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 48MP, camera góc siêu rộng 12MP và camera tele 12MP</li><li>Camera selfie 12MP với chế độ chụp Portrait</li><li>Pin 4.323mAh với sạc nhanh 20W, hỗ trợ sạc không dây 15W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.3 và NFC</li></ul>"
+    },
+    {
+      "id": 19,
+      "rating": 3,
+      "isFavorite": false,
+      "review": 12,
+      "title": "Vivo X80 Pro 256GB | Chính hãng",
+      "imageUrl": "https://lh4.googleusercontent.com/proxy/8zdsxPfk__BkHBaiuSY5Zq2uSvPQgC8y9d30h9BxCI5NgFAX1H15uAaKMzdJX-AR-zdSwWA4245NWpWlGqvzLZJiWu7aFksKWIaif_CTQpD7z9Q50GaA0rY9RZT0zhPqVA",
+      "inches": "6.78 inches",
+      "capacity": "12GB",
+      "ram": "256GB",
+      "cost": "22.990.000đ",
+      "price": "18.990.000đ",
+      "salePrice": "4.000.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "22.990.000đ",
+          "count": 4
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Xanh",
+          "price": "20.990.000đ"
+        },
+        {
+          "color": "Đen",
+          "price": "21.490.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "17%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình AMOLED 6,78 inch, độ phân giải 2K (3200 x 1440 pixel), tần số quét 120Hz</li><li>Chip Snapdragon 8 Gen 1, kết hợp với 12GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 50MP, camera góc siêu rộng 48MP và camera tele 12MP</li><li>Camera selfie 32MP với khả năng chụp ảnh sắc nét</li><li>Pin 4.700mAh với sạc nhanh 80W, hỗ trợ sạc không dây 50W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.2 và NFC</li></ul>"
+    },
+    {
+      "id": 20,
+      "rating": 4,
+      "isFavorite": true,
+      "review": 27,
+      "title": "LG V60 ThinQ 256GB | Chính hãng",
+      "imageUrl": "https://didongalpha.vn/wp-content/uploads/2022/07/4919407_LG_V60_thinq_5G_tinhte_3-600x400.jpg",
+      "inches": "6.8 inches",
+      "capacity": "8GB",
+      "ram": "256GB",
+      "cost": "17.490.000đ",
+      "price": "13.990.000đ",
+      "salePrice": "3.500.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "17.490.000đ",
+          "count": 4
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "15.990.000đ"
+        },
+        {
+          "color": "Trắng",
+          "price": "16.490.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "20%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình OLED 6,8 inch, độ phân giải QHD+ (2560 x 1440 pixel), tần số quét 60Hz</li><li>Chip Snapdragon 865, kết hợp với 8GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 64MP, camera góc siêu rộng 13MP và camera TOF 3D</li><li>Camera selfie 10MP với chế độ chụp ảnh chân dung</li><li>Pin 5.000mAh với sạc nhanh 25W, hỗ trợ sạc không dây 15W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.1 và NFC</li></ul>"
+    },
+    {
+      "id": 9,
+      "rating": 4,
+      "isFavorite": false,
+      "review": 28,
+      "title": "Samsung Galaxy S23 Ultra 256GB | Chính hãng",
+      "imageUrl": "https://clickbuy.com.vn/_uploads/pro/xiaomi-redmi-13-4g-6gb-128gb-chinh-hang-1977430198.jpg",
+      "inches": "6.8 inches",
+      "capacity": "12GB",
+      "ram": "256GB",
+      "cost": "22.990.000đ",
+      "price": "18.990.000đ",
+      "salePrice": "4.000.000đ",
+      "priceToRam": [
+        {
+          "ram": "128GB",
+          "price": "19.990.000đ",
+          "count": 4
+        },
+        {
+          "ram": "256GB",
+          "price": "22.990.000đ",
+          "count": 6
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "20.990.000đ"
+        },
+        {
+          "color": "Trắng",
+          "price": "21.990.000đ"
+        },
+        {
+          "color": "Xanh dương",
+          "price": "22.990.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "15%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình Dynamic AMOLED 6,8 inch, độ phân giải WQHD+ (3088 x 1440 pixel), tần số quét 120Hz</li><li>Chip Exynos 2200, kết hợp với 12GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 108MP, camera góc siêu rộng 12MP và camera tele 10MP</li><li>Camera selfie 40MP với chế độ chụp chân dung nâng cao</li><li>Pin 5.000mAh với sạc nhanh 45W, hỗ trợ sạc không dây 15W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6E, Bluetooth 5.2 và NFC</li></ul>"
+    },
+    {
+      "id": 10,
+      "rating": 4,
+      "isFavorite": true,
+      "review": 22,
+      "title": "Xiaomi Mi 13 Pro 256GB | Chính hãng",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ87m6DuNZ-wHb7iLSIUIjiYg6y1K08clmktQ&s",
+      "inches": "6.73 inches",
+      "capacity": "12GB",
+      "ram": "256GB",
+      "cost": "18.490.000đ",
+      "price": "14.990.000đ",
+      "salePrice": "3.500.000đ",
+      "priceToRam": [
+        {
+          "ram": "128GB",
+          "price": "16.490.000đ",
+          "count": 3
+        },
+        {
+          "ram": "256GB",
+          "price": "18.490.000đ",
+          "count": 5
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "17.490.000đ"
+        },
+        {
+          "color": "Trắng",
+          "price": "17.990.000đ"
+        },
+        {
+          "color": "Xanh",
+          "price": "18.490.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "19%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình AMOLED 6,73 inch, độ phân giải 2K (3200 x 1440 pixel), tần số quét 120Hz</li><li>Chip Snapdragon 8 Gen 2, kết hợp với 12GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 50MP, camera góc siêu rộng 50MP và camera tele 50MP</li><li>Camera selfie 32MP với khả năng chụp đẹp trong điều kiện ánh sáng yếu</li><li>Pin 4.820mAh với sạc nhanh 120W, hỗ trợ sạc không dây 50W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.3 và NFC</li></ul>"
+    },
+    {
+      "id": 11,
+      "rating": 3,
+      "isFavorite": false,
+      "review": 15,
+      "title": "OnePlus 11 Pro 256GB | Chính hãng",
+      "imageUrl": "https://cdn.britannica.com/01/178901-050-FF5C52B1/iPhone-6-2014.jpg",
+      "inches": "6.7 inches",
+      "capacity": "16GB",
+      "ram": "256GB",
+      "cost": "21.990.000đ",
+      "price": "17.990.000đ",
+      "salePrice": "4.000.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "21.990.000đ",
+          "count": 6
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "19.990.000đ"
+        },
+        {
+          "color": "Xanh lá",
+          "price": "20.990.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và tai nghe không dây",
+      "sale": "18%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình AMOLED 6,7 inch, độ phân giải QHD+ (3216 x 1440 pixel), tần số quét 120Hz</li><li>Chip Snapdragon 8 Gen 2, kết hợp với 16GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 50MP, camera góc siêu rộng 48MP và camera tele 32MP</li><li>Camera selfie 16MP với chất lượng ảnh sắc nét</li><li>Pin 5.000mAh với sạc nhanh 80W, hỗ trợ sạc không dây 50W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.3 và NFC</li></ul>"
+    },
+    {
+      "id": 12,
+      "rating": 4,
+      "isFavorite": true,
+      "review": 30,
+      "title": "Huawei P60 Pro 256GB | Chính hãng",
+      "imageUrl": "https://cdn.nguyenkimmall.com/images/companies/_1/Content/Blog/dien-thoai/huawei-p60-pro.jpg",
+      "inches": "6.6 inches",
+      "capacity": "12GB",
+      "ram": "256GB",
+      "cost": "20.490.000đ",
+      "price": "16.990.000đ",
+      "salePrice": "3.500.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "20.490.000đ",
+          "count": 4
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Tím",
+          "price": "18.990.000đ"
+        },
+        {
+          "color": "Xanh dương",
+          "price": "19.490.000đ"
+        },
+        {
+          "color": "Đen",
+          "price": "20.490.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "17%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình OLED 6,6 inch, độ phân giải QHD+ (2700 x 1220 pixel), tần số quét 120Hz</li><li>Chip Kirin 9000, kết hợp với 12GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 50MP, camera góc siêu rộng 20MP và camera tele 12MP</li><li>Camera selfie 32MP với chế độ làm đẹp AI</li><li>Pin 4.600mAh với sạc nhanh 66W, hỗ trợ sạc không dây 50W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.2 và NFC</li></ul>"
+    },
+    {
+      "id": 13,
+      "rating": 5,
+      "isFavorite": true,
+      "review": 45,
+      "title": "Sony Xperia 1 IV 256GB | Chính hãng",
+      "imageUrl": "https://cdn.nguyenkimmall.com/images/companies/_1/Content/Blog/dien-thoai/sony-xperia-1-iv.jpg",
+      "inches": "6.5 inches",
+      "capacity": "12GB",
+      "ram": "256GB",
+      "cost": "23.990.000đ",
+      "price": "19.990.000đ",
+      "salePrice": "4.000.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "23.990.000đ",
+          "count": 5
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "21.990.000đ"
+        },
+        {
+          "color": "Bạc",
+          "price": "22.990.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và tai nghe không dây",
+      "sale": "16%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình OLED 6,5 inch, độ phân giải 4K (3840 x 1644 pixel), tần số quét 120Hz</li><li>Chip Snapdragon 8 Gen 1, kết hợp với 12GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 12MP, camera góc siêu rộng 12MP và camera tele 12MP</li><li>Camera selfie 8MP với khả năng chụp ảnh 4K</li><li>Pin 5.000mAh với sạc nhanh 30W, hỗ trợ sạc không dây 15W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.2 và NFC</li></ul>"
+    },
+    {
+      "id": 14,
+      "rating": 4,
+      "isFavorite": false,
+      "review": 18,
+      "title": "Realme GT 2 Pro 256GB | Chính hãng",
+      "imageUrl": "https://shopdunk.com/images/thumbs/0012265_iphone-13-pro-max.png",
+      "inches": "6.7 inches",
+      "capacity": "12GB",
+      "ram": "256GB",
+      "cost": "17.990.000đ",
+      "price": "14.490.000đ",
+      "salePrice": "3.500.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "17.990.000đ",
+          "count": 4
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Xanh dương",
+          "price": "15.990.000đ"
+        },
+        {
+          "color": "Trắng",
+          "price": "16.490.000đ"
+        },
+        {
+          "color": "Đen",
+          "price": "17.990.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "20%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình AMOLED 6,7 inch, độ phân giải QHD+ (3216 x 1440 pixel), tần số quét 120Hz</li><li>Chip Snapdragon 8 Gen 1, kết hợp với 12GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 50MP, camera góc siêu rộng 50MP và camera macro 2MP</li><li>Camera selfie 32MP với khả năng chụp ảnh sắc nét</li><li>Pin 5.000mAh với sạc nhanh 65W, hỗ trợ sạc không dây 50W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.2 và NFC</li></ul>"
+    },
+    {
+      "id": 15,
+      "rating": 3,
+      "isFavorite": true,
+      "review": 25,
+      "title": "Asus ROG Phone 6 256GB | Chính hãng",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7Yref8JlovhtYFW_5G59jcNBCf5giaWq-MA&s",
+      "inches": "6.78 inches",
+      "capacity": "16GB",
+      "ram": "256GB",
+      "cost": "24.990.000đ",
+      "price": "20.990.000đ",
+      "salePrice": "4.000.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "24.990.000đ",
+          "count": 5
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "22.990.000đ"
+        },
+        {
+          "color": "Trắng",
+          "price": "23.990.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và quạt làm mát",
+      "sale": "16%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình AMOLED 6,78 inch, độ phân giải Full HD+ (2448 x 1080 pixel), tần số quét 165Hz</li><li>Chip Snapdragon 8+ Gen 1, kết hợp với 16GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 50MP, camera góc siêu rộng 13MP và camera macro 5MP</li><li>Camera selfie 12MP với khả năng chụp ảnh rõ nét</li><li>Pin 6.000mAh với sạc nhanh 65W, hỗ trợ sạc không dây 15W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.3 và NFC</li></ul>"
+    },
+    {
+      "id": 16,
+      "rating": 4,
+      "isFavorite": false,
+      "review": 17,
+      "title": "Nokia X60 Pro 256GB | Chính hãng",
+      "imageUrl": "https://shopdunk.com/images/thumbs/0012265_iphone-13-pro-max.png",
+      "inches": "6.5 inches",
+      "capacity": "8GB",
+      "ram": "256GB",
+      "cost": "15.990.000đ",
+      "price": "13.490.000đ",
+      "salePrice": "2.500.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "15.990.000đ",
+          "count": 4
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Xám",
+          "price": "13.990.000đ"
+        },
+        {
+          "color": "Xanh dương",
+          "price": "14.490.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "16%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình AMOLED 6,5 inch, độ phân giải Full HD+ (2400 x 1080 pixel), tần số quét 120Hz</li><li>Chip Snapdragon 778G, kết hợp với 8GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 64MP, camera góc siêu rộng 12MP và camera macro 5MP</li><li>Camera selfie 24MP với khả năng chụp ảnh đẹp</li><li>Pin 4.500mAh với sạc nhanh 33W, hỗ trợ sạc không dây 15W</li><li>Thiết kế chống nước và bụi chuẩn IP67</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.2 và NFC</li></ul>"
+    },
+    {
+      "id": 17,
+      "rating": 4,
+      "isFavorite": true,
+      "review": 20,
+      "title": "Oppo Reno 8 Pro 256GB | Chính hãng",
+      "imageUrl": "https://cdn11.dienmaycholon.vn/filewebdmclnew/DMCL21/Picture//Apro/Apro_product_33035/iphone-15-128gb_multi_0_484_450.png.webp",
+      "inches": "6.7 inches",
+      "capacity": "12GB",
+      "ram": "256GB",
+      "cost": "19.490.000đ",
+      "price": "16.990.000đ",
+      "salePrice": "2.500.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "19.490.000đ",
+          "count": 4
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "17.990.000đ"
+        },
+        {
+          "color": "Trắng",
+          "price": "18.490.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "13%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình AMOLED 6,7 inch, độ phân giải Full HD+ (2412 x 1080 pixel), tần số quét 120Hz</li><li>Chip Dimensity 8100, kết hợp với 12GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 50MP, camera góc siêu rộng 8MP và camera macro 2MP</li><li>Camera selfie 32MP với khả năng chụp ảnh sắc nét</li><li>Pin 4.500mAh với sạc nhanh 80W, hỗ trợ sạc không dây 50W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.2 và NFC</li></ul>"
+    },
+    {
+      "id": 18,
+      "rating": 5,
+      "isFavorite": true,
+      "review": 37,
+      "title": "Apple iPhone 14 Pro Max 256GB | Chính hãng",
+      "imageUrl": "https://cdn-v2.didongviet.vn/files/products/2023/4/9/1/1683605592281_thumb_iphone_11_didongviet.jpg",
+      "inches": "6.7 inches",
+      "capacity": "8GB",
+      "ram": "256GB",
+      "cost": "29.990.000đ",
+      "price": "24.990.000đ",
+      "salePrice": "5.000.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "29.990.000đ",
+          "count": 4
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "26.990.000đ"
+        },
+        {
+          "color": "Bạc",
+          "price": "27.990.000đ"
+        },
+        {
+          "color": "Tím",
+          "price": "29.990.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng chính hãng",
+      "sale": "16%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình Super Retina XDR 6,7 inch, độ phân giải 2778 x 1284 pixel, tần số quét 120Hz</li><li>Chip A16 Bionic, kết hợp với 8GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 48MP, camera góc siêu rộng 12MP và camera tele 12MP</li><li>Camera selfie 12MP với chế độ chụp Portrait</li><li>Pin 4.323mAh với sạc nhanh 20W, hỗ trợ sạc không dây 15W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.3 và NFC</li></ul>"
+    },
+    {
+      "id": 19,
+      "rating": 3,
+      "isFavorite": false,
+      "review": 12,
+      "title": "Vivo X80 Pro 256GB | Chính hãng",
+      "imageUrl": "https://lh4.googleusercontent.com/proxy/8zdsxPfk__BkHBaiuSY5Zq2uSvPQgC8y9d30h9BxCI5NgFAX1H15uAaKMzdJX-AR-zdSwWA4245NWpWlGqvzLZJiWu7aFksKWIaif_CTQpD7z9Q50GaA0rY9RZT0zhPqVA",
+      "inches": "6.78 inches",
+      "capacity": "12GB",
+      "ram": "256GB",
+      "cost": "22.990.000đ",
+      "price": "18.990.000đ",
+      "salePrice": "4.000.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "22.990.000đ",
+          "count": 4
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Xanh",
+          "price": "20.990.000đ"
+        },
+        {
+          "color": "Đen",
+          "price": "21.490.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "17%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình AMOLED 6,78 inch, độ phân giải 2K (3200 x 1440 pixel), tần số quét 120Hz</li><li>Chip Snapdragon 8 Gen 1, kết hợp với 12GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 50MP, camera góc siêu rộng 48MP và camera tele 12MP</li><li>Camera selfie 32MP với khả năng chụp ảnh sắc nét</li><li>Pin 4.700mAh với sạc nhanh 80W, hỗ trợ sạc không dây 50W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.2 và NFC</li></ul>"
+    },
+    {
+      "id": 20,
+      "rating": 4,
+      "isFavorite": true,
+      "review": 27,
+      "title": "LG V60 ThinQ 256GB | Chính hãng",
+      "imageUrl": "https://didongalpha.vn/wp-content/uploads/2022/07/4919407_LG_V60_thinq_5G_tinhte_3-600x400.jpg",
+      "inches": "6.8 inches",
+      "capacity": "8GB",
+      "ram": "256GB",
+      "cost": "17.490.000đ",
+      "price": "13.990.000đ",
+      "salePrice": "3.500.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "17.490.000đ",
+          "count": 4
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "15.990.000đ"
+        },
+        {
+          "color": "Trắng",
+          "price": "16.490.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "20%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình OLED 6,8 inch, độ phân giải QHD+ (2560 x 1440 pixel), tần số quét 60Hz</li><li>Chip Snapdragon 865, kết hợp với 8GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 64MP, camera góc siêu rộng 13MP và camera TOF 3D</li><li>Camera selfie 10MP với chế độ chụp ảnh chân dung</li><li>Pin 5.000mAh với sạc nhanh 25W, hỗ trợ sạc không dây 15W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.1 và NFC</li></ul>"
+    },
+    {
+      "id": 9,
+      "rating": 4,
+      "isFavorite": false,
+      "review": 28,
+      "title": "Samsung Galaxy S23 Ultra 256GB | Chính hãng",
+      "imageUrl": "https://clickbuy.com.vn/_uploads/pro/xiaomi-redmi-13-4g-6gb-128gb-chinh-hang-1977430198.jpg",
+      "inches": "6.8 inches",
+      "capacity": "12GB",
+      "ram": "256GB",
+      "cost": "22.990.000đ",
+      "price": "18.990.000đ",
+      "salePrice": "4.000.000đ",
+      "priceToRam": [
+        {
+          "ram": "128GB",
+          "price": "19.990.000đ",
+          "count": 4
+        },
+        {
+          "ram": "256GB",
+          "price": "22.990.000đ",
+          "count": 6
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "20.990.000đ"
+        },
+        {
+          "color": "Trắng",
+          "price": "21.990.000đ"
+        },
+        {
+          "color": "Xanh dương",
+          "price": "22.990.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "15%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình Dynamic AMOLED 6,8 inch, độ phân giải WQHD+ (3088 x 1440 pixel), tần số quét 120Hz</li><li>Chip Exynos 2200, kết hợp với 12GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 108MP, camera góc siêu rộng 12MP và camera tele 10MP</li><li>Camera selfie 40MP với chế độ chụp chân dung nâng cao</li><li>Pin 5.000mAh với sạc nhanh 45W, hỗ trợ sạc không dây 15W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6E, Bluetooth 5.2 và NFC</li></ul>"
+    },
+    {
+      "id": 10,
+      "rating": 4,
+      "isFavorite": true,
+      "review": 22,
+      "title": "Xiaomi Mi 13 Pro 256GB | Chính hãng",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ87m6DuNZ-wHb7iLSIUIjiYg6y1K08clmktQ&s",
+      "inches": "6.73 inches",
+      "capacity": "12GB",
+      "ram": "256GB",
+      "cost": "18.490.000đ",
+      "price": "14.990.000đ",
+      "salePrice": "3.500.000đ",
+      "priceToRam": [
+        {
+          "ram": "128GB",
+          "price": "16.490.000đ",
+          "count": 3
+        },
+        {
+          "ram": "256GB",
+          "price": "18.490.000đ",
+          "count": 5
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "17.490.000đ"
+        },
+        {
+          "color": "Trắng",
+          "price": "17.990.000đ"
+        },
+        {
+          "color": "Xanh",
+          "price": "18.490.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "19%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình AMOLED 6,73 inch, độ phân giải 2K (3200 x 1440 pixel), tần số quét 120Hz</li><li>Chip Snapdragon 8 Gen 2, kết hợp với 12GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 50MP, camera góc siêu rộng 50MP và camera tele 50MP</li><li>Camera selfie 32MP với khả năng chụp đẹp trong điều kiện ánh sáng yếu</li><li>Pin 4.820mAh với sạc nhanh 120W, hỗ trợ sạc không dây 50W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.3 và NFC</li></ul>"
+    },
+    {
+      "id": 11,
+      "rating": 3,
+      "isFavorite": false,
+      "review": 15,
+      "title": "OnePlus 11 Pro 256GB | Chính hãng",
+      "imageUrl": "https://cdn.britannica.com/01/178901-050-FF5C52B1/iPhone-6-2014.jpg",
+      "inches": "6.7 inches",
+      "capacity": "16GB",
+      "ram": "256GB",
+      "cost": "21.990.000đ",
+      "price": "17.990.000đ",
+      "salePrice": "4.000.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "21.990.000đ",
+          "count": 6
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "19.990.000đ"
+        },
+        {
+          "color": "Xanh lá",
+          "price": "20.990.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và tai nghe không dây",
+      "sale": "18%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình AMOLED 6,7 inch, độ phân giải QHD+ (3216 x 1440 pixel), tần số quét 120Hz</li><li>Chip Snapdragon 8 Gen 2, kết hợp với 16GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 50MP, camera góc siêu rộng 48MP và camera tele 32MP</li><li>Camera selfie 16MP với chất lượng ảnh sắc nét</li><li>Pin 5.000mAh với sạc nhanh 80W, hỗ trợ sạc không dây 50W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.3 và NFC</li></ul>"
+    },
+    {
+      "id": 12,
+      "rating": 4,
+      "isFavorite": true,
+      "review": 30,
+      "title": "Huawei P60 Pro 256GB | Chính hãng",
+      "imageUrl": "https://cdn.nguyenkimmall.com/images/companies/_1/Content/Blog/dien-thoai/huawei-p60-pro.jpg",
+      "inches": "6.6 inches",
+      "capacity": "12GB",
+      "ram": "256GB",
+      "cost": "20.490.000đ",
+      "price": "16.990.000đ",
+      "salePrice": "3.500.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "20.490.000đ",
+          "count": 4
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Tím",
+          "price": "18.990.000đ"
+        },
+        {
+          "color": "Xanh dương",
+          "price": "19.490.000đ"
+        },
+        {
+          "color": "Đen",
+          "price": "20.490.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "17%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình OLED 6,6 inch, độ phân giải QHD+ (2700 x 1220 pixel), tần số quét 120Hz</li><li>Chip Kirin 9000, kết hợp với 12GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 50MP, camera góc siêu rộng 20MP và camera tele 12MP</li><li>Camera selfie 32MP với chế độ làm đẹp AI</li><li>Pin 4.600mAh với sạc nhanh 66W, hỗ trợ sạc không dây 50W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.2 và NFC</li></ul>"
+    },
+    {
+      "id": 13,
+      "rating": 5,
+      "isFavorite": true,
+      "review": 45,
+      "title": "Sony Xperia 1 IV 256GB | Chính hãng",
+      "imageUrl": "https://cdn.nguyenkimmall.com/images/companies/_1/Content/Blog/dien-thoai/sony-xperia-1-iv.jpg",
+      "inches": "6.5 inches",
+      "capacity": "12GB",
+      "ram": "256GB",
+      "cost": "23.990.000đ",
+      "price": "19.990.000đ",
+      "salePrice": "4.000.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "23.990.000đ",
+          "count": 5
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "21.990.000đ"
+        },
+        {
+          "color": "Bạc",
+          "price": "22.990.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và tai nghe không dây",
+      "sale": "16%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình OLED 6,5 inch, độ phân giải 4K (3840 x 1644 pixel), tần số quét 120Hz</li><li>Chip Snapdragon 8 Gen 1, kết hợp với 12GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 12MP, camera góc siêu rộng 12MP và camera tele 12MP</li><li>Camera selfie 8MP với khả năng chụp ảnh 4K</li><li>Pin 5.000mAh với sạc nhanh 30W, hỗ trợ sạc không dây 15W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.2 và NFC</li></ul>"
+    },
+    {
+      "id": 14,
+      "rating": 4,
+      "isFavorite": false,
+      "review": 18,
+      "title": "Realme GT 2 Pro 256GB | Chính hãng",
+      "imageUrl": "https://shopdunk.com/images/thumbs/0012265_iphone-13-pro-max.png",
+      "inches": "6.7 inches",
+      "capacity": "12GB",
+      "ram": "256GB",
+      "cost": "17.990.000đ",
+      "price": "14.490.000đ",
+      "salePrice": "3.500.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "17.990.000đ",
+          "count": 4
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Xanh dương",
+          "price": "15.990.000đ"
+        },
+        {
+          "color": "Trắng",
+          "price": "16.490.000đ"
+        },
+        {
+          "color": "Đen",
+          "price": "17.990.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "20%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình AMOLED 6,7 inch, độ phân giải QHD+ (3216 x 1440 pixel), tần số quét 120Hz</li><li>Chip Snapdragon 8 Gen 1, kết hợp với 12GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 50MP, camera góc siêu rộng 50MP và camera macro 2MP</li><li>Camera selfie 32MP với khả năng chụp ảnh sắc nét</li><li>Pin 5.000mAh với sạc nhanh 65W, hỗ trợ sạc không dây 50W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.2 và NFC</li></ul>"
+    },
+    {
+      "id": 15,
+      "rating": 3,
+      "isFavorite": true,
+      "review": 25,
+      "title": "Asus ROG Phone 6 256GB | Chính hãng",
+      "imageUrl": "https://shopdunk.com/images/thumbs/0012265_iphone-13-pro-max.png",
+      "inches": "6.78 inches",
+      "capacity": "16GB",
+      "ram": "256GB",
+      "cost": "24.990.000đ",
+      "price": "20.990.000đ",
+      "salePrice": "4.000.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "24.990.000đ",
+          "count": 5
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "22.990.000đ"
+        },
+        {
+          "color": "Trắng",
+          "price": "23.990.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và quạt làm mát",
+      "sale": "16%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình AMOLED 6,78 inch, độ phân giải Full HD+ (2448 x 1080 pixel), tần số quét 165Hz</li><li>Chip Snapdragon 8+ Gen 1, kết hợp với 16GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 50MP, camera góc siêu rộng 13MP và camera macro 5MP</li><li>Camera selfie 12MP với khả năng chụp ảnh rõ nét</li><li>Pin 6.000mAh với sạc nhanh 65W, hỗ trợ sạc không dây 15W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.3 và NFC</li></ul>"
+    },
+    {
+      "id": 16,
+      "rating": 4,
+      "isFavorite": false,
+      "review": 17,
+      "title": "Nokia X60 Pro 256GB | Chính hãng",
+      "imageUrl": "https://shopdunk.com/images/thumbs/0012265_iphone-13-pro-max.png",
+      "inches": "6.5 inches",
+      "capacity": "8GB",
+      "ram": "256GB",
+      "cost": "15.990.000đ",
+      "price": "13.490.000đ",
+      "salePrice": "2.500.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "15.990.000đ",
+          "count": 4
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Xám",
+          "price": "13.990.000đ"
+        },
+        {
+          "color": "Xanh dương",
+          "price": "14.490.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "16%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình AMOLED 6,5 inch, độ phân giải Full HD+ (2400 x 1080 pixel), tần số quét 120Hz</li><li>Chip Snapdragon 778G, kết hợp với 8GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 64MP, camera góc siêu rộng 12MP và camera macro 5MP</li><li>Camera selfie 24MP với khả năng chụp ảnh đẹp</li><li>Pin 4.500mAh với sạc nhanh 33W, hỗ trợ sạc không dây 15W</li><li>Thiết kế chống nước và bụi chuẩn IP67</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.2 và NFC</li></ul>"
+    },
+    {
+      "id": 17,
+      "rating": 4,
+      "isFavorite": true,
+      "review": 20,
+      "title": "Oppo Reno 8 Pro 256GB | Chính hãng",
+      "imageUrl": "https://cdn11.dienmaycholon.vn/filewebdmclnew/DMCL21/Picture//Apro/Apro_product_33035/iphone-15-128gb_multi_0_484_450.png.webp",
+      "inches": "6.7 inches",
+      "capacity": "12GB",
+      "ram": "256GB",
+      "cost": "19.490.000đ",
+      "price": "16.990.000đ",
+      "salePrice": "2.500.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "19.490.000đ",
+          "count": 4
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "17.990.000đ"
+        },
+        {
+          "color": "Trắng",
+          "price": "18.490.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "13%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình AMOLED 6,7 inch, độ phân giải Full HD+ (2412 x 1080 pixel), tần số quét 120Hz</li><li>Chip Dimensity 8100, kết hợp với 12GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 50MP, camera góc siêu rộng 8MP và camera macro 2MP</li><li>Camera selfie 32MP với khả năng chụp ảnh sắc nét</li><li>Pin 4.500mAh với sạc nhanh 80W, hỗ trợ sạc không dây 50W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.2 và NFC</li></ul>"
+    },
+    {
+      "id": 18,
+      "rating": 5,
+      "isFavorite": true,
+      "review": 37,
+      "title": "Apple iPhone 14 Pro Max 256GB | Chính hãng",
+      "imageUrl": "https://cdn-v2.didongviet.vn/files/products/2023/4/9/1/1683605592281_thumb_iphone_11_didongviet.jpg",
+      "inches": "6.7 inches",
+      "capacity": "8GB",
+      "ram": "256GB",
+      "cost": "29.990.000đ",
+      "price": "24.990.000đ",
+      "salePrice": "5.000.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "29.990.000đ",
+          "count": 4
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "26.990.000đ"
+        },
+        {
+          "color": "Bạc",
+          "price": "27.990.000đ"
+        },
+        {
+          "color": "Tím",
+          "price": "29.990.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng chính hãng",
+      "sale": "16%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình Super Retina XDR 6,7 inch, độ phân giải 2778 x 1284 pixel, tần số quét 120Hz</li><li>Chip A16 Bionic, kết hợp với 8GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 48MP, camera góc siêu rộng 12MP và camera tele 12MP</li><li>Camera selfie 12MP với chế độ chụp Portrait</li><li>Pin 4.323mAh với sạc nhanh 20W, hỗ trợ sạc không dây 15W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.3 và NFC</li></ul>"
+    },
+    {
+      "id": 19,
+      "rating": 3,
+      "isFavorite": false,
+      "review": 12,
+      "title": "Vivo X80 Pro 256GB | Chính hãng",
+      "imageUrl": "https://lh4.googleusercontent.com/proxy/8zdsxPfk__BkHBaiuSY5Zq2uSvPQgC8y9d30h9BxCI5NgFAX1H15uAaKMzdJX-AR-zdSwWA4245NWpWlGqvzLZJiWu7aFksKWIaif_CTQpD7z9Q50GaA0rY9RZT0zhPqVA",
+      "inches": "6.78 inches",
+      "capacity": "12GB",
+      "ram": "256GB",
+      "cost": "22.990.000đ",
+      "price": "18.990.000đ",
+      "salePrice": "4.000.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "22.990.000đ",
+          "count": 4
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Xanh",
+          "price": "20.990.000đ"
+        },
+        {
+          "color": "Đen",
+          "price": "21.490.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "17%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình AMOLED 6,78 inch, độ phân giải 2K (3200 x 1440 pixel), tần số quét 120Hz</li><li>Chip Snapdragon 8 Gen 1, kết hợp với 12GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 50MP, camera góc siêu rộng 48MP và camera tele 12MP</li><li>Camera selfie 32MP với khả năng chụp ảnh sắc nét</li><li>Pin 4.700mAh với sạc nhanh 80W, hỗ trợ sạc không dây 50W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.2 và NFC</li></ul>"
+    },
+    {
+      "id": 20,
+      "rating": 4,
+      "isFavorite": true,
+      "review": 27,
+      "title": "LG V60 ThinQ 256GB | Chính hãng",
+      "imageUrl": "https://didongalpha.vn/wp-content/uploads/2022/07/4919407_LG_V60_thinq_5G_tinhte_3-600x400.jpg",
+      "inches": "6.8 inches",
+      "capacity": "8GB",
+      "ram": "256GB",
+      "cost": "17.490.000đ",
+      "price": "13.990.000đ",
+      "salePrice": "3.500.000đ",
+      "priceToRam": [
+        {
+          "ram": "256GB",
+          "price": "17.490.000đ",
+          "count": 4
+        }
+      ],
+      "priceToColor": [
+        {
+          "color": "Đen",
+          "price": "15.990.000đ"
+        },
+        {
+          "color": "Trắng",
+          "price": "16.490.000đ"
+        }
+      ],
+      "info": "Tặng kèm sạc nhanh và ốp lưng",
+      "sale": "20%",
+      "content": "<ul class='text-[12px] gap-2 flex flex-col list-disc pl-3'><li>Màn hình OLED 6,8 inch, độ phân giải QHD+ (2560 x 1440 pixel), tần số quét 60Hz</li><li>Chip Snapdragon 865, kết hợp với 8GB RAM và 256GB bộ nhớ trong</li><li>Hệ thống camera với camera chính 64MP, camera góc siêu rộng 13MP và camera TOF 3D</li><li>Camera selfie 10MP với chế độ chụp ảnh chân dung</li><li>Pin 5.000mAh với sạc nhanh 25W, hỗ trợ sạc không dây 15W</li><li>Thiết kế chống nước và bụi chuẩn IP68</li><li>Hỗ trợ 5G, Wi-Fi 6, Bluetooth 5.1 và NFC</li></ul>"
     }
+
   ]
 }

@@ -34,13 +34,6 @@ const ProdDetail = ({ data, selectedNewsId }: Props) => {
         <div className='grid grid-cols-3 '>
           <div className='bg-slate-300 col-span-2 grid grid-cols-2 bg-gradient-to-r from-[#e48a9f] to-[#dbd8d8] rounded-xl shadow-2xl h-[400px]'>
             <div className='flex justify-center items-center'>
-              {/* <Image
-                src={selectedNewsItem?.imageUrl}
-                alt=''
-                width={400}
-                height={700}
-                className='rounded-xl object-cover aspect-[350/300] w-[350px] h-[350px] '
-              /> */}
               <img
                 src={selectedNewsItem && selectedNewsItem?.imageUrl}
                 alt=''
@@ -49,7 +42,7 @@ const ProdDetail = ({ data, selectedNewsId }: Props) => {
             </div>
             <div className='flex flex-col gap-2 justify-center items-center text-[#686767] font-semibold pr-5'>
               <div>Tính năng nổi bật</div>
-              <div>{selectedNewsItem?.content}</div>
+              <div dangerouslySetInnerHTML={{ __html: selectedNewsItem?.content }}></div>
             </div>
           </div>
           <div>

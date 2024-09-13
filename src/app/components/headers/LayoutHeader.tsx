@@ -51,12 +51,7 @@ const LayoutHeader = () => {
   };
 
   return (
-    <div
-      className='grid grid-cols-7 p-2 text-[24px] pl-8 border-b-[1px] bg-gradient-to-r from-[#eedadf] to-[#e2d8d8]'
-      // style={{
-      //   backgroundImage: `url(${BannerFooter.src})`,
-      // }}
-    >
+    <div className='grid grid-cols-7 p-2 text-[24px] pl-8 border-b-[1px] bg-gradient-to-r from-[#dfcecc] to-[#cfe6f0]'>
       <div className='flex col-span-2'>
         <div>
           <Image src={Logo} alt='' width={38} height={50} />
@@ -73,23 +68,17 @@ const LayoutHeader = () => {
           } hover:after:opacity-100 transition-all duration-300`}
           onClick={() => handleTabClick("/")}
         >
-          <HomeIcon sx={{ color: "#B0B0B0" }} /> Trang chủ
+          <InventoryIcon sx={{ color: "#B0B0B0" }} /> Về chúng tôi
         </button>
-        {/* <button
-          className={`text-[16px] text-center pt-2 flex justify-center items-center gap-2  relative after:absolute after:bottom-0 after:left-0 after:w-full pb-3 after:h-1 after:bg-blue-500 ${
-            activeTab === "/profile" ? "after:opacity-100" : "after:opacity-0"
-          } hover:after:opacity-100 transition-all duration-300`}
-          onClick={() => handleTabClick("/profile")}
-        >
-          <Person4Icon sx={{ color: "#B0B0B0" }} /> Thông tin cá nhân
-        </button> */}
+
         <button
           className={`text-[16px] text-center pt-2 flex justify-center items-center gap-2  relative after:absolute after:bottom-0 after:left-0 after:w-full pb-3 after:h-1 after:bg-blue-500 ${
             activeTab === "/products" ? "after:opacity-100" : "after:opacity-0"
           } hover:after:opacity-100 !transition-all !duration-300`}
           onClick={() => handleTabClick("/products")}
         >
-          <InventoryIcon sx={{ color: "#B0B0B0" }} /> Sản phẩm thực hiện
+          <HomeIcon sx={{ color: "#B0B0B0" }} />
+          Trang chủ
         </button>
         <button
           className={`text-[16px] text-center pt-2 flex justify-center items-center gap-2  relative after:absolute after:bottom-0 after:left-0 after:w-full pb-3 after:h-1 after:bg-blue-500 ${
@@ -101,18 +90,6 @@ const LayoutHeader = () => {
         </button>
       </nav>
       <div className='flex justify-end items-end mb-1 col-span-2'>
-        <div className='flex justify-end items-end pl-8'>
-          <TextField
-            placeholder='Tìm kiếm'
-            InputProps={{
-              startAdornment: <SearchIcon />,
-            }}
-            size='small'
-            sx={{
-              borderRadius: "30px",
-            }}
-          />
-        </div>
         {userName ? (
           <div>
             <Avatar
